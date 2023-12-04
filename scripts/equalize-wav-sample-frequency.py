@@ -13,5 +13,7 @@ for speaker in speakers :
     file_path = os.path.join(AUDIO_DIR, speaker, wav)
     y, sr = librosa.load(file_path, sr=None)
     target_sr = 44100
+    if sr == target_sr :
+      continue
     y_resampled = librosa.resample(y, orig_sr=sr, target_sr=target_sr)
     sf.write(file_path, y_resampled, target_sr)

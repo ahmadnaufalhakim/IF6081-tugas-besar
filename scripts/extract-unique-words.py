@@ -11,7 +11,7 @@ def remove_punctuation(input_string):
   translator = str.maketrans("", "", string.punctuation)
   # Apply the translation table to the input string
   result = input_string.translate(translator)
-  return result
+  return ' '.join(result.split())
 
 unique_words = set()
 i = 0

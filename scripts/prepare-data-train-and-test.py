@@ -7,9 +7,13 @@ CURR_DIR = os.path.dirname(os.path.abspath(__file__))
 DATASET_DIR = os.path.join(CURR_DIR, "..", "dataset")
 AUDIO_DIR = os.path.join(DATASET_DIR, "Audio")
 TRANSCRIPT_DIR = os.path.join(DATASET_DIR, "Label")
+
 DATA_DIR = os.path.join(CURR_DIR, "..", "data")
+if not os.path.exists(DATA_DIR) : os.mkdir(DATA_DIR)
 TRAIN_DIR = os.path.join(DATA_DIR, "train")
+if not os.path.exists(TRAIN_DIR) : os.mkdir(TRAIN_DIR)
 TEST_DIR = os.path.join(DATA_DIR, "test")
+if not os.path.exists(TEST_DIR) : os.mkdir(TEST_DIR)
 
 def split_data(dir_path, test_ratio=.2) :
   # Get all file names in the directory

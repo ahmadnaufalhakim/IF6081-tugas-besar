@@ -154,7 +154,7 @@ echo "#################################"
 echo "#     TRI1 (delta) TRAINING     #"
 echo "#################################"
 echo
-steps/train_deltas.sh --nj $nj --cmd "$train_cmd" 2000 10000 data/train data/lang exp/mono_ali exp/tri1 || exit 1
+steps/train_deltas.sh --cmd "$train_cmd" --num-iters 40 2000 10000 data/train data/lang exp/mono_ali exp/tri1 || exit 1
 
 # Triphone (delta based) decoding
 echo
@@ -176,15 +176,15 @@ steps/align_si.sh --nj $nj --cmd "$train_cmd" data/train data/lang exp/tri1 exp/
 # Triphone training (delta+delta_delta based)
 echo
 echo "#############################################"
-echo "#     TRI1 (delta+delta_delta) TRAINING     #"
+echo "#     TRI2 (delta+delta_delta) TRAINING     #"
 echo "#############################################"
 echo
-steps/train_deltas.sh --nj $nj --cmd "$train_cmd" 2500 15000 data/train data/lang exp/tri1_ali exp/tri2 || exit 1
+steps/train_deltas.sh --cmd "$train_cmd" --num-iters 40 2500 15000 data/train data/lang exp/tri1_ali exp/tri2 || exit 1
 
 # Triphone (delta+delta_delta based) decoding
 echo
 echo "#############################################"
-echo "#     TRI1 (delta+delta_delta) DECODING     #"
+echo "#     TRI2 (delta+delta_delta) DECODING     #"
 echo "#############################################"
 echo
 utils/mkgraph.sh data/lang exp/tri2 exp/tri2/graph || exit 1
@@ -193,7 +193,7 @@ steps/decode.sh --config conf/decode.config --nj $nj --cmd "$decode_cmd" --scori
 # Triphone (delta+delta_delta based) alignment (required for (delta + delta_delta) based triphone training)
 echo
 echo "##############################################"
-echo "#     TRI1 (delta+delta_delta) ALIGNMENT     #"
+echo "#     TRI2 (delta+delta_delta) ALIGNMENT     #"
 echo "##############################################"
 echo
 steps/align_si.sh --nj $nj --cmd "$train_cmd" data/train data/lang exp/tri2 exp/tri2_ali || exit 1

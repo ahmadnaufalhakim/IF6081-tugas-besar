@@ -1,0 +1,551 @@
+##########################################
+#     RECREATING KALDI REQUIRED DATA     #
+##########################################
+
+Recreating data/train and data/test files ..
+Equalize all wav files' sampling frequency ..
+Recreating data/local/dict and data/local/corpus files ..
+
+###################################
+#     PREPARING ACOUSTIC DATA     #
+###################################
+
+utils/validate_data_dir.sh: no such file spk2utt
+fix_data_dir.sh: kept all 868 utterances.
+fix_data_dir.sh: old files are kept in data/train/.backup
+utils/validate_data_dir.sh: no such file spk2utt
+fix_data_dir.sh: kept all 217 utterances.
+fix_data_dir.sh: old files are kept in data/test/.backup
+
+###############################
+#     FEATURES EXTRACTION     #
+###############################
+
+steps/make_mfcc.sh --nj 1 --cmd run.pl data/train exp/make_mfcc/train mfcc
+utils/validate_data_dir.sh: Successfully validated data-directory data/train
+steps/make_mfcc.sh: [info]: no segments file exists: assuming wav.scp indexed by utterance.
+steps/make_mfcc.sh: Succeeded creating MFCC features for train
+steps/make_mfcc.sh --nj 1 --cmd run.pl data/test exp/make_mfcc/test mfcc
+utils/validate_data_dir.sh: Successfully validated data-directory data/test
+steps/make_mfcc.sh: [info]: no segments file exists: assuming wav.scp indexed by utterance.
+steps/make_mfcc.sh: Succeeded creating MFCC features for test
+steps/compute_cmvn_stats.sh data/train exp/make_mfcc/train mfcc
+Succeeded creating CMVN stats for train
+steps/compute_cmvn_stats.sh data/test exp/make_mfcc/test mfcc
+Succeeded creating CMVN stats for test
+
+###################################
+#     PREPARING LANGUAGE DATA     #
+###################################
+
+utils/prepare_lang.sh data/local/dict <OOV> data/local/lang data/lang
+Checking data/local/dict/silence_phones.txt ...
+--> reading data/local/dict/silence_phones.txt
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> data/local/dict/silence_phones.txt is OK
+
+Checking data/local/dict/optional_silence.txt ...
+--> reading data/local/dict/optional_silence.txt
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> data/local/dict/optional_silence.txt is OK
+
+Checking data/local/dict/nonsilence_phones.txt ...
+--> reading data/local/dict/nonsilence_phones.txt
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> data/local/dict/nonsilence_phones.txt is OK
+
+Checking disjoint: silence_phones.txt, nonsilence_phones.txt
+--> disjoint property is OK.
+
+Checking data/local/dict/lexicon.txt
+--> reading data/local/dict/lexicon.txt
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> data/local/dict/lexicon.txt is OK
+
+Checking data/local/dict/extra_questions.txt ...
+--> data/local/dict/extra_questions.txt is empty (this is OK)
+--> SUCCESS [validating dictionary directory data/local/dict]
+
+**Creating data/local/dict/lexiconp.txt from data/local/dict/lexicon.txt
+fstaddselfloops data/lang/phones/wdisambig_phones.int data/lang/phones/wdisambig_words.int 
+prepare_lang.sh: validating output directory
+utils/validate_lang.pl data/lang
+Checking existence of separator file
+separator file data/lang/subword_separator.txt is empty or does not exist, deal in word case.
+Checking data/lang/phones.txt ...
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> data/lang/phones.txt is OK
+
+Checking words.txt: #0 ...
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> data/lang/words.txt is OK
+
+Checking disjoint: silence.txt, nonsilence.txt, disambig.txt ...
+--> silence.txt and nonsilence.txt are disjoint
+--> silence.txt and disambig.txt are disjoint
+--> disambig.txt and nonsilence.txt are disjoint
+--> disjoint property is OK
+
+Checking sumation: silence.txt, nonsilence.txt, disambig.txt ...
+--> found no unexplainable phones in phones.txt
+
+Checking data/lang/phones/context_indep.{txt, int, csl} ...
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> 10 entry/entries in data/lang/phones/context_indep.txt
+--> data/lang/phones/context_indep.int corresponds to data/lang/phones/context_indep.txt
+--> data/lang/phones/context_indep.csl corresponds to data/lang/phones/context_indep.txt
+--> data/lang/phones/context_indep.{txt, int, csl} are OK
+
+Checking data/lang/phones/nonsilence.{txt, int, csl} ...
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> 128 entry/entries in data/lang/phones/nonsilence.txt
+--> data/lang/phones/nonsilence.int corresponds to data/lang/phones/nonsilence.txt
+--> data/lang/phones/nonsilence.csl corresponds to data/lang/phones/nonsilence.txt
+--> data/lang/phones/nonsilence.{txt, int, csl} are OK
+
+Checking data/lang/phones/silence.{txt, int, csl} ...
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> 10 entry/entries in data/lang/phones/silence.txt
+--> data/lang/phones/silence.int corresponds to data/lang/phones/silence.txt
+--> data/lang/phones/silence.csl corresponds to data/lang/phones/silence.txt
+--> data/lang/phones/silence.{txt, int, csl} are OK
+
+Checking data/lang/phones/optional_silence.{txt, int, csl} ...
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> 1 entry/entries in data/lang/phones/optional_silence.txt
+--> data/lang/phones/optional_silence.int corresponds to data/lang/phones/optional_silence.txt
+--> data/lang/phones/optional_silence.csl corresponds to data/lang/phones/optional_silence.txt
+--> data/lang/phones/optional_silence.{txt, int, csl} are OK
+
+Checking data/lang/phones/disambig.{txt, int, csl} ...
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> 4 entry/entries in data/lang/phones/disambig.txt
+--> data/lang/phones/disambig.int corresponds to data/lang/phones/disambig.txt
+--> data/lang/phones/disambig.csl corresponds to data/lang/phones/disambig.txt
+--> data/lang/phones/disambig.{txt, int, csl} are OK
+
+Checking data/lang/phones/roots.{txt, int} ...
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> 34 entry/entries in data/lang/phones/roots.txt
+--> data/lang/phones/roots.int corresponds to data/lang/phones/roots.txt
+--> data/lang/phones/roots.{txt, int} are OK
+
+Checking data/lang/phones/sets.{txt, int} ...
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> 34 entry/entries in data/lang/phones/sets.txt
+--> data/lang/phones/sets.int corresponds to data/lang/phones/sets.txt
+--> data/lang/phones/sets.{txt, int} are OK
+
+Checking data/lang/phones/extra_questions.{txt, int} ...
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> 9 entry/entries in data/lang/phones/extra_questions.txt
+--> data/lang/phones/extra_questions.int corresponds to data/lang/phones/extra_questions.txt
+--> data/lang/phones/extra_questions.{txt, int} are OK
+
+Checking data/lang/phones/word_boundary.{txt, int} ...
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> 138 entry/entries in data/lang/phones/word_boundary.txt
+--> data/lang/phones/word_boundary.int corresponds to data/lang/phones/word_boundary.txt
+--> data/lang/phones/word_boundary.{txt, int} are OK
+
+Checking optional_silence.txt ...
+--> reading data/lang/phones/optional_silence.txt
+--> data/lang/phones/optional_silence.txt is OK
+
+Checking disambiguation symbols: #0 and #1
+--> data/lang/phones/disambig.txt has "#0" and "#1"
+--> data/lang/phones/disambig.txt is OK
+
+Checking topo ...
+
+Checking word_boundary.txt: silence.txt, nonsilence.txt, disambig.txt ...
+--> data/lang/phones/word_boundary.txt doesn't include disambiguation symbols
+--> data/lang/phones/word_boundary.txt is the union of nonsilence.txt and silence.txt
+--> data/lang/phones/word_boundary.txt is OK
+
+Checking word-level disambiguation symbols...
+--> data/lang/phones/wdisambig.txt exists (newer prepare_lang.sh)
+Checking word_boundary.int and disambig.int
+--> generating a 36 word/subword sequence
+--> resulting phone sequence from L.fst corresponds to the word sequence
+--> L.fst is OK
+--> generating a 36 word/subword sequence
+--> resulting phone sequence from L_disambig.fst corresponds to the word sequence
+--> L_disambig.fst is OK
+
+Checking data/lang/oov.{txt, int} ...
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> 1 entry/entries in data/lang/oov.txt
+--> data/lang/oov.int corresponds to data/lang/oov.txt
+--> data/lang/oov.{txt, int} are OK
+
+--> data/lang/L.fst is olabel sorted
+--> data/lang/L_disambig.fst is olabel sorted
+--> SUCCESS [validating lang directory data/lang]
+
+##########################################
+#     N-GRAM LANGUAGE MODEL CREATION     #
+#             MAKING lm.arpa             #
+##########################################
+
+Checking SRILM\'s ngram-count binary location ..
+ngram-count binary detected.
+Using SRILM language modelling tool from /home/ahmadnaufalhakim/kaldi/tools/srilm/bin/i686-m64/ngram-count
+Created vocab-full.txt and lm.arpa language model file in data/local/tmp
+
+########################
+#     MAKING G.fst     #
+########################
+
+arpa2fst --disambig-symbol=#0 --read-symbol-table=data/lang/words.txt data/local/tmp/lm.arpa data/lang/G.fst 
+LOG (arpa2fst[5.5.1124~1-21ae4]:Read():arpa-file-parser.cc:94) Reading \data\ section.
+LOG (arpa2fst[5.5.1124~1-21ae4]:Read():arpa-file-parser.cc:149) Reading \1-grams: section.
+LOG (arpa2fst[5.5.1124~1-21ae4]:Read():arpa-file-parser.cc:149) Reading \2-grams: section.
+LOG (arpa2fst[5.5.1124~1-21ae4]:RemoveRedundantStates():arpa-lm-compiler.cc:359) Reduced num-states from 1231 to 1231
+
+##############################
+#     MONOPHONE TRAINING     #
+##############################
+
+steps/train_mono.sh --nj 1 --cmd run.pl data/train data/lang exp/mono
+steps/train_mono.sh: Initializing monophone system.
+steps/train_mono.sh: Compiling training graphs
+steps/train_mono.sh: Aligning data equally (pass 0)
+steps/train_mono.sh: Pass 1
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 2
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 3
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 4
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 5
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 6
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 7
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 8
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 9
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 10
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 11
+steps/train_mono.sh: Pass 12
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 13
+steps/train_mono.sh: Pass 14
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 15
+steps/train_mono.sh: Pass 16
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 17
+steps/train_mono.sh: Pass 18
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 19
+steps/train_mono.sh: Pass 20
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 21
+steps/train_mono.sh: Pass 22
+steps/train_mono.sh: Pass 23
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 24
+steps/train_mono.sh: Pass 25
+steps/train_mono.sh: Pass 26
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 27
+steps/train_mono.sh: Pass 28
+steps/train_mono.sh: Pass 29
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 30
+steps/train_mono.sh: Pass 31
+steps/train_mono.sh: Pass 32
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 33
+steps/train_mono.sh: Pass 34
+steps/train_mono.sh: Pass 35
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 36
+steps/train_mono.sh: Pass 37
+steps/train_mono.sh: Pass 38
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 39
+steps/diagnostic/analyze_alignments.sh --cmd run.pl data/lang exp/mono
+run.pl: job failed, log is in exp/mono/log/analyze_alignments.log
+steps/diagnostic/analyze_alignments.sh: analyze_phone_length_stats.py failed, but ignoring the error (it's just for diagnostics)
+steps/diagnostic/analyze_alignments.sh: see stats in exp/mono/log/analyze_alignments.log
+52 warnings in exp/mono/log/acc.*.*.log
+202 warnings in exp/mono/log/update.*.log
+793 warnings in exp/mono/log/align.*.*.log
+exp/mono: nj=1 align prob=-91.61 over 1.45h [retry=0.6%, fail=0.1%] states=106 gauss=978
+steps/train_mono.sh: Done training monophone system in exp/mono
+
+##############################
+#     MONOPHONE DECODING     #
+##############################
+
+tree-info exp/mono/tree 
+tree-info exp/mono/tree 
+fsttablecompose data/lang/L_disambig.fst data/lang/G.fst 
+fstdeterminizestar --use-log=true 
+fstminimizeencoded 
+fstpushspecial 
+fstisstochastic data/lang/tmp/LG.fst 
+-0.00496306 -0.00540818
+fstcomposecontext --context-size=1 --central-position=0 --read-disambig-syms=data/lang/phones/disambig.int --write-disambig-syms=data/lang/tmp/disambig_ilabels_1_0.int data/lang/tmp/ilabels_1_0.65111 data/lang/tmp/LG.fst 
+fstisstochastic data/lang/tmp/CLG_1_0.fst 
+-0.00496306 -0.00540818
+make-h-transducer --disambig-syms-out=exp/mono/graph/disambig_tid.int --transition-scale=1.0 data/lang/tmp/ilabels_1_0 exp/mono/tree exp/mono/final.mdl 
+fstminimizeencoded 
+fstdeterminizestar --use-log=true 
+fstrmsymbols exp/mono/graph/disambig_tid.int 
+fsttablecompose exp/mono/graph/Ha.fst data/lang/tmp/CLG_1_0.fst 
+fstrmepslocal 
+fstisstochastic exp/mono/graph/HCLGa.fst 
+7.67083e-05 -0.00828896
+add-self-loops --self-loop-scale=0.1 --reorder=true exp/mono/final.mdl exp/mono/graph/HCLGa.fst 
+steps/decode.sh --config conf/decode.config --nj 1 --cmd run.pl --scoring-opts --min-lmwt 10 --max-lmwt 20 exp/mono/graph data/test exp/mono/decode
+decode.sh: feature type is delta
+steps/diagnostic/analyze_lats.sh --cmd run.pl exp/mono/graph exp/mono/decode
+run.pl: job failed, log is in exp/mono/decode/log/analyze_alignments.log
+local/score.sh --cmd run.pl --min-lmwt 10 --max-lmwt 20 data/test exp/mono/graph exp/mono/decode
+local/score.sh: scoring with word insertion penalty=0.0,0.5,1.0
+
+###############################
+#     MONOPHONE ALIGNMENT     #
+###############################
+
+steps/align_si.sh --nj 1 --cmd run.pl data/train data/lang exp/mono exp/mono_ali
+steps/align_si.sh: feature type is delta
+steps/align_si.sh: aligning data in data/train using model from exp/mono, putting alignments in exp/mono_ali
+steps/diagnostic/analyze_alignments.sh --cmd run.pl data/lang exp/mono_ali
+run.pl: job failed, log is in exp/mono_ali/log/analyze_alignments.log
+steps/diagnostic/analyze_alignments.sh: analyze_phone_length_stats.py failed, but ignoring the error (it's just for diagnostics)
+steps/diagnostic/analyze_alignments.sh: see stats in exp/mono_ali/log/analyze_alignments.log
+steps/align_si.sh: done aligning data.
+
+#################################
+#     TRI1 (delta) TRAINING     #
+#################################
+
+steps/train_deltas.sh --cmd run.pl 2000 10000 data/train data/lang exp/mono_ali exp/tri1
+steps/train_deltas.sh: accumulating tree stats
+steps/train_deltas.sh: getting questions for tree-building, via clustering
+steps/train_deltas.sh: building the tree
+WARNING (gmm-init-model[5.5.1124~1-21ae4]:InitAmGmm():gmm-init-model.cc:55) Tree has pdf-id 1 with no stats; corresponding phone list: 6 7 8 9 10 
+** The warnings above about 'no stats' generally mean you have phones **
+** (or groups of phones) in your phone set that had no corresponding data. **
+** You should probably figure out whether something went wrong, **
+** or whether your data just doesn't happen to have examples of those **
+** phones. **
+steps/train_deltas.sh: converting alignments from exp/mono_ali to use current tree
+steps/train_deltas.sh: compiling graphs of transcripts
+steps/train_deltas.sh: training pass 1
+steps/train_deltas.sh: training pass 2
+steps/train_deltas.sh: training pass 3
+steps/train_deltas.sh: training pass 4
+steps/train_deltas.sh: training pass 5
+steps/train_deltas.sh: training pass 6
+steps/train_deltas.sh: training pass 7
+steps/train_deltas.sh: training pass 8
+steps/train_deltas.sh: training pass 9
+steps/train_deltas.sh: training pass 10
+steps/train_deltas.sh: aligning data
+steps/train_deltas.sh: training pass 11
+steps/train_deltas.sh: training pass 12
+steps/train_deltas.sh: training pass 13
+steps/train_deltas.sh: training pass 14
+steps/train_deltas.sh: training pass 15
+steps/train_deltas.sh: training pass 16
+steps/train_deltas.sh: training pass 17
+steps/train_deltas.sh: training pass 18
+steps/train_deltas.sh: training pass 19
+steps/train_deltas.sh: training pass 20
+steps/train_deltas.sh: aligning data
+steps/train_deltas.sh: training pass 21
+steps/train_deltas.sh: training pass 22
+steps/train_deltas.sh: training pass 23
+steps/train_deltas.sh: training pass 24
+steps/train_deltas.sh: training pass 25
+steps/train_deltas.sh: training pass 26
+steps/train_deltas.sh: training pass 27
+steps/train_deltas.sh: training pass 28
+steps/train_deltas.sh: training pass 29
+steps/train_deltas.sh: training pass 30
+steps/train_deltas.sh: aligning data
+steps/train_deltas.sh: training pass 31
+steps/train_deltas.sh: training pass 32
+steps/train_deltas.sh: training pass 33
+steps/train_deltas.sh: training pass 34
+steps/diagnostic/analyze_alignments.sh --cmd run.pl data/lang exp/tri1
+run.pl: job failed, log is in exp/tri1/log/analyze_alignments.log
+steps/diagnostic/analyze_alignments.sh: analyze_phone_length_stats.py failed, but ignoring the error (it's just for diagnostics)
+steps/diagnostic/analyze_alignments.sh: see stats in exp/tri1/log/analyze_alignments.log
+20 warnings in exp/tri1/log/align.*.*.log
+1 warnings in exp/tri1/log/questions.log
+84 warnings in exp/tri1/log/update.*.log
+34 warnings in exp/tri1/log/acc.*.*.log
+1 warnings in exp/tri1/log/build_tree.log
+121 warnings in exp/tri1/log/init_model.log
+exp/tri1: nj=1 align prob=-87.72 over 1.45h [retry=0.5%, fail=0.1%] states=960 gauss=10027 tree-impr=4.49
+steps/train_deltas.sh: Done training system with delta+delta-delta features in exp/tri1
+
+#################################
+#     TRI1 (delta) DECODING     #
+#################################
+
+tree-info exp/tri1/tree 
+tree-info exp/tri1/tree 
+fstcomposecontext --context-size=3 --central-position=1 --read-disambig-syms=data/lang/phones/disambig.int --write-disambig-syms=data/lang/tmp/disambig_ilabels_3_1.int data/lang/tmp/ilabels_3_1.68203 data/lang/tmp/LG.fst 
+fstisstochastic data/lang/tmp/CLG_3_1.fst 
+0 -0.00540818
+make-h-transducer --disambig-syms-out=exp/tri1/graph/disambig_tid.int --transition-scale=1.0 data/lang/tmp/ilabels_3_1 exp/tri1/tree exp/tri1/final.mdl 
+fsttablecompose exp/tri1/graph/Ha.fst data/lang/tmp/CLG_3_1.fst 
+fstrmsymbols exp/tri1/graph/disambig_tid.int 
+fstminimizeencoded 
+fstdeterminizestar --use-log=true 
+fstrmepslocal 
+fstisstochastic exp/tri1/graph/HCLGa.fst 
+0.000484981 -0.0151036
+HCLGa is not stochastic
+add-self-loops --self-loop-scale=0.1 --reorder=true exp/tri1/final.mdl exp/tri1/graph/HCLGa.fst 
+steps/decode.sh --config conf/decode.config --nj 1 --cmd run.pl --scoring-opts --min-lmwt 10 --max-lmwt 20 exp/tri1/graph data/test exp/tri1/decode
+decode.sh: feature type is delta
+steps/diagnostic/analyze_lats.sh --cmd run.pl exp/tri1/graph exp/tri1/decode
+run.pl: job failed, log is in exp/tri1/decode/log/analyze_alignments.log
+local/score.sh --cmd run.pl --min-lmwt 10 --max-lmwt 20 data/test exp/tri1/graph exp/tri1/decode
+local/score.sh: scoring with word insertion penalty=0.0,0.5,1.0
+
+##################################
+#     TRI1 (delta) ALIGNMENT     #
+##################################
+
+steps/align_si.sh --nj 1 --cmd run.pl data/train data/lang exp/tri1 exp/tri1_ali
+steps/align_si.sh: feature type is delta
+steps/align_si.sh: aligning data in data/train using model from exp/tri1, putting alignments in exp/tri1_ali
+steps/diagnostic/analyze_alignments.sh --cmd run.pl data/lang exp/tri1_ali
+run.pl: job failed, log is in exp/tri1_ali/log/analyze_alignments.log
+steps/diagnostic/analyze_alignments.sh: analyze_phone_length_stats.py failed, but ignoring the error (it's just for diagnostics)
+steps/diagnostic/analyze_alignments.sh: see stats in exp/tri1_ali/log/analyze_alignments.log
+steps/align_si.sh: done aligning data.
+
+#############################################
+#     TRI1 (delta+delta_delta) TRAINING     #
+#############################################
+
+steps/train_deltas.sh --cmd run.pl 2500 15000 data/train data/lang exp/tri1_ali exp/tri2
+steps/train_deltas.sh: accumulating tree stats
+steps/train_deltas.sh: getting questions for tree-building, via clustering
+steps/train_deltas.sh: building the tree
+WARNING (gmm-init-model[5.5.1124~1-21ae4]:InitAmGmm():gmm-init-model.cc:55) Tree has pdf-id 1 with no stats; corresponding phone list: 6 7 8 9 10 
+** The warnings above about 'no stats' generally mean you have phones **
+** (or groups of phones) in your phone set that had no corresponding data. **
+** You should probably figure out whether something went wrong, **
+** or whether your data just doesn't happen to have examples of those **
+** phones. **
+steps/train_deltas.sh: converting alignments from exp/tri1_ali to use current tree
+steps/train_deltas.sh: compiling graphs of transcripts
+steps/train_deltas.sh: training pass 1
+steps/train_deltas.sh: training pass 2
+steps/train_deltas.sh: training pass 3
+steps/train_deltas.sh: training pass 4
+steps/train_deltas.sh: training pass 5
+steps/train_deltas.sh: training pass 6
+steps/train_deltas.sh: training pass 7
+steps/train_deltas.sh: training pass 8
+steps/train_deltas.sh: training pass 9
+steps/train_deltas.sh: training pass 10
+steps/train_deltas.sh: aligning data
+steps/train_deltas.sh: training pass 11
+steps/train_deltas.sh: training pass 12
+steps/train_deltas.sh: training pass 13
+steps/train_deltas.sh: training pass 14
+steps/train_deltas.sh: training pass 15
+steps/train_deltas.sh: training pass 16
+steps/train_deltas.sh: training pass 17
+steps/train_deltas.sh: training pass 18
+steps/train_deltas.sh: training pass 19
+steps/train_deltas.sh: training pass 20
+steps/train_deltas.sh: aligning data
+steps/train_deltas.sh: training pass 21
+steps/train_deltas.sh: training pass 22
+steps/train_deltas.sh: training pass 23
+steps/train_deltas.sh: training pass 24
+steps/train_deltas.sh: training pass 25
+steps/train_deltas.sh: training pass 26
+steps/train_deltas.sh: training pass 27
+steps/train_deltas.sh: training pass 28
+steps/train_deltas.sh: training pass 29
+steps/train_deltas.sh: training pass 30
+steps/train_deltas.sh: aligning data
+steps/train_deltas.sh: training pass 31
+steps/train_deltas.sh: training pass 32
+steps/train_deltas.sh: training pass 33
+steps/train_deltas.sh: training pass 34
+steps/diagnostic/analyze_alignments.sh --cmd run.pl data/lang exp/tri2
+run.pl: job failed, log is in exp/tri2/log/analyze_alignments.log
+steps/diagnostic/analyze_alignments.sh: analyze_phone_length_stats.py failed, but ignoring the error (it's just for diagnostics)
+steps/diagnostic/analyze_alignments.sh: see stats in exp/tri2/log/analyze_alignments.log
+34 warnings in exp/tri2/log/acc.*.*.log
+1 warnings in exp/tri2/log/questions.log
+178 warnings in exp/tri2/log/update.*.log
+142 warnings in exp/tri2/log/init_model.log
+20 warnings in exp/tri2/log/align.*.*.log
+1 warnings in exp/tri2/log/build_tree.log
+exp/tri2: nj=1 align prob=-86.28 over 1.45h [retry=0.5%, fail=0.1%] states=1032 gauss=15043 tree-impr=4.73
+steps/train_deltas.sh: Done training system with delta+delta-delta features in exp/tri2
+
+#############################################
+#     TRI1 (delta+delta_delta) DECODING     #
+#############################################
+
+tree-info exp/tri2/tree 
+tree-info exp/tri2/tree 
+make-h-transducer --disambig-syms-out=exp/tri2/graph/disambig_tid.int --transition-scale=1.0 data/lang/tmp/ilabels_3_1 exp/tri2/tree exp/tri2/final.mdl 
+fstrmepslocal 
+fsttablecompose exp/tri2/graph/Ha.fst data/lang/tmp/CLG_3_1.fst 
+fstdeterminizestar --use-log=true 
+fstminimizeencoded 
+fstrmsymbols exp/tri2/graph/disambig_tid.int 
+fstisstochastic exp/tri2/graph/HCLGa.fst 
+0.000481288 -0.0149871
+HCLGa is not stochastic
+add-self-loops --self-loop-scale=0.1 --reorder=true exp/tri2/final.mdl exp/tri2/graph/HCLGa.fst 
+steps/decode.sh --config conf/decode.config --nj 1 --cmd run.pl --scoring-opts --min-lmwt 10 --max-lmwt 20 exp/tri2/graph data/test exp/tri2/decode
+decode.sh: feature type is delta
+steps/diagnostic/analyze_lats.sh --cmd run.pl exp/tri2/graph exp/tri2/decode
+run.pl: job failed, log is in exp/tri2/decode/log/analyze_alignments.log
+local/score.sh --cmd run.pl --min-lmwt 10 --max-lmwt 20 data/test exp/tri2/graph exp/tri2/decode
+local/score.sh: scoring with word insertion penalty=0.0,0.5,1.0
+
+##############################################
+#     TRI1 (delta+delta_delta) ALIGNMENT     #
+##############################################
+
+steps/align_si.sh --nj 1 --cmd run.pl data/train data/lang exp/tri2 exp/tri2_ali
+steps/align_si.sh: feature type is delta
+steps/align_si.sh: aligning data in data/train using model from exp/tri2, putting alignments in exp/tri2_ali
+steps/diagnostic/analyze_alignments.sh --cmd run.pl data/lang exp/tri2_ali
+run.pl: job failed, log is in exp/tri2_ali/log/analyze_alignments.log
+steps/diagnostic/analyze_alignments.sh: analyze_phone_length_stats.py failed, but ignoring the error (it's just for diagnostics)
+steps/diagnostic/analyze_alignments.sh: see stats in exp/tri2_ali/log/analyze_alignments.log
+steps/align_si.sh: done aligning data.
+
+===== run.sh script is finished =====

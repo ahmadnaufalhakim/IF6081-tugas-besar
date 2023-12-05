@@ -1,7 +1,7 @@
 import os
 import random
 import string
-random.seed(6081)
+random.seed(23522026)
 
 CURR_DIR = os.path.dirname(os.path.abspath(__file__))
 DATASET_DIR = os.path.join(CURR_DIR, "..", "dataset")
@@ -99,7 +99,7 @@ with open(os.path.join(TRAIN_DIR, "spk2gender"), 'w') as f_train_spk2gender,  \
         lines = f_transcript.readlines()
         if len(lines) > 1 : print(f"WARNING! {f'{utterance_id}.txt'} has more than one line of transcript")
         f_test_text.write(f"{utterance_id} {remove_punctuation(lines[0]).strip().upper()}\n")
-    # print(root)
+    # print(speaker_id)
     # print((train_files, test_files))
     # print(len(train_files), len(test_files))
     # print()

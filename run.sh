@@ -21,9 +21,11 @@ rm -rf data/test/spk2utt data/test/cmvn.scp data/test/feats.scp data/test/split1
 rm -rf data/local/lang data/lang data/local/tmp data/local/dict/lexiconp.txt
 
 # Preparing acoustic data
+echo
 echo "###################################"
 echo "##### PREPARING ACOUSTIC DATA #####"
 echo "###################################"
+echo
 ## Recreate all data/train and data/test files for acoustic training data
 python3 scripts/prepare-data-train-and-test.py
 ## Sort train and test data using Kaldi script
@@ -36,9 +38,11 @@ utils/utt2spk_to_spk2utt.pl data/train/utt2spk > data/train/spk2utt
 utils/utt2spk_to_spk2utt.pl data/test/utt2spk > data/test/spk2utt
 
 # Features extraction
+echo
 echo "###############################"
 echo "##### FEATURES EXTRACTION #####"
 echo "###############################"
+echo
 ## Pre-process all the wav files (equalize the sampling frequency)
 python3 scripts/equalize-wav-sample-frequency.py
 ## Making feats.scp files
@@ -50,9 +54,11 @@ steps/compute_cmvn_stats.sh data/train exp/make_mfcc/train $mfcc_dir
 steps/compute_cmvn_stats.sh data/test exp/make_mfcc/test $mfcc_dir
 
 # Preparing language data
+echo
 echo "###################################"
 echo "##### PREPARING LANGUAGE DATA #####"
 echo "###################################"
+echo
 ## Recreate all data/local/dict and data/local/corpus files for language modeling data
 python3 scripts/prepare-data-local-dict.py
 python3 scripts/prepare-data-local-corpus.py
@@ -60,10 +66,12 @@ python3 scripts/prepare-data-local-corpus.py
 utils/prepare_lang.sh data/local/dict "<OOV>" data/local/lang data/lang
 
 # Language model creation (lm.arpa)
+echo
 echo "##########################################"
 echo "##### N-GRAM LANGUAGE MODEL CREATION #####"
 echo "#####         MAKING lm.arpa         #####"
 echo "##########################################"
+echo
 ## Check SRILM ngram-count binary file existence
 loc=`which ngram-count`;
 echo "Checking SRILM\'s ngram-count binary location .."
@@ -92,16 +100,20 @@ ngram-count -order $lm_order -write-vocab $data_local_dir/tmp/vocab-full.txt -wb
 echo "Created vocab-full.txt and lm.arpa language model file in $data_local_dir/tmp"
 
 # Making a weighted finite-state transducer
+echo
 echo "########################"
 echo "##### MAKING G.fst #####"
 echo "########################"
+echo
 lang_dir=data/lang
 arpa2fst --disambig-symbol=#0 --read-symbol-table=$lang_dir/words.txt $data_local_dir/tmp/lm.arpa $lang_dir/G.fst
 
 # Monophone training
+echo
 echo "##############################"
 echo "##### MONOPHONE TRAINING #####"
 echo "##############################"
+echo
 steps/train_mono.sh --nj $nj --cmd "$train_cmd" data/train data/lang exp/mono || exit 1
 
 # Monophone decoding

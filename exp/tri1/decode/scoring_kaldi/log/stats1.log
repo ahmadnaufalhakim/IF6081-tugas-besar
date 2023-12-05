@@ -1,10 +1,10 @@
 # cat exp/tri1/decode/scoring_kaldi/penalty_0.0/20.txt | align-text --special-symbol='***' ark:exp/tri1/decode/scoring_kaldi/test_filt.txt ark:- ark,t:- | utils/scoring/wer_per_utt_details.pl --special-symbol '***' | tee exp/tri1/decode/scoring_kaldi/wer_details/per_utt | utils/scoring/wer_per_spk_details.pl data/test/utt2spk > exp/tri1/decode/scoring_kaldi/wer_details/per_spk 
-# Started at Tue Dec  5 18:23:08 WIB 2023
+# Started at Tue Dec  5 23:36:02 WIB 2023
 #
 align-text '--special-symbol=***' ark:exp/tri1/decode/scoring_kaldi/test_filt.txt ark:- ark,t:- 
 LOG (align-text[5.5.1124~1-21ae4]:main():align-text.cc:135) Done 217 sentences, failed for 0
-utils/scoring/wer_per_spk_details.pl: Note: handling as utf-8 text
 utils/scoring/wer_per_utt_details.pl: Note: handling as utf-8 text
 utils/scoring/wer_per_spk_details.pl: Note: handling as utf-8 text
+utils/scoring/wer_per_spk_details.pl: Note: handling as utf-8 text
 # Accounting: time=0 threads=1
-# Ended (code 0) at Tue Dec  5 18:23:08 WIB 2023, elapsed time 0 seconds
+# Ended (code 0) at Tue Dec  5 23:36:02 WIB 2023, elapsed time 0 seconds

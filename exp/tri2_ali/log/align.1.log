@@ -1,5 +1,5 @@
 # compile-train-graphs --read-disambig-syms=data/lang/phones/disambig.int exp/tri2_ali/tree exp/tri2_ali/final.mdl data/lang/L.fst "ark:utils/sym2int.pl --map-oov 2 -f 2- data/lang/words.txt data/train/split1/1/text|" ark:- | gmm-align-compiled --transition-scale=1.0 --acoustic-scale=0.1 --self-loop-scale=0.1 --beam=10 --retry-beam=40 --careful=false "gmm-boost-silence --boost=1.0 1 exp/tri2_ali/final.mdl - |" ark:- "ark,s,cs:apply-cmvn  --utt2spk=ark:data/train/split1/1/utt2spk scp:data/train/split1/1/cmvn.scp scp:data/train/split1/1/feats.scp ark:- | add-deltas  ark:- ark:- |" "ark,t:|gzip -c >exp/tri2_ali/ali.1.gz" 
-# Started at Tue Dec  5 18:24:45 WIB 2023
+# Started at Tue Dec  5 23:37:40 WIB 2023
 #
 compile-train-graphs --read-disambig-syms=data/lang/phones/disambig.int exp/tri2_ali/tree exp/tri2_ali/final.mdl data/lang/L.fst 'ark:utils/sym2int.pl --map-oov 2 -f 2- data/lang/words.txt data/train/split1/1/text|' ark:- 
 gmm-align-compiled --transition-scale=1.0 --acoustic-scale=0.1 --self-loop-scale=0.1 --beam=10 --retry-beam=40 --careful=false 'gmm-boost-silence --boost=1.0 1 exp/tri2_ali/final.mdl - |' ark:- 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/train/split1/1/utt2spk scp:data/train/split1/1/cmvn.scp scp:data/train/split1/1/feats.scp ark:- | add-deltas  ark:- ark:- |' 'ark,t:|gzip -c >exp/tri2_ali/ali.1.gz' 
@@ -877,14 +877,14 @@ LOG (gmm-align-compiled[5.5.1124~1-21ae4]:main():gmm-align-compiled.cc:127) Male
 LOG (gmm-align-compiled[5.5.1124~1-21ae4]:main():gmm-align-compiled.cc:127) Male-9-Male-9_48
 LOG (gmm-align-compiled[5.5.1124~1-21ae4]:main():gmm-align-compiled.cc:127) Male-9-Male-9_49
 LOG (gmm-align-compiled[5.5.1124~1-21ae4]:main():gmm-align-compiled.cc:127) Male-9-Male-9_5
-LOG (gmm-align-compiled[5.5.1124~1-21ae4]:main():gmm-align-compiled.cc:127) Male-9-Male-9_50
-LOG (apply-cmvn[5.5.1124~1-21ae4]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 868 utterances, errors on 0
 LOG (compile-train-graphs[5.5.1124~1-21ae4]:main():compile-train-graphs.cc:147) compile-train-graphs: succeeded for 868 graphs, failed for 0
+LOG (apply-cmvn[5.5.1124~1-21ae4]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 868 utterances, errors on 0
+LOG (gmm-align-compiled[5.5.1124~1-21ae4]:main():gmm-align-compiled.cc:127) Male-9-Male-9_50
 LOG (gmm-align-compiled[5.5.1124~1-21ae4]:main():gmm-align-compiled.cc:127) Male-9-Male-9_7
 LOG (gmm-align-compiled[5.5.1124~1-21ae4]:main():gmm-align-compiled.cc:127) Male-9-Male-9_8
 LOG (gmm-align-compiled[5.5.1124~1-21ae4]:main():gmm-align-compiled.cc:127) Male-9-Male-9_9
-LOG (gmm-align-compiled[5.5.1124~1-21ae4]:main():gmm-align-compiled.cc:135) Overall log-likelihood per frame is -86.072 over 523342 frames.
+LOG (gmm-align-compiled[5.5.1124~1-21ae4]:main():gmm-align-compiled.cc:135) Overall log-likelihood per frame is -86.0112 over 523342 frames.
 LOG (gmm-align-compiled[5.5.1124~1-21ae4]:main():gmm-align-compiled.cc:137) Retried 3 out of 868 utterances.
 LOG (gmm-align-compiled[5.5.1124~1-21ae4]:main():gmm-align-compiled.cc:139) Done 867, errors on 1
 # Accounting: time=6 threads=1
-# Ended (code 0) at Tue Dec  5 18:24:51 WIB 2023, elapsed time 6 seconds
+# Ended (code 0) at Tue Dec  5 23:37:46 WIB 2023, elapsed time 6 seconds

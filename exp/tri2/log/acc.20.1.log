@@ -1,30 +1,30 @@
 # gmm-acc-stats-ali exp/tri2/20.mdl "ark,s,cs:apply-cmvn  --utt2spk=ark:data/train/split1/1/utt2spk scp:data/train/split1/1/cmvn.scp scp:data/train/split1/1/feats.scp ark:- | add-deltas  ark:- ark:- |" "ark,s,cs:gunzip -c exp/tri2/ali.1.gz|" exp/tri2/20.1.acc 
-# Started at Tue Dec  5 18:23:40 WIB 2023
+# Started at Tue Dec  5 23:36:32 WIB 2023
 #
 gmm-acc-stats-ali exp/tri2/20.mdl 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/train/split1/1/utt2spk scp:data/train/split1/1/cmvn.scp scp:data/train/split1/1/feats.scp ark:- | add-deltas  ark:- ark:- |' 'ark,s,cs:gunzip -c exp/tri2/ali.1.gz|' exp/tri2/20.1.acc 
 add-deltas ark:- ark:- 
 apply-cmvn --utt2spk=ark:data/train/split1/1/utt2spk scp:data/train/split1/1/cmvn.scp scp:data/train/split1/1/feats.scp ark:- 
 WARNING (gmm-acc-stats-ali[5.5.1124~1-21ae4]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance Female-1-Female-1_41
-LOG (gmm-acc-stats-ali[5.5.1124~1-21ae4]:main():gmm-acc-stats-ali.cc:105) Processed 50 utterances; for utterance Female-2-Female-2_21 avg. like is -88.8073 over 238 frames.
-LOG (gmm-acc-stats-ali[5.5.1124~1-21ae4]:main():gmm-acc-stats-ali.cc:105) Processed 100 utterances; for utterance Female-3-Female-3_34 avg. like is -90.2742 over 500 frames.
-LOG (gmm-acc-stats-ali[5.5.1124~1-21ae4]:main():gmm-acc-stats-ali.cc:105) Processed 150 utterances; for utterance Female-4-Female-4_44 avg. like is -88.1803 over 487 frames.
-LOG (gmm-acc-stats-ali[5.5.1124~1-21ae4]:main():gmm-acc-stats-ali.cc:105) Processed 200 utterances; for utterance Female-6-Female-6_10 avg. like is -89.7891 over 683 frames.
-LOG (gmm-acc-stats-ali[5.5.1124~1-21ae4]:main():gmm-acc-stats-ali.cc:105) Processed 250 utterances; for utterance Female-7-human_rights_un_ind_rd_0012 avg. like is -87.6477 over 992 frames.
-LOG (gmm-acc-stats-ali[5.5.1124~1-21ae4]:main():gmm-acc-stats-ali.cc:105) Processed 300 utterances; for utterance Female-7-human_rights_un_ind_rd_0073 avg. like is -83.4197 over 354 frames.
-LOG (gmm-acc-stats-ali[5.5.1124~1-21ae4]:main():gmm-acc-stats-ali.cc:105) Processed 350 utterances; for utterance Male-1-Male-1_13 avg. like is -83.8848 over 812 frames.
-LOG (gmm-acc-stats-ali[5.5.1124~1-21ae4]:main():gmm-acc-stats-ali.cc:105) Processed 400 utterances; for utterance Male-10-Male-10_21 avg. like is -82.4758 over 398 frames.
-LOG (gmm-acc-stats-ali[5.5.1124~1-21ae4]:main():gmm-acc-stats-ali.cc:105) Processed 450 utterances; for utterance Male-11-Male-11_36 avg. like is -85.0327 over 598 frames.
-LOG (gmm-acc-stats-ali[5.5.1124~1-21ae4]:main():gmm-acc-stats-ali.cc:105) Processed 500 utterances; for utterance Male-12-Male-12_46 avg. like is -91.2401 over 415 frames.
-LOG (gmm-acc-stats-ali[5.5.1124~1-21ae4]:main():gmm-acc-stats-ali.cc:105) Processed 550 utterances; for utterance Male-2-Male-2_11 avg. like is -90.8921 over 433 frames.
-LOG (gmm-acc-stats-ali[5.5.1124~1-21ae4]:main():gmm-acc-stats-ali.cc:105) Processed 600 utterances; for utterance Male-3-Male-3_23 avg. like is -82.7624 over 514 frames.
-LOG (gmm-acc-stats-ali[5.5.1124~1-21ae4]:main():gmm-acc-stats-ali.cc:105) Processed 650 utterances; for utterance Male-4-Male-4_33 avg. like is -91.298 over 498 frames.
-LOG (gmm-acc-stats-ali[5.5.1124~1-21ae4]:main():gmm-acc-stats-ali.cc:105) Processed 700 utterances; for utterance Male-5-Male-5_48 avg. like is -87.1095 over 720 frames.
-LOG (gmm-acc-stats-ali[5.5.1124~1-21ae4]:main():gmm-acc-stats-ali.cc:105) Processed 750 utterances; for utterance Male-7-Male-7_12 avg. like is -89.0406 over 670 frames.
-LOG (gmm-acc-stats-ali[5.5.1124~1-21ae4]:main():gmm-acc-stats-ali.cc:105) Processed 800 utterances; for utterance Male-8-Male-8_25 avg. like is -81.9748 over 823 frames.
-LOG (gmm-acc-stats-ali[5.5.1124~1-21ae4]:main():gmm-acc-stats-ali.cc:105) Processed 850 utterances; for utterance Male-9-Male-9_35 avg. like is -91.7151 over 461 frames.
+LOG (gmm-acc-stats-ali[5.5.1124~1-21ae4]:main():gmm-acc-stats-ali.cc:105) Processed 50 utterances; for utterance Female-2-Female-2_21 avg. like is -88.8581 over 238 frames.
+LOG (gmm-acc-stats-ali[5.5.1124~1-21ae4]:main():gmm-acc-stats-ali.cc:105) Processed 100 utterances; for utterance Female-3-Female-3_34 avg. like is -89.9387 over 500 frames.
+LOG (gmm-acc-stats-ali[5.5.1124~1-21ae4]:main():gmm-acc-stats-ali.cc:105) Processed 150 utterances; for utterance Female-4-Female-4_44 avg. like is -88.0992 over 487 frames.
+LOG (gmm-acc-stats-ali[5.5.1124~1-21ae4]:main():gmm-acc-stats-ali.cc:105) Processed 200 utterances; for utterance Female-6-Female-6_10 avg. like is -89.9539 over 683 frames.
+LOG (gmm-acc-stats-ali[5.5.1124~1-21ae4]:main():gmm-acc-stats-ali.cc:105) Processed 250 utterances; for utterance Female-7-human_rights_un_ind_rd_0012 avg. like is -87.6398 over 992 frames.
+LOG (gmm-acc-stats-ali[5.5.1124~1-21ae4]:main():gmm-acc-stats-ali.cc:105) Processed 300 utterances; for utterance Female-7-human_rights_un_ind_rd_0073 avg. like is -83.4558 over 354 frames.
+LOG (gmm-acc-stats-ali[5.5.1124~1-21ae4]:main():gmm-acc-stats-ali.cc:105) Processed 350 utterances; for utterance Male-1-Male-1_13 avg. like is -83.7979 over 812 frames.
+LOG (gmm-acc-stats-ali[5.5.1124~1-21ae4]:main():gmm-acc-stats-ali.cc:105) Processed 400 utterances; for utterance Male-10-Male-10_21 avg. like is -82.1296 over 398 frames.
+LOG (gmm-acc-stats-ali[5.5.1124~1-21ae4]:main():gmm-acc-stats-ali.cc:105) Processed 450 utterances; for utterance Male-11-Male-11_36 avg. like is -85.0968 over 598 frames.
+LOG (gmm-acc-stats-ali[5.5.1124~1-21ae4]:main():gmm-acc-stats-ali.cc:105) Processed 500 utterances; for utterance Male-12-Male-12_46 avg. like is -91.1874 over 415 frames.
+LOG (gmm-acc-stats-ali[5.5.1124~1-21ae4]:main():gmm-acc-stats-ali.cc:105) Processed 550 utterances; for utterance Male-2-Male-2_11 avg. like is -91.0651 over 433 frames.
+LOG (gmm-acc-stats-ali[5.5.1124~1-21ae4]:main():gmm-acc-stats-ali.cc:105) Processed 600 utterances; for utterance Male-3-Male-3_23 avg. like is -83.042 over 514 frames.
+LOG (gmm-acc-stats-ali[5.5.1124~1-21ae4]:main():gmm-acc-stats-ali.cc:105) Processed 650 utterances; for utterance Male-4-Male-4_33 avg. like is -91.3388 over 498 frames.
+LOG (gmm-acc-stats-ali[5.5.1124~1-21ae4]:main():gmm-acc-stats-ali.cc:105) Processed 700 utterances; for utterance Male-5-Male-5_48 avg. like is -87.1445 over 720 frames.
+LOG (gmm-acc-stats-ali[5.5.1124~1-21ae4]:main():gmm-acc-stats-ali.cc:105) Processed 750 utterances; for utterance Male-7-Male-7_12 avg. like is -89.0373 over 670 frames.
+LOG (gmm-acc-stats-ali[5.5.1124~1-21ae4]:main():gmm-acc-stats-ali.cc:105) Processed 800 utterances; for utterance Male-8-Male-8_25 avg. like is -81.8162 over 823 frames.
+LOG (gmm-acc-stats-ali[5.5.1124~1-21ae4]:main():gmm-acc-stats-ali.cc:105) Processed 850 utterances; for utterance Male-9-Male-9_35 avg. like is -91.5723 over 461 frames.
 LOG (apply-cmvn[5.5.1124~1-21ae4]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 868 utterances, errors on 0
 LOG (gmm-acc-stats-ali[5.5.1124~1-21ae4]:main():gmm-acc-stats-ali.cc:112) Done 867 files, 1 with errors.
-LOG (gmm-acc-stats-ali[5.5.1124~1-21ae4]:main():gmm-acc-stats-ali.cc:115) Overall avg like per frame (Gaussian only) = -87.0725 over 523342 frames.
+LOG (gmm-acc-stats-ali[5.5.1124~1-21ae4]:main():gmm-acc-stats-ali.cc:115) Overall avg like per frame (Gaussian only) = -87.054 over 523342 frames.
 LOG (gmm-acc-stats-ali[5.5.1124~1-21ae4]:main():gmm-acc-stats-ali.cc:123) Written accs.
 # Accounting: time=1 threads=1
-# Ended (code 0) at Tue Dec  5 18:23:41 WIB 2023, elapsed time 1 seconds
+# Ended (code 0) at Tue Dec  5 23:36:33 WIB 2023, elapsed time 1 seconds

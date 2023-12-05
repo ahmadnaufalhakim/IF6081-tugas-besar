@@ -27,9 +27,9 @@ Female-1-Female-1_39 hyp  MY  DREAM  DESTINATION  IALAH  LIBURAN  KE  RAJA  AMPA
 Female-1-Female-1_39 op    C    C         C         C       C      C    C     C  
 Female-1-Female-1_39 #csid 8 0 0 0
 Female-1-Female-1_43 ref  SELAMA  MASIH  WAKTU  LIBURAN  AYO  KITA  EXPLORE  PANTAI  PANTAI  INDAH  DI  BALI
-Female-1-Female-1_43 hyp  SELAMA  MASIH  WAKTU  LIBURAN  AYO  KITA  EXPLORE  PANTAI  PANTAI  INDAH  DI  BALI
-Female-1-Female-1_43 op      C      C      C       C      C     C      C        C       C      C     C    C 
-Female-1-Female-1_43 #csid 12 0 0 0
+Female-1-Female-1_43 hyp  SELAMA  MASIH  WAKTU  LIBURAN  AYO  KITA  EXPLORE  PANTAI  PANTAI   NYA   DI  BALI
+Female-1-Female-1_43 op      C      C      C       C      C     C      C        C       C      S     C    C 
+Female-1-Female-1_43 #csid 11 1 0 0
 Female-1-Female-1_48 ref  RENCANANYA  KITA  MAU  JOIN  COOKING  CLASS  UNTUK  BELAJAR  MEMASAK  MASAKAN  INDONESIA
 Female-1-Female-1_48 hyp  RENCANANYA  KITA  MAU  JOIN  COOKING  CLASS  UNTUK  BELAJAR  MEMASAK  MASAKAN  INDONESIA
 Female-1-Female-1_48 op        C        C    C     C      C       C      C       C        C        C         C    
@@ -50,10 +50,10 @@ Female-2-Female-2_20 ref  PINGIN  LIBURAN  KE  EROPA  BIAR  BISA  LIAT  SALJU
 Female-2-Female-2_20 hyp  PINGIN  LIBURAN  KE  EROPA  BIAR  BISA  LIAT  SALJU
 Female-2-Female-2_20 op      C       C      C    C      C     C     C     C  
 Female-2-Female-2_20 #csid 8 0 0 0
-Female-2-Female-2_3 ref  PALING  SERU  KALAU  LIBURAN  BARENG   TEMEN
-Female-2-Female-2_3 hyp  PALING  SERU  KALAU  LIBURAN    ***   KEMANA
-Female-2-Female-2_3 op      C      C     C       C        D       S  
-Female-2-Female-2_3 #csid 4 1 0 1
+Female-2-Female-2_3 ref  PALING  SERU  KALAU  LIBURAN  BARENG  TEMEN    *** 
+Female-2-Female-2_3 hyp  PALING  SERU  KALAU  LIBURAN  BARENG  TEMEN  BARENG
+Female-2-Female-2_3 op      C      C     C       C        C      C       I  
+Female-2-Female-2_3 #csid 6 0 1 0
 Female-2-Female-2_33 ref  TAHUN  LALU  SAYA  INGIN  KE  JEPANG  SEBENERNYA  TAPI  TIDAK  BISA  KARENA  MEREKA  MASIH  CLOSE  BORDER  DARI  AWAL  TAHUNNYA
 Female-2-Female-2_33 hyp  TAHUN  LALU  SAYA  INGIN  KE  JEPANG  SEBENERNYA  TAPI  TIDAK  BISA  KARENA  MEREKA  MASIH  CLOSE  BORDER  DARI  AWAL  TAHUNNYA
 Female-2-Female-2_33 op     C      C     C     C     C     C         C        C     C      C      C       C      C      C       C      C     C       C   
@@ -630,9 +630,9 @@ Male-4-Male-4_11 ref  SEBENTAR  LAGI  MASA  LIBURAN  TAPI  HARUS  MELALUI  SEGAL
 Male-4-Male-4_11 hyp  SEBENTAR  LAGI  MASA  LIBURAN  TAPI  HARUS  MELALUI  SEGALA  TUGAS  ***  BERDIAM
 Male-4-Male-4_11 op       C       C     C      C       C     C       C        C      C     D      S   
 Male-4-Male-4_11 #csid 9 1 0 1
-Male-4-Male-4_15 ref    ***     ***   ***    ***    ***   ***   ***   ***  DENGAN  BEGITU  LIBURAN  JADI  LEBIH  BERMAKNA  DAN  LEBIH  MENYENANGKAN
-Male-4-Male-4_15 hyp  DENGAN  BEGITU  OUT  LIBURAN  AYO  BROMO  KAK  KALI  DENGAN  BEGITU  LIBURAN  JADI  LEBIH  BERMAKNA  DAN  LEBIH  MENYENANGKAN
-Male-4-Male-4_15 op      I       I     I      I      I     I     I     I      C       C       C       C     C        C      C     C          C     
+Male-4-Male-4_15 ref    ***     ***   ***    ***    ***    ***   ***   ***  DENGAN  BEGITU  LIBURAN  JADI  LEBIH  BERMAKNA  DAN  LEBIH  MENYENANGKAN
+Male-4-Male-4_15 hyp  DENGAN  BEGITU  OUT  LIBURAN   DI  ABROAD   KE  KALI  DENGAN  BEGITU  LIBURAN  JADI  LEBIH  BERMAKNA  DAN  LEBIH  MENYENANGKAN
+Male-4-Male-4_15 op      I       I     I      I      I      I     I     I      C       C       C       C     C        C      C     C          C     
 Male-4-Male-4_15 #csid 9 0 8 0
 Male-4-Male-4_26 ref  MRT  ADALAH  CARA  TERBAIK  UNTUK  MENJELAJAHI  SINGAPURA
 Male-4-Male-4_26 hyp  MRT  ADALAH  CARA  TERBAIK  UNTUK  MENJELAJAHI  SINGAPURA
@@ -654,10 +654,10 @@ Male-4-Male-4_4 ref  TEMPAT  PALING  ENAK  BUAT  LIBURAN  TUH  YANG  UDARANYA  S
 Male-4-Male-4_4 hyp  TEMPAT  PALING  ENAK  BUAT  LIBURAN  TUH  YANG  UDARANYA  SEJUK  ADEM  AYEM  BIAR  NGGA  KERINGETAN
 Male-4-Male-4_4 op      C       C      C     C      C      C     C       C       C      C     C     C     C        C    
 Male-4-Male-4_4 #csid 14 0 0 0
-Male-4-Male-4_43 ref  MINGGU  DEPAN      KE       HEAD  IN  THE  CLOUD  YUK  NONTON  YOASOBI
-Male-4-Male-4_43 hyp    ***    ***   MENETAPKAN  HAPPY  IN  THE  CLOUD  YUK  NONTON  YOASOBI
-Male-4-Male-4_43 op      D      D         S        S     C   C     C     C      C       C   
-Male-4-Male-4_43 #csid 6 2 0 2
+Male-4-Male-4_43 ref  MINGGU     DEPAN    KE   HEAD  IN  THE  CLOUD  YUK  NONTON  YOASOBI
+Male-4-Male-4_43 hyp    ***   MENETAPKAN  KE  HAPPY  IN  THE  CLOUD  YUK  NONTON  YOASOBI
+Male-4-Male-4_43 op      D         S       C    S     C   C     C     C      C       C   
+Male-4-Male-4_43 #csid 7 2 0 1
 Male-4-Male-4_44 ref  JAKARTA  GERAH  BANGET  DAH  BUTUH  LIBURAN   GW 
 Male-4-Male-4_44 hyp  JAKARTA  GERAH  BANGET  DAH  BUTUH  LIBURAN  BUAH
 Male-4-Male-4_44 op      C       C       C     C     C       C       S 
@@ -807,7 +807,7 @@ Male-8-Male-8_22 hyp  GIMANA  KALO  KITA  CAMPING  KE  GUNUNG  MENIKMATI  MALAM 
 Male-8-Male-8_22 op      C      C     C      C      C     C        C        C      C        C        C     C       I       C       C     C     C     C      C  
 Male-8-Male-8_22 #csid 18 0 1 0
 Male-8-Male-8_39 ref  GOING  TO  RAJA  AMPAT  SELALU  JADI  BUCKET  LIST  KU  SIH  AIRNYA  SO  CLEAR  AND  BEAUTIFUL
-Male-8-Male-8_39 hyp  GOING  TO  RAJA  AMPAT  SELALU  JADI  BUCKET  LIST  KU  SIH  AIRNYA  SO   BELI  AND  BEAUTIFUL
+Male-8-Male-8_39 hyp  GOING  TO  RAJA  AMPAT  SELALU  JADI  BUCKET  LIST  KU  SIH  AIRNYA  SO   KALI  AND  BEAUTIFUL
 Male-8-Male-8_39 op     C     C    C     C       C      C      C      C    C   C      C     C    S     C       C    
 Male-8-Male-8_39 #csid 14 1 0 0
 Male-8-Male-8_41 ref  UDARA  PALING  SEGAR  ADALAH  UDARA  DI  GUNUNG

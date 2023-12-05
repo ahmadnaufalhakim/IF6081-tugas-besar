@@ -1,7 +1,7 @@
-Female-1-Female-1_1 ref  BUAT  NGILANGIN  PENAT  PALING  ENAK  LIBURAN  KE   PANTAI
-Female-1-Female-1_1 hyp  BUAT  NGILANGIN  PENAT  PALING  ENAK  LIBURAN  KE  TERBAIK
-Female-1-Female-1_1 op     C       C        C       C      C      C      C     S   
-Female-1-Female-1_1 #csid 7 1 0 0
+Female-1-Female-1_1 ref  BUAT  NGILANGIN  PENAT  PALING  ENAK  LIBURAN  KE  PANTAI   ***
+Female-1-Female-1_1 hyp  BUAT  NGILANGIN  PENAT  PALING  ENAK  LIBURAN  KE  PANTAI  LAGI
+Female-1-Female-1_1 op     C       C        C       C      C      C      C     C      I 
+Female-1-Female-1_1 #csid 8 0 1 0
 Female-1-Female-1_19 ref  BUAT  KALIAN  YANG  LAGI  MERENCANAKAN  LIBURAN  PASTIKAN  SUDAH  PUNYA  PLAN  YANG  BAGUS
 Female-1-Female-1_19 hyp  BUAT  KALIAN  YANG  LAGI  MERENCANAKAN  LIBURAN  PASTIKAN  SUDAH  PUNYA  PLAN  YANG  BAGUS
 Female-1-Female-1_19 op     C      C      C     C         C          C         C       C      C      C     C     C  
@@ -34,10 +34,10 @@ Female-1-Female-1_48 ref  RENCANANYA  KITA  MAU  JOIN  COOKING  CLASS  UNTUK  BE
 Female-1-Female-1_48 hyp  RENCANANYA  KITA  MAU  JOIN  COOKING  CLASS  UNTUK  BELAJAR  MEMASAK  MASAKAN  INDONESIA
 Female-1-Female-1_48 op        C        C    C     C      C       C      C       C        C        C         C    
 Female-1-Female-1_48 #csid 11 0 0 0
-Female-1-Female-1_50 ref  DENGAN  BERENANG  TUBUH  KITA  AKAN  JADI  LEBIH  FRESH   DAN   HEALTHY
-Female-1-Female-1_50 hyp  DENGAN  BERENANG  TUBUH  KITA  AKAN  JADI  LEBIH   ***   TRANS  MENANTI
-Female-1-Female-1_50 op      C        C       C      C     C     C     C      D      S       S   
-Female-1-Female-1_50 #csid 7 2 0 1
+Female-1-Female-1_50 ref  DENGAN  BERENANG  TUBUH  KITA  AKAN  JADI  LEBIH  FRESH  DAN  HEALTHY
+Female-1-Female-1_50 hyp  DENGAN  BERENANG  TUBUH  KITA  AKAN  JADI  LEBIH  FRESH  ***  MENANTI
+Female-1-Female-1_50 op      C        C       C      C     C     C     C      C     D      S   
+Female-1-Female-1_50 #csid 8 1 0 1
 Female-2-Female-2_13 ref  KALAU  KE  BALI  BULAN  SEMBILAN  ENAKNYA  NGAPAIN  YA  DI  SANA
 Female-2-Female-2_13 hyp  KALAU  KE  BALI  BULAN  SEMBILAN  ENAKNYA  NGAPAIN  YA  DI  SANA
 Female-2-Female-2_13 op     C     C    C     C        C        C        C      C   C    C 
@@ -86,10 +86,10 @@ Female-3-Female-3_15 ref  SIAPA  MAU  SENDIRIAN  STAYCATION  DI  TENGAH  HUTAN  
 Female-3-Female-3_15 hyp  SIAPA  MAU  SENDIRIAN  STAYCATION  DI  TENGAH  HUTAN  GITU
 Female-3-Female-3_15 op     C     C       C           C       C     C      C      C 
 Female-3-Female-3_15 #csid 8 0 0 0
-Female-3-Female-3_23 ref  TAHUN  LALU  SAYA  INGIN  KE  JEPANG  SEBENERNYA  TAPI  TIDAK  BISA   ***  KARENA  MEREKA  MASIH  CLOSE  BORDER  DARI  AWAL  TAHUNNYA
-Female-3-Female-3_23 hyp  TAHUN  LALU  SAYA  INGIN  KE  JEPANG  SEBENERNYA  TAPI   JADI  BISA  ANAK   ANAK   MEREKA  MASIH  CLOSE  BORDER  DARI  AWAL  TAHUNNYA
-Female-3-Female-3_23 op     C      C     C     C     C     C         C        C     S      C     I      S       C      C      C       C      C     C       C   
-Female-3-Female-3_23 #csid 16 2 1 0
+Female-3-Female-3_23 ref  TAHUN  LALU  SAYA  INGIN  KE  JEPANG  SEBENERNYA  TAPI  TIDAK  BISA  KARENA  MEREKA  MASIH  CLOSE  BORDER  DARI  AWAL  TAHUNNYA
+Female-3-Female-3_23 hyp  TAHUN  LALU  SAYA  INGIN  KE  JEPANG  SEBENERNYA  TAPI   JADI  BISA  KARENA  MEREKA  MASIH  CLOSE  BORDER  DARI  AWAL  TAHUNNYA
+Female-3-Female-3_23 op     C      C     C     C     C     C         C        C     S      C      C       C      C      C       C      C     C       C   
+Female-3-Female-3_23 #csid 17 1 0 0
 Female-3-Female-3_28 ref  LIBURAN  TAHUN  LALU  KURANG  KERASA  MENURUTKU  GAK  BISA  PERGI  JAUH  KARENA  MASIH  WABAH
 Female-3-Female-3_28 hyp  LIBURAN  TAHUN  LALU  KURANG  KERASA  MENURUTKU  GAK  BISA  PERGI  JAUH  KARENA  MASIH  WABAH
 Female-3-Female-3_28 op      C       C      C      C       C        C       C     C     C      C      C      C      C  
@@ -110,9 +110,9 @@ Female-3-Female-3_39 ref  INDONESIA  TERKENAL  AKAN  PESONA  LAUT  DAN  PANTAINY
 Female-3-Female-3_39 hyp  INDONESIA  TERKENAL  AKAN  PESONA  LAUT  DAN  PANTAINYA
 Female-3-Female-3_39 op       C          C       C      C      C    C       C    
 Female-3-Female-3_39 #csid 7 0 0 0
-Female-3-Female-3_4 ref  INGIN  PERGI  LIBURAN  TAPI  KERJAAN  MASIH  BANYAK  DAN  DUIT  JUGA  UDAH  MAU  HABIS
-Female-3-Female-3_4 hyp  INGIN  PERGI  LIBURAN  TAPI  KERJAAN  MASIH  BANYAK  DAN  DUIT  JUGA  UDAH  MAU   ABIS
-Female-3-Female-3_4 op     C      C       C       C      C       C       C     C     C     C     C    C     S  
+Female-3-Female-3_4 ref  INGIN  PERGI  LIBURAN  TAPI  KERJAAN  MASIH  BANYAK  DAN  DUIT  JUGA  UDAH   MAU  HABIS
+Female-3-Female-3_4 hyp  INGIN  PERGI  LIBURAN  TAPI  KERJAAN  MASIH  BANYAK  DAN  DUIT  JUGA  UDAH  MUKA  HABIS
+Female-3-Female-3_4 op     C      C       C       C      C       C       C     C     C     C     C     S     C  
 Female-3-Female-3_4 #csid 12 1 0 0
 Female-3-Female-3_8 ref  HIKING  DI  MUSIM  KEMARAU  KAYAKNYA  SERU  NIH
 Female-3-Female-3_8 hyp  HIKING  DI  MUSIM  KEMARAU  KAYAKNYA  SERU  NIH
@@ -135,9 +135,9 @@ Female-4-Female-4_34 hyp  TEMPAT  PALING  ENAK  BUAT  LIBURAN  TUH  YANG  UDARAN
 Female-4-Female-4_34 op      C       C      C     C      C      C     C       C       C      C     C     C     C        C    
 Female-4-Female-4_34 #csid 14 0 0 0
 Female-4-Female-4_38 ref  PAS  SAMPE  TEMPAT  TUJUAN  COBA  HIRUP  UDARANYA  YANG  SEGER  DIJAMIN  BETAH
-Female-4-Female-4_38 hyp  PAS  SAMPE  TEMPAT  TUJUAN  COBA  HIRUP  UDARANYA  YANG  SEGAR  DIJAMIN  BETAH
-Female-4-Female-4_38 op    C     C       C       C      C     C        C       C     S       C       C  
-Female-4-Female-4_38 #csid 10 1 0 0
+Female-4-Female-4_38 hyp  PAS  SAMPE  TEMPAT  TUJUAN  COBA  HIRUP  UDARANYA  YANG  SEGER  DIJAMIN  BETAH
+Female-4-Female-4_38 op    C     C       C       C      C     C        C       C     C       C       C  
+Female-4-Female-4_38 #csid 11 0 0 0
 Female-4-Female-4_4 ref  TERSERAH  MAU  KEMANA  PENTING  MAKANANNYA  ENAK  ENAK
 Female-4-Female-4_4 hyp  TERSERAH  MAU  KEMANA  PENTING  MAKANANNYA  ENAK  ENAK
 Female-4-Female-4_4 op       C      C      C       C          C        C     C 
@@ -170,13 +170,13 @@ Female-5-Female-5_17 ref  JUJURLY  SAYA  TIDAK  SABAR  UNTUK  PERGI  LIBURAN  LA
 Female-5-Female-5_17 hyp  JUJURLY  SAYA  TIDAK  SABAR  UNTUK  PERGI  LIBURAN  LAGI
 Female-5-Female-5_17 op      C       C     C      C      C      C       C       C 
 Female-5-Female-5_17 #csid 8 0 0 0
-Female-5-Female-5_21 ref   KALO  CAPE  KERJA  ENAKNYA  LIBURAN  SIH  INI  MAH
-Female-5-Female-5_21 hyp  KALAU  CAPE  KERJA  ENAKNYA  LIBURAN  SIH  INI  MAH
-Female-5-Female-5_21 op     S      C     C       C        C      C    C    C 
-Female-5-Female-5_21 #csid 7 1 0 0
-Female-5-Female-5_33 ref  BISA  KE  PANTAI   ***  ATAU  KE  PEGUNUNGAN
-Female-5-Female-5_33 hyp  BISA  KE  PANTAI  LUPA  ATAU  KE  PEGUNUNGAN
-Female-5-Female-5_33 op     C    C     C      I     C    C       C    
+Female-5-Female-5_21 ref  KALO  CAPE  KERJA  ENAKNYA  LIBURAN  SIH  INI  MAH
+Female-5-Female-5_21 hyp  KALO  CAPE  KERJA  ENAKNYA  LIBURAN  SIH  INI  MAH
+Female-5-Female-5_21 op     C     C     C       C        C      C    C    C 
+Female-5-Female-5_21 #csid 8 0 0 0
+Female-5-Female-5_33 ref  BISA  KE  PANTAI  ***  ATAU  KE  PEGUNUNGAN
+Female-5-Female-5_33 hyp  BISA  KE  PANTAI   DI  ATAU  KE  PEGUNUNGAN
+Female-5-Female-5_33 op     C    C     C     I     C    C       C    
 Female-5-Female-5_33 #csid 6 0 1 0
 Female-5-Female-5_35 ref  DENGAN  BEGITU  LIBURAN  JADI  LEBIH  BERMAKNA  DAN  LEBIH  MENYENANGKAN
 Female-5-Female-5_35 hyp  DENGAN  BEGITU  LIBURAN  JADI  LEBIH  BERMAKNA  DAN  LEBIH  MENYENANGKAN
@@ -190,26 +190,26 @@ Female-5-Female-5_44 ref  SEKARANG  TRAVELING  JADI  MAKIN  MUDAH  DENGAN  RESER
 Female-5-Female-5_44 hyp  SEKARANG  TRAVELING  JADI  MAKIN  MUDAH  DENGAN  RESERVASI  ONLINE
 Female-5-Female-5_44 op       C         C        C     C      C       C        C         C  
 Female-5-Female-5_44 #csid 8 0 0 0
-Female-5-Female-5_5 ref  JANGAN  LUPA  NANTI  JAM  EMPAT  SORE  KUMPUL  DEPAN  VILLA  YA  JANGAN  SAMPAI  TERLEWAT  GOLDEN  HOUR  SORE   INI 
-Female-5-Female-5_5 hyp  JANGAN  LUPA  NANTI  JAM  EMPAT  SORE  KUMPUL  DEPAN  VILLA  YA  JANGAN  SAMPAI  TERLEWAT  GOLDEN  HOUR  SAYA  INGIN
-Female-5-Female-5_5 op      C      C     C     C     C      C      C      C      C     C     C       C        C        C      C     S     S  
-Female-5-Female-5_5 #csid 15 2 0 0
+Female-5-Female-5_5 ref  JANGAN  LUPA  NANTI  JAM  EMPAT  SORE  KUMPUL  DEPAN  VILLA  YA  JANGAN  SAMPAI  TERLEWAT  GOLDEN  HOUR  SORE  INI
+Female-5-Female-5_5 hyp  JANGAN  LUPA  NANTI  JAM  AMPAT  SORE  KUMPUL  DEPAN  VILLA  YA  JANGAN  SAMPAI  TERLEWAT  GOLDEN  HOUR  SORE  INI
+Female-5-Female-5_5 op      C      C     C     C     S      C      C      C      C     C     C       C        C        C      C     C    C 
+Female-5-Female-5_5 #csid 16 1 0 0
 Female-5-Female-5_50 ref  KOTA  MEDAN  ADALAH  SURGANYA  PENYUKA  DURIAN
 Female-5-Female-5_50 hyp  KOTA  MEDAN  ADALAH  SURGANYA  PENYUKA  DURIAN
 Female-5-Female-5_50 op     C     C       C        C        C        C  
 Female-5-Female-5_50 #csid 6 0 0 0
-Female-6-Female-6_1 ref  BERLIBUR  KE  PANTAI  SELALU  MENJADI  PILIHAN  FAVORIT  SAYA
-Female-6-Female-6_1 hyp  BERLIBUR  KE  PANTAI  SELALU  MENJADI  PILIHAN  FAVORIT  SAYA
-Female-6-Female-6_1 op       C      C     C       C       C        C        C       C 
-Female-6-Female-6_1 #csid 8 0 0 0
+Female-6-Female-6_1 ref  BERLIBUR  KE   PANTAI  SELALU  MENJADI  PILIHAN  FAVORIT  SAYA
+Female-6-Female-6_1 hyp  BERLIBUR  KE  KATANYA  SELALU  MENJADI  PILIHAN  FAVORIT  SAYA
+Female-6-Female-6_1 op       C      C     S        C       C        C        C       C 
+Female-6-Female-6_1 #csid 7 1 0 0
 Female-6-Female-6_19 ref  JANGAN  LUPA  MAMPIR  KE  RUMAH  MAKAN  SUNDA  YANG  RASA  MAKANANNYA  DIJAMIN  ENAK  PISAN
 Female-6-Female-6_19 hyp  JANGAN  LUPA  MAMPIR  KE  RUMAH  MAKAN  SUNDA  YANG  RASA  MAKANANNYA  DIJAMIN  ENAK  PISAN
 Female-6-Female-6_19 op      C      C      C     C    C      C      C      C     C        C         C       C     C  
 Female-6-Female-6_19 #csid 13 0 0 0
 Female-6-Female-6_27 ref  JADI  HARUS  DIAGENDAKAN  JALAN  JALAN  ATAU  SEKEDAR  KUMPUL  KELUARGA  UNTUK  HEALING
-Female-6-Female-6_27 hyp  JADI  HARUS  DIAGENDAKAN  JALAN  JALAN  ATAU  SEKEDAR  KUMPUL  KELUARGA  UNTUK  HEALING
-Female-6-Female-6_27 op     C     C         C         C      C      C      C        C        C       C       C   
-Female-6-Female-6_27 #csid 11 0 0 0
+Female-6-Female-6_27 hyp  JADI  HARUS  DIAGENDAKAN  JALAN  JALAN  ATAU  SEKEDAR  KUMPUL  KELUARGA  UNTUK    GILI 
+Female-6-Female-6_27 op     C     C         C         C      C      C      C        C        C       C       S   
+Female-6-Female-6_27 #csid 10 1 0 0
 Female-6-Female-6_28 ref  REFRESHING  SANGAT  PENTING  UNTUK  MENJAGA  KESEHATAN  DAN  KEWARASAN  JIWA  KITA
 Female-6-Female-6_28 hyp  REFRESHING  SANGAT  PENTING  UNTUK  MENJAGA  KESEHATAN  DAN  KEWARASAN  JIWA  KITA
 Female-6-Female-6_28 op        C         C       C       C       C         C       C       C        C     C 
@@ -247,9 +247,9 @@ Female-7-human_rights_un_ind_rd_0008 hyp  DAN  TELAH  BERTEKAD  UNTUK  MENGGALAK
 Female-7-human_rights_un_ind_rd_0008 op    C     C        C       C          C           C        C     C     C      C      C     C      C    C    C         C         C     C      C 
 Female-7-human_rights_un_ind_rd_0008 #csid 19 0 0 0
 Female-7-human_rights_un_ind_rd_0017 ref  BAIK  OLEH  BANGSA  BANGSA  DARI  NEGARA  NEGARA  ANGGOTA  SENDIRI  MAUPUN  OLEH  BANGSA  BANGSA  DARI  DAERAH  DAERAH  YANG  BERADA  DI  BAWAH  KEKUASAAN  HUKUM  MEREKA
-Female-7-human_rights_un_ind_rd_0017 hyp  BAIK  OLEH  BANGSA  BANGSA  DARI  NEGARA  NEGARA  ANGGOTA  SENDIRI  MAUPUN  OLEH  BANGSA  BANGSA  DARI  DAERAH  DAERAH  YANG  BERADA  DI  BAWAH  KEKUASAAN  HUKUM  MEREKA
-Female-7-human_rights_un_ind_rd_0017 op     C     C      C       C      C      C       C       C        C        C      C      C       C      C      C       C      C      C     C    C        C        C       C  
-Female-7-human_rights_un_ind_rd_0017 #csid 23 0 0 0
+Female-7-human_rights_un_ind_rd_0017 hyp   DAN  OLEH  BANGSA  BANGSA  DARI  NEGARA  NEGARA  ANGGOTA  SENDIRI  MAUPUN  OLEH  BANGSA  BANGSA  DARI  DAERAH  DAERAH  YANG  BERADA  DI  BAWAH  KEKUASAAN  HUKUM  MEREKA
+Female-7-human_rights_un_ind_rd_0017 op     S     C      C       C      C      C       C       C        C        C      C      C       C      C      C       C      C      C     C    C        C        C       C  
+Female-7-human_rights_un_ind_rd_0017 #csid 22 1 0 0
 Female-7-human_rights_un_ind_rd_0018 ref  PASAL  SATU  SEMUA  ORANG  DILAHIRKAN  MERDEKA  DAN  MEMPUNYAI  MARTABAT  DAN  HAK  HAK  YANG  SAMA
 Female-7-human_rights_un_ind_rd_0018 hyp  PASAL  SATU  SEMUA  ORANG  DILAHIRKAN  MERDEKA  DAN  MEMPUNYAI  MARTABAT  DAN  HAK  HAK  YANG  SAMA
 Female-7-human_rights_un_ind_rd_0018 op     C      C     C      C         C         C      C       C          C      C    C    C     C     C 
@@ -279,21 +279,21 @@ Female-7-human_rights_un_ind_rd_0053 hyp  SETIAP  ORANG  BERHAK  MENINGGALKAN  S
 Female-7-human_rights_un_ind_rd_0053 op      C      C       C          C         C       C  
 Female-7-human_rights_un_ind_rd_0053 #csid 6 0 0 0
 Female-7-human_rights_un_ind_rd_0063 ref  MEREKA  MEMPUNYAI  HAK  YANG  SAMA  DALAM  SOAL  PERKAWINAN
-Female-7-human_rights_un_ind_rd_0063 hyp  MEREKA  MEMPUNYAI  HAK  YANG  SAMA  DALAM  SAAT  PERKAWINAN
-Female-7-human_rights_un_ind_rd_0063 op      C        C       C     C     C     C      S        C    
-Female-7-human_rights_un_ind_rd_0063 #csid 7 1 0 0
+Female-7-human_rights_un_ind_rd_0063 hyp  MEREKA  MEMPUNYAI  HAK  YANG  SAMA  DALAM  SOAL  PERKAWINAN
+Female-7-human_rights_un_ind_rd_0063 op      C        C       C     C     C     C      C        C    
+Female-7-human_rights_un_ind_rd_0063 #csid 8 0 0 0
 Female-7-human_rights_un_ind_rd_0065 ref  PERKAWINAN  HANYA  DAPAT  DILAKSANAKAN  BERDASARKAN  PILIHAN  BEBAS  DAN  PERSETUJUAN  PENUH  OLEH  KEDUA  MEMPELAI  TIGA
 Female-7-human_rights_un_ind_rd_0065 hyp  PERKAWINAN  HANYA  DAPAT  DILAKSANAKAN  BERDASARKAN  PILIHAN  BEBAS  DAN  PERSETUJUAN  PENUH  OLEH  KEDUA  MEMPELAI  TIGA
 Female-7-human_rights_un_ind_rd_0065 op        C        C      C          C            C          C       C     C        C         C      C     C        C       C 
 Female-7-human_rights_un_ind_rd_0065 #csid 14 0 0 0
 Female-7-human_rights_un_ind_rd_0068 ref  BAIK  SENDIRI  MAUPUN  BERSAMA  SAMA  DENGAN  ORANG  LAIN
-Female-7-human_rights_un_ind_rd_0068 hyp  BAIK  SENDIRI  MAUPUN  BERSAMA  SAMA  DENGAN  ORANG  LAIN
-Female-7-human_rights_un_ind_rd_0068 op     C      C        C       C       C      C      C      C 
-Female-7-human_rights_un_ind_rd_0068 #csid 8 0 0 0
+Female-7-human_rights_un_ind_rd_0068 hyp   DI   SENDIRI  MAUPUN  BERSAMA  SAMA  DENGAN  ORANG  LAIN
+Female-7-human_rights_un_ind_rd_0068 op     S      C        C       C       C      C      C      C 
+Female-7-human_rights_un_ind_rd_0068 #csid 7 1 0 0
 Female-7-human_rights_un_ind_rd_0074 ref  BAIK  SENDIRI  MAUPUN  BERSAMA  SAMA  DENGAN  ORANG  LAIN  DI  MUKA  UMUM  MAUPUN  SENDIRI
-Female-7-human_rights_un_ind_rd_0074 hyp  BAIK  SENDIRI  MAUPUN  BERSAMA  SAMA  DENGAN  ORANG  LAIN  DI  MUKA  UMUM  MAUPUN  SENDIRI
-Female-7-human_rights_un_ind_rd_0074 op     C      C        C       C       C      C      C      C    C    C     C      C       C   
-Female-7-human_rights_un_ind_rd_0074 #csid 13 0 0 0
+Female-7-human_rights_un_ind_rd_0074 hyp   EH   SENDIRI  MAUPUN  BERSAMA  SAMA  DENGAN  ORANG  LAIN  DI  MUKA  UMUM  MAUPUN  SENDIRI
+Female-7-human_rights_un_ind_rd_0074 op     S      C        C       C       C      C      C      C    C    C     C      C       C   
+Female-7-human_rights_un_ind_rd_0074 #csid 12 1 0 0
 Female-7-human_rights_un_ind_rd_0077 ref  DAN  UNTUK  MENCARI
 Female-7-human_rights_un_ind_rd_0077 hyp  DAN  UNTUK  MENCARI
 Female-7-human_rights_un_ind_rd_0077 op    C     C       C   
@@ -339,19 +339,19 @@ Female-7-human_rights_un_ind_rd_0124 hyp  SETIAP  ORANG  BERHAK  UNTUK  MEMPEROL
 Female-7-human_rights_un_ind_rd_0124 op      C      C       C      C         C            C         C        C            C         C     C       C       C       C         C       C      C      C         C        C  
 Female-7-human_rights_un_ind_rd_0124 #csid 20 0 0 0
 Female-7-human_rights_un_ind_rd_0130 ref  DAN  UNTUK  MEMENUHI  SYARAT  SYARAT  YANG  ADIL  DALAM  HAL  KESUSILAAN
-Female-7-human_rights_un_ind_rd_0130 hyp  DAN  UNTUK  MEMENUHI  SYARAT  SYARAT  YANG  ADIL  DALAM  HAK  KESUSILAAN
-Female-7-human_rights_un_ind_rd_0130 op    C     C        C        C       C      C     C     C     S        C    
-Female-7-human_rights_un_ind_rd_0130 #csid 9 1 0 0
+Female-7-human_rights_un_ind_rd_0130 hyp  DAN  UNTUK  MEMENUHI  SYARAT  SYARAT  YANG  ADIL  DALAM  HAL  KESUSILAAN
+Female-7-human_rights_un_ind_rd_0130 op    C     C        C        C       C      C     C     C     C        C    
+Female-7-human_rights_un_ind_rd_0130 #csid 10 0 0 0
 Female-7-human_rights_un_ind_rd_0135 ref  HAK  UNTUK  TERLIBAT  DI  DALAM  KEGIATAN  APAPUN  ATAU  MELAKUKAN  PERBUATAN  YANG  BERTUJUAN  UNTUK  MERUSAK  HAK  HAK  DAN  KEBEBASAN  KEBEBASAN  YANG  MANA  PUN  YANG  TERMAKTUB  DI  DALAM  PERNYATAAN  INI
 Female-7-human_rights_un_ind_rd_0135 hyp  ***  UNTUK  TERLIBAT  DI  DALAM  KEGIATAN  APAPUN  ATAU  MELAKUKAN  PERBUATAN  YANG  BERTUJUAN  UNTUK  MERUSAK  HAK  HAK  DAN  KEBEBASAN  KEBEBASAN  YANG  MANA  PUN  YANG  TERMAKTUB  DI  DALAM  PERNYATAAN  INI
 Female-7-human_rights_un_ind_rd_0135 op    D     C        C      C    C        C        C      C       C          C        C       C        C       C      C    C    C       C          C        C     C    C     C       C       C    C         C       C 
 Female-7-human_rights_un_ind_rd_0135 #csid 27 0 0 1
-Male-1-Male-1_1 ref  BUAT  NGILANGIN  PENAT  PALING  ENAK  LIBURAN  KE  PANTAI
-Male-1-Male-1_1 hyp  BUAT  NGILANGIN  PENAT  PALING  ENAK  LIBURAN  KE  PANTAI
-Male-1-Male-1_1 op     C       C        C       C      C      C      C     C  
-Male-1-Male-1_1 #csid 8 0 0 0
+Male-1-Male-1_1 ref    BUAT   NGILANGIN  PENAT  PALING  ENAK  LIBURAN  KE  PANTAI
+Male-1-Male-1_1 hyp  LIBURAN  NGILANGIN  PENAT  PALING  ENAK  LIBURAN  KE  PANTAI
+Male-1-Male-1_1 op      S         C        C       C      C      C      C     C  
+Male-1-Male-1_1 #csid 7 1 0 0
 Male-1-Male-1_11 ref  DAN  BANDUNG   ***  BAGIKU  BUKAN  CUMA  MASALAH  GEOGRAFIS  LEBIH  JAUH  DARI  ITU  MELIBATKAN  PERASAAN  YANG  BERSAMAKU  KETIKA  SUNYI
-Male-1-Male-1_11 hyp  DAN  BANDUNG  LAGI   TURUN  BUKAN  CUMA  MASALAH  GEOGRAFIS  LEBIH  JAUH  DARI  ITU  MELIBATKAN  PERASAAN  YANG  BERSAMAKU  KETIKA  SUNYI
+Male-1-Male-1_11 hyp  DAN  BANDUNG  LAGI  GUNUNG  BUKAN  CUMA  MASALAH  GEOGRAFIS  LEBIH  JAUH  DARI  ITU  MELIBATKAN  PERASAAN  YANG  BERSAMAKU  KETIKA  SUNYI
 Male-1-Male-1_11 op    C      C       I      S      C      C      C         C        C      C     C    C        C          C       C       C         C      C  
 Male-1-Male-1_11 #csid 16 1 1 0
 Male-1-Male-1_15 ref  BUTUH  UANG  BERAPA  YA  KALAU  MAU   ***  JALAN  JALAN  KE  MACAU
@@ -374,18 +374,18 @@ Male-1-Male-1_30 ref  ASIK  BANGET  NAIK  GUNUNG  BROMO  KARENA  UDARA  SEGAR  D
 Male-1-Male-1_30 hyp  ASIK  BANGET  NAIK  GUNUNG  BROMO  KARENA  UDARA  SEGAR  DAN  BISA   LIAT  PEMANDANGAN  YANG  REFRESHING
 Male-1-Male-1_30 op     C      C      C      C      C       C      C      C     C     C     S         C         C        C    
 Male-1-Male-1_30 #csid 13 1 0 0
-Male-1-Male-1_43 ref  SELAMA  MASIH  WAKTU  LIBURAN  AYO  KITA  EXPLORE  PANTAI  PANTAI  INDAH  DI  BALI
-Male-1-Male-1_43 hyp  SELAMA  MASIH  WAKTU  LIBURAN  AYO  KITA  EXPLORE  PANTAI  PANTAI  INDAH  DI  BALI
-Male-1-Male-1_43 op      C      C      C       C      C     C      C        C       C      C     C    C 
-Male-1-Male-1_43 #csid 12 0 0 0
-Male-1-Male-1_44 ref   ***  KITA  RELAX  SEJENAK  YUK  DI  VILLA  YANG  ADA  DI  PEGUNUNGAN  SAMBIL  MENIKMATI  KEINDAHAN  ALAM  DAN  UDARA  YANG  SEGAR
-Male-1-Male-1_44 hyp  YANG  KITA  RELAX  SEJENAK  YUK  DI  VILLA  YANG  ADA  DI  PEGUNUNGAN  SAMBIL  MENIKMATI  KEINDAHAN  ALAM  DAN  UDARA  YANG  SEGAR
-Male-1-Male-1_44 op     I     C     C       C      C    C    C      C    C    C       C         C        C          C        C    C     C      C     C  
+Male-1-Male-1_43 ref  SELAMA  MASIH  WAKTU  LIBURAN   AYO  KITA  EXPLORE  PANTAI  PANTAI  INDAH  DI  BALI
+Male-1-Male-1_43 hyp  SELAMA  MASIH  WAKTU  LIBURAN  NAIK  KITA  EXPLORE  PANTAI  PANTAI  INDAH  DI  BALI
+Male-1-Male-1_43 op      C      C      C       C       S     C      C        C       C      C     C    C 
+Male-1-Male-1_43 #csid 11 1 0 0
+Male-1-Male-1_44 ref  ***  KITA  RELAX  SEJENAK  YUK  DI  VILLA  YANG  ADA  DI  PEGUNUNGAN  SAMBIL  MENIKMATI  KEINDAHAN  ALAM  DAN  UDARA  YANG  SEGAR
+Male-1-Male-1_44 hyp  DAN  KITA  RELAX  SEJENAK  YUK  DI  VILLA  YANG  ADA  DI  PEGUNUNGAN  SAMBIL  MENIKMATI  KEINDAHAN  ALAM  DAN  UDARA  YANG  SEGAR
+Male-1-Male-1_44 op    I     C     C       C      C    C    C      C    C    C       C         C        C          C        C    C     C      C     C  
 Male-1-Male-1_44 #csid 18 0 1 0
-Male-1-Male-1_45 ref  BESOK  KITA  BOAT  TOUR   DI  DANAU  TOBA   YA  SEKALIAN  EXPLORE  THE  BEAUTY   OF  THE  LARGEST  VOLCANIC  LAKE   IN  THE  WORLD
-Male-1-Male-1_45 hyp   ***    ***   ***   ***  ***   ***    ***  ***     ***      ***    ***    ***   ***  ***    ***       ***     ***  PUN  MAU    GW 
-Male-1-Male-1_45 op     D      D     D     D    D     D      D    D       D        D      D      D     D    D      D         D       D    S    S     S  
-Male-1-Male-1_45 #csid 0 3 0 17
+Male-1-Male-1_45 ref  BESOK  KITA  BOAT  TOUR   DI  DANAU  TOBA   YA  SEKALIAN  EXPLORE  THE  BEAUTY   OF  THE  LARGEST  VOLCANIC  LAKE  IN  THE  WORLD
+Male-1-Male-1_45 hyp   ***    ***   ***   ***  ***   ***    ***  ***     ***      ***    ***    ***   ***  ***    ***       ***     KU    E   KU  PULAU
+Male-1-Male-1_45 op     D      D     D     D    D     D      D    D       D        D      D      D     D    D      D         D       S    S   S     S  
+Male-1-Male-1_45 #csid 0 4 0 16
 Male-10-Male-10_2 ref  GIMANA  KALO  KITA  CAMPING  KE  GUNUNG  MENIKMATI  MALAM  YANG  BERBINTANG  BAWA  GITAR  NYANYI  NYANYI  DI  TENGAH  API  UNGGUN
 Male-10-Male-10_2 hyp  GIMANA  KALO  KITA  CAMPING  KE  GUNUNG  MENIKMATI  MALAM  YANG  BERBINTANG  BAWA  GITAR  NYANYI  NYANYI  DI  TENGAH  API  UNGGUN
 Male-10-Male-10_2 op      C      C     C      C      C     C        C        C      C        C        C     C       C       C     C     C     C      C  
@@ -422,13 +422,13 @@ Male-10-Male-10_43 ref  KEMARIN  AKU  NAIK  PESAWAT  DARI  JAKARTA  POLUSI  UDAR
 Male-10-Male-10_43 hyp  KEMARIN  AKU  NAIK  PESAWAT  DARI  JAKARTA  POLUSI  UDARANYA  KELIHATAN  BANGET
 Male-10-Male-10_43 op      C      C     C      C       C      C        C        C         C         C  
 Male-10-Male-10_43 #csid 10 0 0 0
-Male-10-Male-10_44 ref  KERETA  CEPAT  JAKARTA  BANDUNG  KENAPA  DINAMAI  WHOOSH    YA 
-Male-10-Male-10_44 hyp  KERETA  CEPAT  JAKARTA  BANDUNG  KENAPA  DINAMAI    IBU   SIAPA
-Male-10-Male-10_44 op      C      C       C        C        C       C        S      S  
-Male-10-Male-10_44 #csid 6 2 0 0
+Male-10-Male-10_44 ref  KERETA  CEPAT  JAKARTA  BANDUNG  KENAPA  DINAMAI  WHOOSH  YA
+Male-10-Male-10_44 hyp  KERETA  CEPAT  JAKARTA  BANDUNG  KENAPA  DINAMAI   BAGUS  YA
+Male-10-Male-10_44 op      C      C       C        C        C       C        S     C
+Male-10-Male-10_44 #csid 7 1 0 0
 Male-11-Male-11_10 ref  TREKKING  DI  BROMO  TUH  CAPEK  BANGET  TAPI  SUNRISE  VIEW  NYA  BEH  SO  BEAUTIFUL
-Male-11-Male-11_10 hyp  TREKKING  DI  BROMO  TUH  CAPEK  BANGET  TAPI  SUNRISE  VIEW  NYA  TUH  SO  BEAUTIFUL
-Male-11-Male-11_10 op       C      C    C     C     C       C      C      C       C    C    S    C      C    
+Male-11-Male-11_10 hyp  TRACKING  DI  BROMO  TUH  CAPEK  BANGET  TAPI  SUNRISE  VIEW  NYA  BEH  SO  BEAUTIFUL
+Male-11-Male-11_10 op       S      C    C     C     C       C      C      C       C    C    C    C      C    
 Male-11-Male-11_10 #csid 12 1 0 0
 Male-11-Male-11_17 ref  NAIK  GUNUNG  HARUS  SEDIA  BACKPACK  KHUSUS  GUNUNG
 Male-11-Male-11_17 hyp  NAIK  GUNUNG  HARUS  SEDIA  BACKPACK  KHUSUS  GUNUNG
@@ -478,10 +478,10 @@ Male-12-Male-12_24 ref  KERETA  CEPAT  JAKARTA  BANDUNG  KENAPA  DINAMAI  WHOOSH
 Male-12-Male-12_24 hyp  KERETA  CEPAT  JAKARTA  BANDUNG  KENAPA  DINAMAI  WHOOSH  YA
 Male-12-Male-12_24 op      C      C       C        C        C       C        C     C
 Male-12-Male-12_24 #csid 8 0 0 0
-Male-12-Male-12_28 ref  PENGEN  DEH  RASANYA  COBAIN  CROISSANT  ASLI  DARI  PERANCIS
-Male-12-Male-12_28 hyp  PENGEN  DEH  RASANYA  COBAIN  CROISSANT  ASLI  DARI  PERANCIS
-Male-12-Male-12_28 op      C     C      C        C        C        C     C       C   
-Male-12-Male-12_28 #csid 8 0 0 0
+Male-12-Male-12_28 ref  PENGEN  DEH  RASANYA  COBAIN  ***  CROISSANT  ASLI  DARI  PERANCIS
+Male-12-Male-12_28 hyp  PENGEN  DEH  RASANYA  COBAIN   KE     SANA    ASLI  DARI  PERANCIS
+Male-12-Male-12_28 op      C     C      C        C     I       S        C     C       C   
+Male-12-Male-12_28 #csid 7 1 1 0
 Male-12-Male-12_30 ref  HATI  HATI    DI    JALAN  YA  SAFE  FLIGHT
 Male-12-Male-12_30 hyp   ***   ***  NEGERI  JALAN  YA  SAFE  FLIGHT
 Male-12-Male-12_30 op     D     D      S      C     C    C      C  
@@ -610,29 +610,29 @@ Male-3-Male-3_3 ref  PALING  SERU  KALAU  LIBURAN  BARENG  TEMEN
 Male-3-Male-3_3 hyp  PALING  SERU  KALAU  LIBURAN  BARENG  TEMEN
 Male-3-Male-3_3 op      C      C     C       C        C      C  
 Male-3-Male-3_3 #csid 6 0 0 0
-Male-3-Male-3_32 ref  LIBURAN  BULAN  DEPAN  JANGAN  LUPA  BAWA  OBAT  YA  JUST  IN  CASE  SAKIT  DI  LOKASI
-Male-3-Male-3_32 hyp  LIBURAN  BULAN  DEPAN  JANGAN  LUPA  BAWA  OBAT  YA  JUST  IN  CASE  SAKIT  DI  LOKASI
-Male-3-Male-3_32 op      C       C      C       C      C     C     C    C    C    C    C     C     C     C  
-Male-3-Male-3_32 #csid 14 0 0 0
+Male-3-Male-3_32 ref  LIBURAN  BULAN  DEPAN  JANGAN  LUPA  BAWA  OBAT  YA  JUST  IN  CASE  SAKIT   DI  LOKASI
+Male-3-Male-3_32 hyp  LIBURAN  BULAN  DEPAN  JANGAN  LUPA  BAWA  OBAT  YA  JUST  IN  CASE  SAKIT  ***  LOKASI
+Male-3-Male-3_32 op      C       C      C       C      C     C     C    C    C    C    C     C     D      C  
+Male-3-Male-3_32 #csid 13 0 0 1
 Male-3-Male-3_39 ref  KALAU  TIDAK  BISA  LIBURAN  KE  LEMBANG  AKU  LEBIH  PILIH  DI  RUMAH  AJA
-Male-3-Male-3_39 hyp  KALAU   KITA  BISA  LIBURAN  KE  LEMBANG  AKU  LEBIH  PILIH  DI  RUMAH  AJA
-Male-3-Male-3_39 op     C      S      C      C      C     C      C     C      C     C    C     C 
-Male-3-Male-3_39 #csid 11 1 0 0
-Male-3-Male-3_44 ref  KITA  RELAX  SEJENAK  YUK   DI   VILLA  YANG  ADA  DI  PEGUNUNGAN  SAMBIL  MENIKMATI  KEINDAHAN  ALAM  DAN  UDARA  YANG  SEGAR
-Male-3-Male-3_44 hyp  KITA  RELAX  SEJENAK  ***  JADI  VILLA  YANG  ADA  DI  PEGUNUNGAN  SAMBIL  MENIKMATI  KEINDAHAN  ALAM  DAN  UDARA   ***  SEGAR
-Male-3-Male-3_44 op     C     C       C      D     S     C      C    C    C       C         C        C          C        C    C     C      D     C  
-Male-3-Male-3_44 #csid 15 1 0 2
+Male-3-Male-3_39 hyp  KALAU  TIDAK  BISA  LIBURAN  KE  LEMBANG  AKU  LEBIH  PILIH  DI  RUMAH  AJA
+Male-3-Male-3_39 op     C      C      C      C      C     C      C     C      C     C    C     C 
+Male-3-Male-3_39 #csid 12 0 0 0
+Male-3-Male-3_44 ref  KITA  RELAX  SEJENAK  YUK  DI  VILLA  YANG  ADA  DI  PEGUNUNGAN  SAMBIL  MENIKMATI  KEINDAHAN  ALAM  DAN  UDARA  YANG  SEGAR
+Male-3-Male-3_44 hyp  KITA  RELAX  SEJENAK  YUK  DI  VILLA  YANG  ADA  DI  PEGUNUNGAN  SAMBIL  MENIKMATI  KEINDAHAN  ALAM  DAN  UDARA   ***  SEGAR
+Male-3-Male-3_44 op     C     C       C      C    C    C      C    C    C       C         C        C          C        C    C     C      D     C  
+Male-3-Male-3_44 #csid 17 0 0 1
 Male-3-Male-3_49 ref  LETS  EXPLORE  CULTURAL  LANDMARKS  DI  YOGYAKARTA  DI  SANA  BANYAK  BELAJAR  SEJARAH  LOH
 Male-3-Male-3_49 hyp  LETS  EXPLORE  CULTURAL  LANDMARKS  DI  YOGYAKARTA  DI  SANA  BANYAK  BELAJAR  SEJARAH  LOH
 Male-3-Male-3_49 op     C      C         C         C       C       C       C    C      C       C        C      C 
 Male-3-Male-3_49 #csid 12 0 0 0
-Male-4-Male-4_11 ref  SEBENTAR  LAGI  MASA  LIBURAN  TAPI  HARUS  MELALUI  SEGALA  TUGAS  DAN  UJIAN
-Male-4-Male-4_11 hyp  SEBENTAR  LAGI  MASA  LIBURAN  TAPI  HARUS  MELALUI  SEGALA  TUGAS  DAN  UJIAN
-Male-4-Male-4_11 op       C       C     C      C       C     C       C        C      C     C     C  
-Male-4-Male-4_11 #csid 11 0 0 0
-Male-4-Male-4_15 ref    ***     ***   ***    ***    ***    ***   ***   ***  DENGAN  BEGITU  LIBURAN  JADI  LEBIH  BERMAKNA  DAN  LEBIH  MENYENANGKAN
-Male-4-Male-4_15 hyp  DENGAN  BEGITU  OUT  LIBURAN   DI  ABROAD   KE  KALI  DENGAN  BEGITU  LIBURAN  JADI  LEBIH  BERMAKNA  DAN  LEBIH  MENYENANGKAN
-Male-4-Male-4_15 op      I       I     I      I      I      I     I     I      C       C       C       C     C        C      C     C          C     
+Male-4-Male-4_11 ref  SEBENTAR  LAGI  MASA  LIBURAN  TAPI  HARUS    ***   MELALUI  SEGALA  TUGAS  DAN   UJIAN 
+Male-4-Male-4_11 hyp  SEBENTAR  LAGI  MASA  LIBURAN  TAPI  HARUS  SELALU     IS    SEGALA  TUGAS  ***  BERDIAM
+Male-4-Male-4_11 op       C       C     C      C       C     C       I       S        C      C     D      S   
+Male-4-Male-4_11 #csid 8 2 1 1
+Male-4-Male-4_15 ref    ***     ***    ***    ***    ***   ***   ***   ***  DENGAN  BEGITU  LIBURAN  JADI  LEBIH  BERMAKNA  DAN  LEBIH  MENYENANGKAN
+Male-4-Male-4_15 hyp  DENGAN  BEGITU  LAUT  LIBURAN  AYO  BROMO   KE  KALI  DENGAN  BEGITU  LIBURAN  JADI  LEBIH  BERMAKNA  DAN  LEBIH  MENYENANGKAN
+Male-4-Male-4_15 op      I       I      I      I      I     I     I     I      C       C       C       C     C        C      C     C          C     
 Male-4-Male-4_15 #csid 9 0 8 0
 Male-4-Male-4_26 ref  MRT  ADALAH  CARA  TERBAIK  UNTUK  MENJELAJAHI  SINGAPURA
 Male-4-Male-4_26 hyp  MRT  ADALAH  CARA  TERBAIK  UNTUK  MENJELAJAHI  SINGAPURA
@@ -647,29 +647,29 @@ Male-4-Male-4_36 hyp  AKU  DAN  KELUARGAKU  BERENCANA  UNTUK  LIBURAN  DI  BALI 
 Male-4-Male-4_36 op    C    C        C          C        C       C      C    C     C     C      C     C 
 Male-4-Male-4_36 #csid 12 0 0 0
 Male-4-Male-4_37 ref  BANYAK  SEKALI  YANG  HARUS  DIPERSIAPKAN  UNTUK  HOLIDAY  KE  JEPANG
-Male-4-Male-4_37 hyp  BANYAK  SEKALI   ***  HARUS  DIPERSIAPKAN  UNTUK  HOLIDAY  KE  JEPANG
-Male-4-Male-4_37 op      C       C      D     C          C         C       C      C     C  
-Male-4-Male-4_37 #csid 8 0 0 1
+Male-4-Male-4_37 hyp  BANYAK  SEKALI   YA   HARUS  DIPERSIAPKAN  UNTUK  HOLIDAY  KE  JEPANG
+Male-4-Male-4_37 op      C       C      S     C          C         C       C      C     C  
+Male-4-Male-4_37 #csid 8 1 0 0
 Male-4-Male-4_4 ref  TEMPAT  PALING  ENAK  BUAT  LIBURAN  TUH  YANG  UDARANYA  SEJUK  ADEM  AYEM  BIAR  NGGA  KERINGETAN
 Male-4-Male-4_4 hyp  TEMPAT  PALING  ENAK  BUAT  LIBURAN  TUH  YANG  UDARANYA  SEJUK  ADEM  AYEM  BIAR  NGGA  KERINGETAN
 Male-4-Male-4_4 op      C       C      C     C      C      C     C       C       C      C     C     C     C        C    
 Male-4-Male-4_4 #csid 14 0 0 0
-Male-4-Male-4_43 ref  MINGGU  DEPAN  KE  HEAD  IN  THE  CLOUD  YUK  NONTON  YOASOBI
-Male-4-Male-4_43 hyp   MANA   DEPAN  KE  HEAD  IN  THE  CLOUD  YUK  NONTON  YOASOBI
-Male-4-Male-4_43 op      S      C     C    C    C   C     C     C      C       C   
-Male-4-Male-4_43 #csid 9 1 0 0
+Male-4-Male-4_43 ref  MINGGU     DEPAN    KE  HEAD  IN  THE  CLOUD  YUK  NONTON  YOASOBI
+Male-4-Male-4_43 hyp    ***   MENETAPKAN  KE  HEAD  IN  THE  CLOUD  YUK  NONTON  YOASOBI
+Male-4-Male-4_43 op      D         S       C    C    C   C     C     C      C       C   
+Male-4-Male-4_43 #csid 8 1 0 1
 Male-4-Male-4_44 ref  JAKARTA  GERAH  BANGET  DAH  BUTUH  LIBURAN   GW 
 Male-4-Male-4_44 hyp  JAKARTA  GERAH  BANGET  DAH  BUTUH  LIBURAN  BUAH
 Male-4-Male-4_44 op      C       C       C     C     C       C       S 
 Male-4-Male-4_44 #csid 6 1 0 0
-Male-4-Male-4_9 ref  JANGAN  LUPA  MAMPIR   KE  RUMAH  MAKAN  SUNDA  YANG  RASA  MAKANANNYA  DIJAMIN   ENAK  PISAN
-Male-4-Male-4_9 hyp  JANGAN  LUPA  MAMPIR  ***   KALO  MAKAN  SUNDA   IA   RASA  MAKANANNYA  DIJAMIN  BETAH  PISAN
-Male-4-Male-4_9 op      C      C      C     D     S      C      C      S     C        C         C       S      C  
-Male-4-Male-4_9 #csid 9 3 0 1
-Male-5-Male-5_1 ref  SEBENTAR  LAGI  MASA  LIBURAN  TAPI  ***  HARUS  MELALUI  SEGALA  TUGAS  DAN  UJIAN
-Male-5-Male-5_1 hyp  SEBENTAR  LAGI  MASA  LIBURAN  TAPI   YA  HARUS  MELALUI  SEGALA  TUGAS  DAN  UJIAN
-Male-5-Male-5_1 op       C       C     C      C       C    I     C       C        C      C     C     C  
-Male-5-Male-5_1 #csid 11 0 1 0
+Male-4-Male-4_9 ref  JANGAN  LUPA  MAMPIR  KE  RUMAH  MAKAN  SUNDA  YANG  RASA  MAKANANNYA  DIJAMIN   ENAK  PISAN
+Male-4-Male-4_9 hyp  JANGAN  LUPA  MAMPIR  KE   LUAR  MAKAN  SUNDA   IA   RASA  MAKANANNYA  DIJAMIN  BETAH  PISAN
+Male-4-Male-4_9 op      C      C      C     C    S      C      C      S     C        C         C       S      C  
+Male-4-Male-4_9 #csid 10 3 0 0
+Male-5-Male-5_1 ref  SEBENTAR  LAGI  MASA  LIBURAN  TAPI  HARUS  MELALUI  SEGALA  TUGAS  DAN  UJIAN
+Male-5-Male-5_1 hyp  SEBENTAR  LAGI  MASA  LIBURAN  TAPI  HARUS  MELALUI  SEGALA  TUGAS  DAN  UJIAN
+Male-5-Male-5_1 op       C       C     C      C       C     C       C        C      C     C     C  
+Male-5-Male-5_1 #csid 11 0 0 0
 Male-5-Male-5_10 ref  KALAU  SUDAH  DITENTUKAN  MAU   KE   MANA   BISA  LANGSUNG  DEH  SUSUN  RENCANA  BUDGET  DAN  ITINERARY
 Male-5-Male-5_10 hyp  KALAU  SUDAH  DITENTUKAN  MAU  ***  KEMANA  BISA  LANGSUNG  DEH  SUSUN  RENCANA  BUDGET  DAN  ITINERARY
 Male-5-Male-5_10 op     C      C         C       C    D      S      C       C      C     C       C        C     C       C    
@@ -682,10 +682,10 @@ Male-5-Male-5_17 ref  PANTAI  SELALU  MENJADI  TUJUAN  FAVORIT  SAYA  UNTUK  LIB
 Male-5-Male-5_17 hyp  PANTAI  SELALU  MENJADI  TUJUAN  FAVORIT  SAYA  UNTUK  LIBURAN
 Male-5-Male-5_17 op      C       C       C        C       C       C     C       C   
 Male-5-Male-5_17 #csid 8 0 0 0
-Male-5-Male-5_19 ref  SETIAP  DAERAH  DI  INDONESIA  MEMILIKI  MAKANAN  KHAS  YANG  WAJIB  DICOBA
-Male-5-Male-5_19 hyp  SETIAP  DAERAH  DI  INDONESIA  MEMILIKI  MAKANAN  KHAS  YANG  WAJIB  DICOBA
-Male-5-Male-5_19 op      C       C     C      C          C        C       C     C     C       C  
-Male-5-Male-5_19 #csid 10 0 0 0
+Male-5-Male-5_19 ref  SETIAP  DAERAH  DI  INDONESIA  MEMILIKI  MAKANAN   KHAS  YANG  WAJIB  DICOBA
+Male-5-Male-5_19 hyp  SETIAP  DAERAH  DI  INDONESIA  MEMILIKI  MAKANAN  KASUS  YANG  WAJIB  DICOBA
+Male-5-Male-5_19 op      C       C     C      C          C        C       S      C     C       C  
+Male-5-Male-5_19 #csid 9 1 0 0
 Male-5-Male-5_25 ref  LIBURAN  KE  TANGKUBAN  PERAHU  SANGAT  MENYENANGKAN  KARENA  PEMANDANGAN  DARI  ATAS  KAWAH  SANGAT  INDAH
 Male-5-Male-5_25 hyp  LIBURAN  KE  TANGKUBAN  PERAHU  SANGAT  MENYENANGKAN  KARENA  PEMANDANGAN  DARI  ATAS  KAWAH  SANGAT  INDAH
 Male-5-Male-5_25 op      C      C      C         C       C          C          C         C         C     C     C       C      C  
@@ -698,10 +698,10 @@ Male-5-Male-5_29 ref  KITA  PERLU  PREPARE  DENGAN  MATANG  UNTUK  LIBURAN  AKHI
 Male-5-Male-5_29 hyp  KITA  PERLU  PREPARE  DENGAN  MATANG  UNTUK  LIBURAN  AKHIR  TAHUN  INI  WHICH  IS  PASTI  SANGAT  SERU
 Male-5-Male-5_29 op     C     C       C        C       C      C       C       C      C     C     C     C    C       C      C 
 Male-5-Male-5_29 #csid 15 0 0 0
-Male-5-Male-5_3 ref  BISA  KE  PANTAI   ***  ATAU  KE  PEGUNUNGAN
-Male-5-Male-5_3 hyp  BISA  KE  PANTAI  YANG  ATAU  KE  PEGUNUNGAN
-Male-5-Male-5_3 op     C    C     C      I     C    C       C    
-Male-5-Male-5_3 #csid 6 0 1 0
+Male-5-Male-5_3 ref  BISA    KE    PANTAI   ATAU  KE  PEGUNUNGAN
+Male-5-Male-5_3 hyp   ***  WISATA  PANTAI  BAKAL  KE  PEGUNUNGAN
+Male-5-Male-5_3 op     D      S       C      S     C       C    
+Male-5-Male-5_3 #csid 3 2 0 1
 Male-5-Male-5_43 ref  SEMOGA  AJA  TAHUN  DEPAN  BISA  TRAVELING  KE  KOREA  KETEMU  BLACKPINK
 Male-5-Male-5_43 hyp  SEMOGA  AJA  TAHUN  DEPAN  BISA  TRAVELING  KE  KOREA  KETEMU  BLACKPINK
 Male-5-Male-5_43 op      C     C     C      C      C       C       C    C       C        C    
@@ -734,10 +734,10 @@ Male-6-Male-6_41 ref  KALAU  HIDUP  UDAH  STRES  SAATNYA  MERENCANAKAN  LIBURAN 
 Male-6-Male-6_41 hyp  KALAU  HIDUP  UDAH  STRES  SAATNYA  MERENCANAKAN  LIBURAN  YANG  MENYEGARKAN  DAN  MELEPASKAN  SEMUA  BEBAN
 Male-6-Male-6_41 op     C      C      C     C       C           C          C       C        C        C        C        C      C  
 Male-6-Male-6_41 #csid 13 0 0 0
-Male-6-Male-6_43 ref  GA  CUMA  ITU  KALO  PAGI  PAGI  KITA  BISA  LIAT  PEMANDANGAN  YANG  INDAH  KAYA  POHON  POHON  YANG  HIJAU    ATAU   HAMPARAN  PADANG  RUMPUT  YANG  LUAS
-Male-6-Male-6_43 hyp  GA  CUMA  ITU  KALO  PAGI  PAGI  KITA  BISA  LIAT  PEMANDANGAN  YANG  INDAH  KAYA  POHON  POHON  YANG    DI   JAKARTA  HAMPARAN  PADANG  RUMPUT  YANG  LUAS
-Male-6-Male-6_43 op    C    C    C     C     C     C     C     C     C        C         C     C      C     C      C      C     S       S         C        C       C      C     C 
-Male-6-Male-6_43 #csid 21 2 0 0
+Male-6-Male-6_43 ref  GA  CUMA  ITU  KALO  PAGI  PAGI  KITA  BISA  LIAT  PEMANDANGAN  YANG  INDAH  KAYA  POHON  POHON  YANG  HIJAU  ATAU  HAMPARAN  PADANG  RUMPUT  YANG  LUAS
+Male-6-Male-6_43 hyp  GA  CUMA  ITU  KALO  PAGI  PAGI  KITA  BISA  LIAT  PEMANDANGAN  DARI  INDAH  KAYA  POHON  POHON  YANG  HIJAU  ATAU  HAMPARAN  PADANG  RUMPUT  YANG  LUAS
+Male-6-Male-6_43 op    C    C    C     C     C     C     C     C     C        C         S     C      C     C      C      C     C      C       C        C       C      C     C 
+Male-6-Male-6_43 #csid 22 1 0 0
 Male-6-Male-6_44 ref  SAAT  BERADA  DI  GUNUNG  JANGAN  LUPA  BAWA  PERLENGKAPAN  YANG  CUKUP  TERMASUK  SLEEPING  BAG  DAN  JUGA  ALAT  MASAK
 Male-6-Male-6_44 hyp  SAAT  BERADA  DI  GUNUNG  JANGAN  LUPA  BAWA  PERLENGKAPAN  YANG  CUKUP  TERMASUK  SLEEPING  BAG  DAN  JUGA  ALAT  MASAK
 Male-6-Male-6_44 op     C      C     C     C       C      C     C         C         C     C        C         C      C    C     C     C     C  
@@ -790,10 +790,10 @@ Male-8-Male-8_10 ref  DI  MEDAN  ADA  RESTORAN  JUAL  KODOK  SEBESAR  AYAM
 Male-8-Male-8_10 hyp  DI  MEDAN  ADA  RESTORAN  JUAL  KODOK  SEBESAR  AYAM
 Male-8-Male-8_10 op    C    C     C       C       C     C       C       C 
 Male-8-Male-8_10 #csid 8 0 0 0
-Male-8-Male-8_11 ref  DI  BANDUNG  ***  ENAKNYA  STAYCATION  DI  MANA  YA
-Male-8-Male-8_11 hyp  DI  BANDUNG   KE  ENAKNYA  STAYCATION  DI  MANA  YA
-Male-8-Male-8_11 op    C     C      I      C          C       C    C    C
-Male-8-Male-8_11 #csid 7 0 1 0
+Male-8-Male-8_11 ref  DI  BANDUNG  ENAKNYA  STAYCATION  DI  MANA  YA
+Male-8-Male-8_11 hyp  DI  BANDUNG  ENAKNYA  STAYCATION  DI  MANA  YA
+Male-8-Male-8_11 op    C     C        C          C       C    C    C
+Male-8-Male-8_11 #csid 7 0 0 0
 Male-8-Male-8_14 ref  MAU  NONTON  KONSER  TAYLOR  SWIFT  DI  SINGAPUR  TAPI  TIKETNYA  UDAH  SOLD  OUT
 Male-8-Male-8_14 hyp  MAU  NONTON  KONSER  TAYLOR  SWIFT  DI  SINGAPUR  TAPI  TIKETNYA  UDAH  SOLD  OUT
 Male-8-Male-8_14 op    C      C       C       C      C     C      C       C       C       C     C    C 
@@ -802,14 +802,14 @@ Male-8-Male-8_19 ref  JONI  MENGAJAKKU  PERGI  KE  PULAU  KOMODO  MINGGU  DEPAN
 Male-8-Male-8_19 hyp  JONI  MENGAJAKKU  PERGI  KE  PULAU  KOMODO  MINGGU  DEPAN
 Male-8-Male-8_19 op     C        C        C     C    C       C       C      C  
 Male-8-Male-8_19 #csid 8 0 0 0
-Male-8-Male-8_22 ref  GIMANA  ***   KALO  KITA  CAMPING  KE  GUNUNG  MENIKMATI  MALAM  YANG  BERBINTANG  BAWA  GITAR  NYANYI  NYANYI  DI  TENGAH  API  UNGGUN
-Male-8-Male-8_22 hyp  GIMANA   YA  KALAU  KITA  CAMPING  KE  GUNUNG  MENIKMATI  MALAM  YANG  BERBINTANG  BAWA  GITAR  NYANYI  NYANYI  DI  TENGAH  API  UNGGUN
-Male-8-Male-8_22 op      C     I     S      C      C      C     C        C        C      C        C        C     C       C       C     C     C     C      C  
-Male-8-Male-8_22 #csid 17 1 1 0
-Male-8-Male-8_39 ref  GOING  TO  RAJA  AMPAT  SELALU  JADI  BUCKET  LIST  KU  SIH  AIRNYA  SO  CLEAR  AND  BEAUTIFUL
-Male-8-Male-8_39 hyp  GOING  TO  RAJA  AMPAT  SELALU  JADI  BUCKET  LIST  KU  SIH  AIRNYA  SO  CLEAR  AND  BEAUTIFUL
-Male-8-Male-8_39 op     C     C    C     C       C      C      C      C    C   C      C     C    C     C       C    
-Male-8-Male-8_39 #csid 15 0 0 0
+Male-8-Male-8_22 ref  GIMANA  KALO  KITA  CAMPING  KE  GUNUNG  MENIKMATI  MALAM  YANG  BERBINTANG  BAWA  GITAR  NYANYI  NYANYI  DI  TENGAH  API  UNGGUN
+Male-8-Male-8_22 hyp  GIMANA  KALO  KITA  CAMPING  KE  GUNUNG  MENIKMATI  MALAM  YANG  BERBINTANG  BAWA  GITAR  NYANYI  NYANYI  DI  TENGAH  API  UNGGUN
+Male-8-Male-8_22 op      C      C     C      C      C     C        C        C      C        C        C     C       C       C     C     C     C      C  
+Male-8-Male-8_22 #csid 18 0 0 0
+Male-8-Male-8_39 ref  GOING  TO  RAJA  AMPAT  SELALU  JADI  BUCKET  LIST  KU  SIH  AIRNYA  SO  CLEAR   AND  BEAUTIFUL
+Male-8-Male-8_39 hyp  GOING  TO  RAJA  AMPAT  SELALU  JADI  BUCKET  LIST  KU  SIH  AIRNYA  SO  PILIH  LAIN  BEAUTIFUL
+Male-8-Male-8_39 op     C     C    C     C       C      C      C      C    C   C      C     C    S      S       C    
+Male-8-Male-8_39 #csid 13 2 0 0
 Male-8-Male-8_41 ref  UDARA  PALING  SEGAR  ADALAH  UDARA  DI  GUNUNG
 Male-8-Male-8_41 hyp  UDARA  PALING  SEGAR  ADALAH  UDARA  DI  GUNUNG
 Male-8-Male-8_41 op     C       C      C       C      C     C     C  

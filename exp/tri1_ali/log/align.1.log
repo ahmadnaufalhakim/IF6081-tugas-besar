@@ -1,5 +1,5 @@
 # compile-train-graphs --read-disambig-syms=data/lang/phones/disambig.int exp/tri1_ali/tree exp/tri1_ali/final.mdl data/lang/L.fst "ark:utils/sym2int.pl --map-oov 2 -f 2- data/lang/words.txt data/train/split1/1/text|" ark:- | gmm-align-compiled --transition-scale=1.0 --acoustic-scale=0.1 --self-loop-scale=0.1 --beam=10 --retry-beam=40 --careful=false "gmm-boost-silence --boost=1.0 1 exp/tri1_ali/final.mdl - |" ark:- "ark,s,cs:apply-cmvn  --utt2spk=ark:data/train/split1/1/utt2spk scp:data/train/split1/1/cmvn.scp scp:data/train/split1/1/feats.scp ark:- | add-deltas  ark:- ark:- |" "ark,t:|gzip -c >exp/tri1_ali/ali.1.gz" 
-# Started at Tue Dec  5 18:23:09 WIB 2023
+# Started at Tue Dec  5 23:36:02 WIB 2023
 #
 compile-train-graphs --read-disambig-syms=data/lang/phones/disambig.int exp/tri1_ali/tree exp/tri1_ali/final.mdl data/lang/L.fst 'ark:utils/sym2int.pl --map-oov 2 -f 2- data/lang/words.txt data/train/split1/1/text|' ark:- 
 gmm-align-compiled --transition-scale=1.0 --acoustic-scale=0.1 --self-loop-scale=0.1 --beam=10 --retry-beam=40 --careful=false 'gmm-boost-silence --boost=1.0 1 exp/tri1_ali/final.mdl - |' ark:- 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/train/split1/1/utt2spk scp:data/train/split1/1/cmvn.scp scp:data/train/split1/1/feats.scp ark:- | add-deltas  ark:- ark:- |' 'ark,t:|gzip -c >exp/tri1_ali/ali.1.gz' 
@@ -7,8 +7,8 @@ gmm-boost-silence --boost=1.0 1 exp/tri1_ali/final.mdl -
 WARNING (gmm-boost-silence[5.5.1124~1-21ae4]:main():gmm-boost-silence.cc:82) The pdfs for the silence phones may be shared by other phones (note: this probably does not matter.)
 LOG (gmm-boost-silence[5.5.1124~1-21ae4]:main():gmm-boost-silence.cc:93) Boosted weights for 5 pdfs, by factor of 1
 LOG (gmm-boost-silence[5.5.1124~1-21ae4]:main():gmm-boost-silence.cc:103) Wrote model to -
-add-deltas ark:- ark:- 
 apply-cmvn --utt2spk=ark:data/train/split1/1/utt2spk scp:data/train/split1/1/cmvn.scp scp:data/train/split1/1/feats.scp ark:- 
+add-deltas ark:- ark:- 
 LOG (gmm-align-compiled[5.5.1124~1-21ae4]:main():gmm-align-compiled.cc:127) Female-1-Female-1_10
 LOG (gmm-align-compiled[5.5.1124~1-21ae4]:main():gmm-align-compiled.cc:127) Female-1-Female-1_11
 LOG (gmm-align-compiled[5.5.1124~1-21ae4]:main():gmm-align-compiled.cc:127) Female-1-Female-1_12
@@ -878,14 +878,14 @@ LOG (gmm-align-compiled[5.5.1124~1-21ae4]:main():gmm-align-compiled.cc:127) Male
 LOG (gmm-align-compiled[5.5.1124~1-21ae4]:main():gmm-align-compiled.cc:127) Male-9-Male-9_48
 LOG (gmm-align-compiled[5.5.1124~1-21ae4]:main():gmm-align-compiled.cc:127) Male-9-Male-9_49
 LOG (gmm-align-compiled[5.5.1124~1-21ae4]:main():gmm-align-compiled.cc:127) Male-9-Male-9_5
-LOG (gmm-align-compiled[5.5.1124~1-21ae4]:main():gmm-align-compiled.cc:127) Male-9-Male-9_50
 LOG (apply-cmvn[5.5.1124~1-21ae4]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 868 utterances, errors on 0
+LOG (gmm-align-compiled[5.5.1124~1-21ae4]:main():gmm-align-compiled.cc:127) Male-9-Male-9_50
 LOG (gmm-align-compiled[5.5.1124~1-21ae4]:main():gmm-align-compiled.cc:127) Male-9-Male-9_7
 LOG (compile-train-graphs[5.5.1124~1-21ae4]:main():compile-train-graphs.cc:147) compile-train-graphs: succeeded for 868 graphs, failed for 0
 LOG (gmm-align-compiled[5.5.1124~1-21ae4]:main():gmm-align-compiled.cc:127) Male-9-Male-9_8
 LOG (gmm-align-compiled[5.5.1124~1-21ae4]:main():gmm-align-compiled.cc:127) Male-9-Male-9_9
-LOG (gmm-align-compiled[5.5.1124~1-21ae4]:main():gmm-align-compiled.cc:135) Overall log-likelihood per frame is -87.5067 over 523342 frames.
+LOG (gmm-align-compiled[5.5.1124~1-21ae4]:main():gmm-align-compiled.cc:135) Overall log-likelihood per frame is -87.4655 over 523342 frames.
 LOG (gmm-align-compiled[5.5.1124~1-21ae4]:main():gmm-align-compiled.cc:137) Retried 4 out of 868 utterances.
 LOG (gmm-align-compiled[5.5.1124~1-21ae4]:main():gmm-align-compiled.cc:139) Done 867, errors on 1
 # Accounting: time=5 threads=1
-# Ended (code 0) at Tue Dec  5 18:23:14 WIB 2023, elapsed time 5 seconds
+# Ended (code 0) at Tue Dec  5 23:36:07 WIB 2023, elapsed time 5 seconds

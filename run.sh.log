@@ -345,7 +345,7 @@ steps/align_si.sh: done aligning data.
 #     TRI1 (delta) TRAINING     #
 #################################
 
-steps/train_deltas.sh --cmd run.pl 2000 10000 data/train data/lang exp/mono_ali exp/tri1
+steps/train_deltas.sh --cmd run.pl --num-iters 40 2000 10000 data/train data/lang exp/mono_ali exp/tri1
 steps/train_deltas.sh: accumulating tree stats
 steps/train_deltas.sh: getting questions for tree-building, via clustering
 steps/train_deltas.sh: building the tree
@@ -394,16 +394,21 @@ steps/train_deltas.sh: training pass 31
 steps/train_deltas.sh: training pass 32
 steps/train_deltas.sh: training pass 33
 steps/train_deltas.sh: training pass 34
+steps/train_deltas.sh: training pass 35
+steps/train_deltas.sh: training pass 36
+steps/train_deltas.sh: training pass 37
+steps/train_deltas.sh: training pass 38
+steps/train_deltas.sh: training pass 39
 steps/diagnostic/analyze_alignments.sh --cmd run.pl data/lang exp/tri1
 run.pl: job failed, log is in exp/tri1/log/analyze_alignments.log
 steps/diagnostic/analyze_alignments.sh: analyze_phone_length_stats.py failed, but ignoring the error (it's just for diagnostics)
 steps/diagnostic/analyze_alignments.sh: see stats in exp/tri1/log/analyze_alignments.log
-20 warnings in exp/tri1/log/align.*.*.log
 1 warnings in exp/tri1/log/questions.log
-84 warnings in exp/tri1/log/update.*.log
-34 warnings in exp/tri1/log/acc.*.*.log
-1 warnings in exp/tri1/log/build_tree.log
 121 warnings in exp/tri1/log/init_model.log
+1 warnings in exp/tri1/log/build_tree.log
+20 warnings in exp/tri1/log/align.*.*.log
+39 warnings in exp/tri1/log/acc.*.*.log
+91 warnings in exp/tri1/log/update.*.log
 exp/tri1: nj=1 align prob=-87.72 over 1.45h [retry=0.5%, fail=0.1%] states=960 gauss=10027 tree-impr=4.49
 steps/train_deltas.sh: Done training system with delta+delta-delta features in exp/tri1
 
@@ -413,15 +418,12 @@ steps/train_deltas.sh: Done training system with delta+delta-delta features in e
 
 tree-info exp/tri1/tree 
 tree-info exp/tri1/tree 
-fstcomposecontext --context-size=3 --central-position=1 --read-disambig-syms=data/lang/phones/disambig.int --write-disambig-syms=data/lang/tmp/disambig_ilabels_3_1.int data/lang/tmp/ilabels_3_1.68203 data/lang/tmp/LG.fst 
-fstisstochastic data/lang/tmp/CLG_3_1.fst 
-0 -0.00540818
 make-h-transducer --disambig-syms-out=exp/tri1/graph/disambig_tid.int --transition-scale=1.0 data/lang/tmp/ilabels_3_1 exp/tri1/tree exp/tri1/final.mdl 
-fsttablecompose exp/tri1/graph/Ha.fst data/lang/tmp/CLG_3_1.fst 
 fstrmsymbols exp/tri1/graph/disambig_tid.int 
-fstminimizeencoded 
 fstdeterminizestar --use-log=true 
 fstrmepslocal 
+fstminimizeencoded 
+fsttablecompose exp/tri1/graph/Ha.fst data/lang/tmp/CLG_3_1.fst 
 fstisstochastic exp/tri1/graph/HCLGa.fst 
 0.000484981 -0.0151036
 HCLGa is not stochastic
@@ -447,10 +449,10 @@ steps/diagnostic/analyze_alignments.sh: see stats in exp/tri1_ali/log/analyze_al
 steps/align_si.sh: done aligning data.
 
 #############################################
-#     TRI1 (delta+delta_delta) TRAINING     #
+#     TRI2 (delta+delta_delta) TRAINING     #
 #############################################
 
-steps/train_deltas.sh --cmd run.pl 2500 15000 data/train data/lang exp/tri1_ali exp/tri2
+steps/train_deltas.sh --cmd run.pl --num-iters 40 2500 15000 data/train data/lang exp/tri1_ali exp/tri2
 steps/train_deltas.sh: accumulating tree stats
 steps/train_deltas.sh: getting questions for tree-building, via clustering
 steps/train_deltas.sh: building the tree
@@ -499,33 +501,38 @@ steps/train_deltas.sh: training pass 31
 steps/train_deltas.sh: training pass 32
 steps/train_deltas.sh: training pass 33
 steps/train_deltas.sh: training pass 34
+steps/train_deltas.sh: training pass 35
+steps/train_deltas.sh: training pass 36
+steps/train_deltas.sh: training pass 37
+steps/train_deltas.sh: training pass 38
+steps/train_deltas.sh: training pass 39
 steps/diagnostic/analyze_alignments.sh --cmd run.pl data/lang exp/tri2
 run.pl: job failed, log is in exp/tri2/log/analyze_alignments.log
 steps/diagnostic/analyze_alignments.sh: analyze_phone_length_stats.py failed, but ignoring the error (it's just for diagnostics)
 steps/diagnostic/analyze_alignments.sh: see stats in exp/tri2/log/analyze_alignments.log
-34 warnings in exp/tri2/log/acc.*.*.log
+19 warnings in exp/tri2/log/align.*.*.log
 1 warnings in exp/tri2/log/questions.log
-178 warnings in exp/tri2/log/update.*.log
-142 warnings in exp/tri2/log/init_model.log
-20 warnings in exp/tri2/log/align.*.*.log
+188 warnings in exp/tri2/log/update.*.log
 1 warnings in exp/tri2/log/build_tree.log
-exp/tri2: nj=1 align prob=-86.28 over 1.45h [retry=0.5%, fail=0.1%] states=1032 gauss=15043 tree-impr=4.73
+39 warnings in exp/tri2/log/acc.*.*.log
+142 warnings in exp/tri2/log/init_model.log
+exp/tri2: nj=1 align prob=-86.26 over 1.45h [retry=0.3%, fail=0.1%] states=1032 gauss=15049 tree-impr=4.73
 steps/train_deltas.sh: Done training system with delta+delta-delta features in exp/tri2
 
 #############################################
-#     TRI1 (delta+delta_delta) DECODING     #
+#     TRI2 (delta+delta_delta) DECODING     #
 #############################################
 
 tree-info exp/tri2/tree 
 tree-info exp/tri2/tree 
 make-h-transducer --disambig-syms-out=exp/tri2/graph/disambig_tid.int --transition-scale=1.0 data/lang/tmp/ilabels_3_1 exp/tri2/tree exp/tri2/final.mdl 
-fstrmepslocal 
+fstrmsymbols exp/tri2/graph/disambig_tid.int 
+fstminimizeencoded 
 fsttablecompose exp/tri2/graph/Ha.fst data/lang/tmp/CLG_3_1.fst 
 fstdeterminizestar --use-log=true 
-fstminimizeencoded 
-fstrmsymbols exp/tri2/graph/disambig_tid.int 
+fstrmepslocal 
 fstisstochastic exp/tri2/graph/HCLGa.fst 
-0.000481288 -0.0149871
+0.000481288 -0.0150622
 HCLGa is not stochastic
 add-self-loops --self-loop-scale=0.1 --reorder=true exp/tri2/final.mdl exp/tri2/graph/HCLGa.fst 
 steps/decode.sh --config conf/decode.config --nj 1 --cmd run.pl --scoring-opts --min-lmwt 10 --max-lmwt 20 exp/tri2/graph data/test exp/tri2/decode
@@ -536,7 +543,7 @@ local/score.sh --cmd run.pl --min-lmwt 10 --max-lmwt 20 data/test exp/tri2/graph
 local/score.sh: scoring with word insertion penalty=0.0,0.5,1.0
 
 ##############################################
-#     TRI1 (delta+delta_delta) ALIGNMENT     #
+#     TRI2 (delta+delta_delta) ALIGNMENT     #
 ##############################################
 
 steps/align_si.sh --nj 1 --cmd run.pl data/train data/lang exp/tri2 exp/tri2_ali

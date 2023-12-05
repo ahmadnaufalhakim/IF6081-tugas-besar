@@ -1,9 +1,9 @@
 # gmm-acc-stats-ali exp/tri1/17.mdl "ark,s,cs:apply-cmvn  --utt2spk=ark:data/train/split1/1/utt2spk scp:data/train/split1/1/cmvn.scp scp:data/train/split1/1/feats.scp ark:- | add-deltas  ark:- ark:- |" "ark,s,cs:gunzip -c exp/tri1/ali.1.gz|" exp/tri1/17.1.acc 
-# Started at Tue Dec  5 18:22:05 WIB 2023
+# Started at Tue Dec  5 23:34:57 WIB 2023
 #
 gmm-acc-stats-ali exp/tri1/17.mdl 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/train/split1/1/utt2spk scp:data/train/split1/1/cmvn.scp scp:data/train/split1/1/feats.scp ark:- | add-deltas  ark:- ark:- |' 'ark,s,cs:gunzip -c exp/tri1/ali.1.gz|' exp/tri1/17.1.acc 
-apply-cmvn --utt2spk=ark:data/train/split1/1/utt2spk scp:data/train/split1/1/cmvn.scp scp:data/train/split1/1/feats.scp ark:- 
 add-deltas ark:- ark:- 
+apply-cmvn --utt2spk=ark:data/train/split1/1/utt2spk scp:data/train/split1/1/cmvn.scp scp:data/train/split1/1/feats.scp ark:- 
 WARNING (gmm-acc-stats-ali[5.5.1124~1-21ae4]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance Female-1-Female-1_41
 LOG (gmm-acc-stats-ali[5.5.1124~1-21ae4]:main():gmm-acc-stats-ali.cc:105) Processed 50 utterances; for utterance Female-2-Female-2_21 avg. like is -90.4192 over 238 frames.
 LOG (gmm-acc-stats-ali[5.5.1124~1-21ae4]:main():gmm-acc-stats-ali.cc:105) Processed 100 utterances; for utterance Female-3-Female-3_34 avg. like is -91.7528 over 500 frames.
@@ -26,5 +26,5 @@ LOG (apply-cmvn[5.5.1124~1-21ae4]:main():apply-cmvn.cc:162) Applied cepstral mea
 LOG (gmm-acc-stats-ali[5.5.1124~1-21ae4]:main():gmm-acc-stats-ali.cc:112) Done 867 files, 1 with errors.
 LOG (gmm-acc-stats-ali[5.5.1124~1-21ae4]:main():gmm-acc-stats-ali.cc:115) Overall avg like per frame (Gaussian only) = -88.7013 over 523342 frames.
 LOG (gmm-acc-stats-ali[5.5.1124~1-21ae4]:main():gmm-acc-stats-ali.cc:123) Written accs.
-# Accounting: time=1 threads=1
-# Ended (code 0) at Tue Dec  5 18:22:06 WIB 2023, elapsed time 1 seconds
+# Accounting: time=0 threads=1
+# Ended (code 0) at Tue Dec  5 23:34:57 WIB 2023, elapsed time 0 seconds

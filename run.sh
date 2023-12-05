@@ -154,7 +154,7 @@ echo "#################################"
 echo "#     TRI1 (delta) TRAINING     #"
 echo "#################################"
 echo
-steps/train_deltas.sh --cmd "$train_cmd" 2000 10000 data/train data/lang exp/mono_ali exp/tri1 || exit 1
+steps/train_deltas.sh --nj $nj --cmd "$train_cmd" 2000 10000 data/train data/lang exp/mono_ali exp/tri1 || exit 1
 
 # Triphone (delta based) decoding
 echo
@@ -179,7 +179,7 @@ echo "#############################################"
 echo "#     TRI1 (delta+delta_delta) TRAINING     #"
 echo "#############################################"
 echo
-steps/train_deltas.sh --cmd "$train_cmd" 2500 15000 data/train data/lang exp/tri1_ali exp/tri2 || exit 1
+steps/train_deltas.sh --nj $nj --cmd "$train_cmd" 2500 15000 data/train data/lang exp/tri1_ali exp/tri2 || exit 1
 
 # Triphone (delta+delta_delta based) decoding
 echo

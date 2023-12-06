@@ -1,7 +1,7 @@
 import os
 import random
 import string
-random.seed(23522026)
+random.seed(6081)
 
 CURR_DIR = os.path.dirname(os.path.abspath(__file__))
 DATASET_DIR = os.path.join(CURR_DIR, "..", "dataset")

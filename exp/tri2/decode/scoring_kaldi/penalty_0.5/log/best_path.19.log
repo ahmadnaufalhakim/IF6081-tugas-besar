@@ -1,446 +1,446 @@
 # lattice-scale --inv-acoustic-scale=19 "ark:gunzip -c exp/tri2/decode/lat.*.gz|" ark:- | lattice-add-penalty --word-ins-penalty=0.5 ark:- ark:- | lattice-best-path --word-symbol-table=exp/tri2/graph/words.txt ark:- ark,t:- | utils/int2sym.pl -f 2- exp/tri2/graph/words.txt | cat > exp/tri2/decode/scoring_kaldi/penalty_0.5/19.txt 
-# Started at Tue Dec  5 23:37:39 WIB 2023
+# Started at Thu Dec  7 00:07:53 WIB 2023
 #
-lattice-best-path --word-symbol-table=exp/tri2/graph/words.txt ark:- ark,t:- 
 lattice-add-penalty --word-ins-penalty=0.5 ark:- ark:- 
+lattice-best-path --word-symbol-table=exp/tri2/graph/words.txt ark:- ark,t:- 
 lattice-scale --inv-acoustic-scale=19 'ark:gunzip -c exp/tri2/decode/lat.*.gz|' ark:- 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-1-Female-1_1, best cost 65.1474 + 2149.77 = 2214.92 over 440 frames.
-Female-1-Female-1_1 BUAT NGILANGIN PENAT PALING ENAK LIBURAN KE PANTAI LAGI 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-1-Female-1_19, best cost 94.8066 + 3025.36 = 3120.16 over 638 frames.
-Female-1-Female-1_19 BUAT KALIAN YANG LAGI MERENCANAKAN LIBURAN PASTIKAN SUDAH PUNYA PLAN YANG BAGUS 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-1-Female-1_21, best cost 38.3679 + 1544.94 = 1583.31 over 325 frames.
-Female-1-Female-1_21 STAYCATION ENAKNYA KEMANA YA 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-1-Female-1_32, best cost 77.2882 + 2912.68 = 2989.97 over 588 frames.
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-1-Female-1_22, best cost 47.9054 + 1910.21 = 1958.12 over 380 frames.
+Female-1-Female-1_22 DESTINATION STREET FOOD GITU ENAK KALI YA 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-1-Female-1_27, best cost 43.8687 + 1759.58 = 1803.45 over 376 frames.
+Female-1-Female-1_27 PENGEN LIBURAN TAPI TUGAS BANYAK 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-1-Female-1_32, best cost 71.1853 + 2913.95 = 2985.14 over 588 frames.
 Female-1-Female-1_32 SAYA SUKA MINUM KOPI SAMBIL BERSANTAI DENGAN TEMAN DI GUNUNG 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-1-Female-1_36, best cost 63.8045 + 2059.28 = 2123.09 over 409 frames.
-Female-1-Female-1_36 SALAH SATU TUJUAN HIKING SAYA ADALAH GUNUNG RINJANI 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-1-Female-1_37, best cost 70.5304 + 2302.99 = 2373.52 over 471 frames.
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-1-Female-1_33, best cost 65.3719 + 2562.78 = 2628.15 over 533 frames.
+Female-1-Female-1_33 BERLIBUR BERSAMA KELUARGA ADALAH MOMEN YANG SANGAT BERHARGA 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-1-Female-1_37, best cost 68.8965 + 2290.71 = 2359.61 over 471 frames.
 Female-1-Female-1_37 LIBURAN YANG RELAXING BUAT SAYA ADALAH KE UBUD BALI 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-1-Female-1_39, best cost 52.5434 + 2169.56 = 2222.1 over 461 frames.
-Female-1-Female-1_39 MY DREAM DESTINATION IALAH LIBURAN KE RAJA AMPAT 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-1-Female-1_43, best cost 99.0976 + 3089.5 = 3188.59 over 640 frames.
-Female-1-Female-1_43 SELAMA MASIH WAKTU LIBURAN AYO KITA EXPLORE PANTAI PANTAI INI DI BALI 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-1-Female-1_48, best cost 79.0492 + 3230.21 = 3309.26 over 648 frames.
-Female-1-Female-1_48 RENCANANYA KITA MAU JOIN COOKING CLASS UNTUK BELAJAR MEMASAK MASAKAN INDONESIA 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-1-Female-1_50, best cost 82.4572 + 2825.16 = 2907.61 over 590 frames.
-Female-1-Female-1_50 DENGAN BERENANG TUBUH KITA AKAN JADI LEBIH FRESH MENANTI 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-2-Female-2_13, best cost 67.3229 + 1866.81 = 1934.14 over 375 frames.
-Female-2-Female-2_13 KALAU KE BALI BULAN SEMBILAN ENAKNYA NGAPAIN YA DI SANA 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-2-Female-2_16, best cost 79.6228 + 2928.29 = 3007.91 over 581 frames.
-Female-2-Female-2_16 HAL PALING MALESIN PAS LIBURAN TUH DIHUBUNGIN ATASAN TERUS DISURUH IKUT MEETING 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-2-Female-2_20, best cost 56.3949 + 1873.13 = 1929.52 over 367 frames.
-Female-2-Female-2_20 PINGIN LIBURAN KE EROPA BIAR BISA LIAT SALJU 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-2-Female-2_3, best cost 52.4994 + 1377.35 = 1429.85 over 272 frames.
-Female-2-Female-2_3 PALING SERU KALAU LIBURAN BARENG TEMEN 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-2-Female-2_33, best cost 112.233 + 3412.76 = 3524.99 over 684 frames.
-Female-2-Female-2_33 TAHUN LALU SAYA INGIN KE JEPANG SEBENERNYA TAPI TIDAK BISA KARENA MEREKA MASIH CLOSE BORDER DARI AWAL TAHUNNYA 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-2-Female-2_35, best cost 103.781 + 3650.2 = 3753.98 over 752 frames.
-Female-2-Female-2_35 JANGAN LUPA NANTI JAM EMPAT SORE KUMPUL DEPAN VILLA YA JANGAN SAMPAI TERLEWAT GOLDEN HOUR SORE INI 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-2-Female-2_37, best cost 77.0743 + 2419.86 = 2496.93 over 495 frames.
-Female-2-Female-2_37 KALAU TURUN DARI GUNUNG BISA NGGA TINGGAL NGGELINDING AJA CAPEK SOALNYA 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-2-Female-2_43, best cost 92.0901 + 2896.87 = 2988.96 over 581 frames.
-Female-2-Female-2_43 BANDUNG MEMPUNYAI BANYAK OBJEK WISATA YANG BISA JADI PILIHAN LIBURAN BAGI WARGA JABODETABEK 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-2-Female-2_6, best cost 64.0069 + 2057.2 = 2121.21 over 418 frames.
-Female-2-Female-2_6 HOLIDAY PALING ENAK KALAU BISA JALAN JALAN BARENG KELUARGA 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-2-Female-2_7, best cost 54.0764 + 1885.67 = 1939.75 over 375 frames.
-Female-2-Female-2_7 OVERTIME BAGAI KUDA BIAR BISA BEBAS LIBURAN 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-3-Female-3_13, best cost 53.5775 + 2007.28 = 2060.86 over 408 frames.
-Female-3-Female-3_13 HEALING TU ENAKNYA TIDUR AJA DI HOTEL SEHARIAN 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-3-Female-3_15, best cost 52.627 + 2191.88 = 2244.51 over 448 frames.
-Female-3-Female-3_15 SIAPA MAU SENDIRIAN STAYCATION DI TENGAH HUTAN GITU 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-3-Female-3_23, best cost 117.627 + 3955.04 = 4072.66 over 783 frames.
-Female-3-Female-3_23 TAHUN LALU SAYA INGIN KE JEPANG SEBENERNYA TAPI JADI BISA KARENA MEREKA MASIH CLOSE BORDER DARI AWAL TAHUNNYA 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-3-Female-3_28, best cost 85.908 + 3337.29 = 3423.19 over 658 frames.
-Female-3-Female-3_28 LIBURAN TAHUN LALU KURANG KERASA MENURUTKU GAK BISA PERGI JAUH KARENA MASIH WABAH 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-3-Female-3_3, best cost 67.45 + 2436.1 = 2503.55 over 493 frames.
-Female-3-Female-3_3 KALAU KE BALI BULAN SEMBILAN ENAKNYA NGAPAIN YA DI SANA 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-3-Female-3_32, best cost 89.1684 + 4019.81 = 4108.98 over 775 frames.
-Female-3-Female-3_32 LITERALLY TRACKING KE PEGUNUNGAN MEMBERIKAN KESEMPATAN UNTUK MERASAKAN KESEGARAN UDARA ALAMI 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-3-Female-3_33, best cost 100.661 + 3848.42 = 3949.08 over 735 frames.
-Female-3-Female-3_33 BANDUNG MEMPUNYAI BANYAK OBJEK WISATA YANG BISA JADI PILIHAN LIBURAN BAGI WARGA JABODETABEK 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-3-Female-3_39, best cost 59.9752 + 2236.87 = 2296.85 over 425 frames.
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-1-Female-1_40, best cost 55.9743 + 2312.47 = 2368.44 over 473 frames.
+Female-1-Female-1_40 TRACKING DI GUNUNG SEMERU TERNYATA ADVENTUROUS BANGET 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-1-Female-1_42, best cost 106.398 + 4018.68 = 4125.08 over 826 frames.
+Female-1-Female-1_42 GIMANA KALAU NATURE HIKE DI GUNUNG SALAK JADI KITA BISA MENIKMATI KEINDAHAN ALAMNYA YANG KEREN 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-1-Female-1_45, best cost 116.678 + 4330.03 = 4446.71 over 863 frames.
+Female-1-Female-1_45 BESOK KITA BOAT TOUR DI DANAU TOBA YA SEKALIAN EXPLORE THE BEAUTY OF THE LARGEST VOLCANIC LAKE IN THE WORLD 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-1-Female-1_49, best cost 90.5511 + 3712.37 = 3802.92 over 734 frames.
+Female-1-Female-1_49 LETS EXPLORE CULTURAL LANDMARKS DI YOGYAKARTA DI SANA BANYAK BELAJAR SEJARAH LOH 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-1-Female-1_9, best cost 83.0396 + 3115.52 = 3198.56 over 640 frames.
+Female-1-Female-1_9 BERKEMAH DI DAERAH PERBUKITAN ATAU KEBUN TEH JUGA BISA JADI ALTERNATIF BERLIBUR 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-2-Female-2_15, best cost 70.9601 + 2038.51 = 2109.47 over 418 frames.
+Female-2-Female-2_15 TEMPAT DINNER YANG EXPENSIVE BANGET TAPI ENAK DI MANA YA 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-2-Female-2_2, best cost 72.9802 + 2632.14 = 2705.12 over 521 frames.
+Female-2-Female-2_2 LIBURAN PALING ENAK KALAU KITA ABIS NGELARIN KERJAAN WORK LIFE BALANCE 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-2-Female-2_21, best cost 32.5517 + 1156.62 = 1189.17 over 238 frames.
+Female-2-Female-2_21 STAYCATION ENAKNYA KEMANA YA 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-2-Female-2_27, best cost 41.49 + 1450.84 = 1492.33 over 307 frames.
+Female-2-Female-2_27 PINGIN LIBURAN TAPI TUGAS BANYAK 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-2-Female-2_3, best cost 57.0407 + 1364.54 = 1421.58 over 272 frames.
+Female-2-Female-2_3 PALING SERU KALAU LIBURAN BARENG TEMAN 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-2-Female-2_38, best cost 83.0199 + 2820.73 = 2903.75 over 564 frames.
+Female-2-Female-2_38 LIBURAN TAHUN LALU KURANG KERASA MENURUTKU GAK BISA PERGI JAUH KARENA MASIH WABAH 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-2-Female-2_42, best cost 80.0056 + 3353.68 = 3433.69 over 667 frames.
+Female-2-Female-2_42 LITERALLY TRACKING KE PEGUNUNGAN MEMBERIKAN KESEMPATAN UNTUK MERASAKAN KESEGARAN UDARA ALAMI 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-2-Female-2_5, best cost 63.278 + 1864.04 = 1927.32 over 358 frames.
+Female-2-Female-2_5 KEBANYAKAN LIBURAN ENAK JUGA SIH BORING JUGA TERNYATA 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-2-Female-2_50, best cost 54.3278 + 2217.68 = 2272.01 over 444 frames.
+Female-2-Female-2_50 SEBAGIAN BESAR MAHASISWA SUDAH MENGUNJUNGI AIR TERJUN CILEMBER 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-2-Female-2_9, best cost 77.2526 + 2573.72 = 2650.97 over 512 frames.
+Female-2-Female-2_9 BERKEMAH DI DAERAH PERBUKITAN ATAU KEBUN TEH JUGA BISA JADI ALTERNATIF BERLIBUR 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-3-Female-3_11, best cost 36.5653 + 1508.12 = 1544.68 over 305 frames.
+Female-3-Female-3_11 STAYCATION ENAKNYA KEMANA YA 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-3-Female-3_14, best cost 58.614 + 1986.64 = 2045.26 over 410 frames.
+Female-3-Female-3_14 TERSERAH MAU KEMANA PENTING MAKANANNYA ENAK ENAK 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-3-Female-3_16, best cost 48.8204 + 1960.44 = 2009.26 over 398 frames.
+Female-3-Female-3_16 LIBURAN KE PALEMBANG WAJIB MAKAN PEMPEK 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-3-Female-3_2, best cost 57.2593 + 1995.9 = 2053.16 over 405 frames.
+Female-3-Female-3_2 BESOK LONG WEEKEND NIH ENAKNYA LIBURAN KEMANA YA 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-3-Female-3_20, best cost 92.3664 + 3015.32 = 3107.69 over 620 frames.
+Female-3-Female-3_20 KAYAKNYA TIDUR MAIN UJIAN MAKAN MAKAN SELAMA LIBURAN ENAK KALI YA 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-3-Female-3_22, best cost 84.7445 + 2822.31 = 2907.06 over 550 frames.
+Female-3-Female-3_22 LIBURAN BULAN DEPAN JANGAN LUPA BAWA OBAT YA JUST IN CASE SAKIT DI LOKASI 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-3-Female-3_39, best cost 60.706 + 2233.12 = 2293.82 over 425 frames.
 Female-3-Female-3_39 INDONESIA TERKENAL AKAN PESONA LAUT DAN PANTAINYA 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-3-Female-3_4, best cost 99.4677 + 2679.73 = 2779.2 over 540 frames.
-Female-3-Female-3_4 INGIN PERGI LIBURAN TAPI KERJAAN MASIH BANYAK DAN DUIT JUGA UDAH MUKA HABIS 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-3-Female-3_8, best cost 50.7203 + 1847.12 = 1897.84 over 390 frames.
-Female-3-Female-3_8 HIKING DI MUSIM KEMARAU KAYAKNYA SERU NIH 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-4-Female-4_12, best cost 80.8008 + 2823.12 = 2903.92 over 598 frames.
-Female-4-Female-4_12 LIBURAN BULAN DEPAN JANGAN LUPA BAWA OBAT YA JUST IN CASE SAKIT DI LOKASI 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-4-Female-4_26, best cost 59.649 + 2903.07 = 2962.72 over 607 frames.
-Female-4-Female-4_26 MESKIPUN JACKSON SOCIALLY AWKWARD NAMUN DIA HOBI JOIN OPEN TRIP 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-4-Female-4_3, best cost 57.3807 + 2130.46 = 2187.84 over 435 frames.
-Female-4-Female-4_3 HEALING TU ENAKNYA TIDUR AJA DI HOTEL SEHARIAN 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-4-Female-4_34, best cost 88.4338 + 2937.44 = 3025.87 over 598 frames.
-Female-4-Female-4_34 TEMPAT PALING ENAK BUAT LIBURAN TUH YANG UDARANYA SEJUK ADEM AYEM BIAR NGGA KERINGETAN 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-4-Female-4_38, best cost 74.2508 + 2726.38 = 2800.63 over 572 frames.
-Female-4-Female-4_38 PAS SAMPE TEMPAT TUJUAN COBA HIRUP UDARANYA YANG SEGER DIJAMIN BETAH 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-4-Female-4_4, best cost 59.1553 + 2256.57 = 2315.72 over 478 frames.
-Female-4-Female-4_4 TERSERAH MAU KEMANA PENTING MAKANANNYA ENAK ENAK 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-4-Female-4_42, best cost 59.191 + 1942.99 = 2002.18 over 401 frames.
-Female-4-Female-4_42 NANTI KALAU SUDAH LIBURAN JANGAN LUPA JALAN JALAN 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-4-Female-4_43, best cost 60.03 + 1759 = 1819.03 over 367 frames.
-Female-4-Female-4_43 BISA KE PANTAI YANG ATAU KE PEGUNUNGAN 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-4-Female-4_6, best cost 44.5469 + 1666.4 = 1710.95 over 358 frames.
-Female-4-Female-4_6 LIBURAN KE PALEMBANG WAJIB MAKAN PEMPEK 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-4-Female-4_8, best cost 62.965 + 2778.82 = 2841.78 over 572 frames.
-Female-4-Female-4_8 LIBUR TELAH TIBA LIBUR TELAH TIBA HORE HORE 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-5-Female-5_11, best cost 64.0289 + 3009.11 = 3073.13 over 618 frames.
-Female-5-Female-5_11 BERLIBUR KE PANTAI SELALU MENJADI PILIHAN FAVORIT SAYA 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-5-Female-5_12, best cost 89.9924 + 4392.59 = 4482.58 over 905 frames.
-Female-5-Female-5_12 LITERALLY TRACKING KE PEGUNUNGAN MEMBERIKAN KESEMPATAN UNTUK MERASAKAN KESEGARAN UDARA ALAMI 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-5-Female-5_17, best cost 66.7174 + 2730.94 = 2797.65 over 565 frames.
-Female-5-Female-5_17 JUJURLY SAYA TIDAK SABAR UNTUK PERGI LIBURAN LAGI 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-5-Female-5_21, best cost 67.0685 + 2718.15 = 2785.22 over 550 frames.
-Female-5-Female-5_21 KALAU CAPE KERJA ENAKNYA LIBURAN SIH INI MAH 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-5-Female-5_33, best cost 67.7949 + 2131.74 = 2199.53 over 433 frames.
-Female-5-Female-5_33 BISA KAPAN TAHUN ATAU KE PEGUNUNGAN 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-5-Female-5_35, best cost 81.2254 + 3320.55 = 3401.78 over 670 frames.
-Female-5-Female-5_35 DENGAN BEGITU LIBURAN JADI LEBIH BERMAKNA DAN LEBIH MENYENANGKAN 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-5-Female-5_43, best cost 72.6377 + 3108.91 = 3181.54 over 618 frames.
-Female-5-Female-5_43 SEMOGA SUATU HARI KAMI BISA STAYCATION DI VILLA PEGUNUNGAN 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-5-Female-5_44, best cost 64.947 + 3023.93 = 3088.87 over 608 frames.
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-3-Female-3_42, best cost 51.91 + 2506.53 = 2558.44 over 510 frames.
+Female-3-Female-3_42 SAMBIL KULINERAN TERUS ENJOY BARENG KELUARGA 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-3-Female-3_48, best cost 84.3994 + 3453.63 = 3538.02 over 705 frames.
+Female-3-Female-3_48 PAS SAMPE TEMPAT TUJUAN COBA HIRUP UDARANYA YANG SEGER DIJAMIN BETAH 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-3-Female-3_9, best cost 90.7859 + 3092.81 = 3183.6 over 605 frames.
+Female-3-Female-3_9 BUAT KALIAN YANG LAGI MERENCANAKAN LIBURAN PASTIKAN SUDAH PUNYA PLAN YANG BAGUS 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-4-Female-4_11, best cost 112.469 + 3934.37 = 4046.84 over 812 frames.
+Female-4-Female-4_11 SOMETIMES KITA TUH INGIN LIBURAN KE TEMPAT YANG SEPI GITU NGGA SIH SEJENAK MENJAUH DARI KERAMAIAN KOTA 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-4-Female-4_14, best cost 111.344 + 3989.87 = 4101.21 over 804 frames.
+Female-4-Female-4_14 KALAU LIBURAN NAIK KERETA DARI BANDUNG KE JOGJA JANGAN LUPA REGISTRASI UNTUK FACE RECOGNITION DULU BEBERAPA JAM SEBELUMNYA 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-4-Female-4_2, best cost 45.7696 + 1657.06 = 1702.83 over 324 frames.
+Female-4-Female-4_2 DESTINATION STREET FOOD GITU ENAK KALI YA 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-4-Female-4_22, best cost 84.9736 + 3658.1 = 3743.07 over 744 frames.
+Female-4-Female-4_22 LITERALLY TRACKING KE PEGUNUNGAN MEMBERIKAN KESEMPATAN UNTUK MERASAKAN KESEGARAN UDARA ALAMI 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-4-Female-4_25, best cost 84.9394 + 3499.53 = 3584.47 over 718 frames.
+Female-4-Female-4_25 LIBURAN DENGAN MEREKA SELALU SANGAT MENYENANGKAN MEREKA SEPERTI SECOND FAMILY BAGI SAYA 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-4-Female-4_28, best cost 60.3746 + 2177.15 = 2237.52 over 435 frames.
+Female-4-Female-4_28 SEMAKIN BANYAK TURIS ASING YANG BERKUNJUNG KE LOMBOK 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-4-Female-4_30, best cost 54.023 + 2459.9 = 2513.92 over 504 frames.
+Female-4-Female-4_30 SEBAGIAN BESAR MAHASISWA SUDAH MENGUNJUNGI AIR TERJUN CILEMBER 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-4-Female-4_40, best cost 65.3879 + 2595.18 = 2660.57 over 521 frames.
+Female-4-Female-4_40 ABIS LIBURAN TIBALAH KERJAAN DAN TUGAS SUDAH MENANTI 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-4-Female-4_44, best cost 66.1865 + 2393.35 = 2459.54 over 487 frames.
+Female-4-Female-4_44 KALAU SEMPAT BAWAKAN OLEH OLEH UNTUK ORANG KESAYANGAN 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-4-Female-4_8, best cost 69.0392 + 2791.18 = 2860.22 over 572 frames.
+Female-4-Female-4_8 LIBUR TELAH TIBA LIBUR TELAH TIBA HORE HORE DI 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-5-Female-5_14, best cost 62.8614 + 2820.59 = 2883.45 over 580 frames.
+Female-5-Female-5_14 ACTUALLY LIBURAN SAYA TAHUN INI SANGAT MENGESANKAN 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-5-Female-5_15, best cost 93.1087 + 4168.76 = 4261.87 over 855 frames.
+Female-5-Female-5_15 LIBURAN DENGAN MEREKA SELALU SANGAT MENYENANGKAN MEREKA SEPERTI SECOND FAMILY BAGI SAYA 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-5-Female-5_2, best cost 105.168 + 4002.66 = 4107.83 over 803 frames.
+Female-5-Female-5_2 LIBURAN BULAN DEPAN JANGAN LUPA BAWA OBAT YA JUST IN CASE SAKIT DI LOKASI E 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-5-Female-5_20, best cost 60.3614 + 3317.09 = 3377.45 over 660 frames.
+Female-5-Female-5_20 SEBAGIAN BESAR MAHASISWA SUDAH MENGUNJUNGI AIR TERJUN CILEMBER 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-5-Female-5_24, best cost 101 + 4223.18 = 4324.18 over 830 frames.
+Female-5-Female-5_24 TEMPAT PALING ENAK BUAT LIBURAN TUH YANG UDARANYA SEJUK ADEM AYEM BIAR NGGA KERINGETAN 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-5-Female-5_30, best cost 64.7196 + 2692.2 = 2756.92 over 538 frames.
+Female-5-Female-5_30 ABIS LIBURAN TIBALAH KERJAAN DAN TUGAS SUDAH MENANTI 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-5-Female-5_36, best cost 62.6534 + 2846.68 = 2909.34 over 580 frames.
+Female-5-Female-5_36 APPARENTLY AKU SUDAH LAMA TIDAK LIBURAN BARENG KELUARGA 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-5-Female-5_44, best cost 62.2244 + 3024.07 = 3086.29 over 608 frames.
 Female-5-Female-5_44 SEKARANG TRAVELING JADI MAKIN MUDAH DENGAN RESERVASI ONLINE 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-5-Female-5_5, best cost 119.001 + 4614.38 = 4733.38 over 915 frames.
-Female-5-Female-5_5 JANGAN LUPA NANTI JAM AMPAT SORE KUMPUL DEPAN VILLA YA JANGAN SAMPAI TERLEWAT GOLDEN HOUR SORE INI 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-5-Female-5_50, best cost 51.3245 + 2559.7 = 2611.02 over 543 frames.
-Female-5-Female-5_50 KOTA MEDAN ADALAH SURGANYA PENYUKA DURIAN 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-6-Female-6_1, best cost 86.1588 + 2999.79 = 3085.95 over 608 frames.
-Female-6-Female-6_1 BERLIBUR KAPAN KAYA SELALU MENJADI PILIHAN FAVORIT SAYA 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-6-Female-6_19, best cost 96.4772 + 3715.19 = 3811.67 over 753 frames.
-Female-6-Female-6_19 JANGAN LUPA MAMPIR KE RUMAH MAKAN SUNDA YANG RASA MAKANANNYA DIJAMIN ENAK PISAN 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-6-Female-6_27, best cost 99.9203 + 3996.82 = 4096.74 over 815 frames.
-Female-6-Female-6_27 JADI HARUS DIAGENDAKAN JALAN JALAN ATAU SEKEDAR KUMPUL KELUARGA UNTUK GILI 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-6-Female-6_28, best cost 84.8496 + 3678.63 = 3763.48 over 763 frames.
-Female-6-Female-6_28 REFRESHING SANGAT PENTING UNTUK MENJAGA KESEHATAN DAN KEWARASAN JIWA KITA 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-6-Female-6_34, best cost 67.0423 + 3125.17 = 3192.21 over 630 frames.
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-5-Female-5_6, best cost 90.8157 + 4450.43 = 4541.25 over 918 frames.
+Female-5-Female-5_6 KALAU KE PUNCAK JANGAN BUANG SAMPAH SEMBARANGAN SAMPAHNYA DIBAWA LAGI TURUN KE BAWAH 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-5-Female-5_9, best cost 87.9942 + 3311.2 = 3399.2 over 700 frames.
+Female-5-Female-5_9 KALAU TIDAK BISA LIBURAN KE LEMBANG AKU LEBIH PILIH DI RUMAH AJA 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-6-Female-6_10, best cost 63.9668 + 3396.73 = 3460.7 over 683 frames.
+Female-6-Female-6_10 SEBAGIAN BESAR MAHASISWA SUDAH MENGUNJUNGI AIR TERJUN CILEMBER 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-6-Female-6_11, best cost 61.7451 + 2452.76 = 2514.51 over 510 frames.
+Female-6-Female-6_11 KALO CAPE KERJA ENAKNYA LIBURAN SIH INI MAH 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-6-Female-6_33, best cost 75.6918 + 3216.5 = 3292.19 over 680 frames.
+Female-6-Female-6_33 SEMOGA SUATU HARI KAMI BISA STAYCATION DI VILLA PEGUNUNGAN 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-6-Female-6_34, best cost 65.0672 + 3115.24 = 3180.31 over 630 frames.
 Female-6-Female-6_34 SEKARANG TRAVELING JADI MAKIN MUDAH DENGAN RESERVASI ONLINE 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-6-Female-6_37, best cost 76.4981 + 3230.05 = 3306.54 over 680 frames.
-Female-6-Female-6_37 PANTAI SELALU MENJADI TUJUAN FAVORIT SAYA UNTUK LIBURAN 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-6-Female-6_40, best cost 54.2646 + 2759.95 = 2814.21 over 560 frames.
-Female-6-Female-6_40 KOTA MEDAN ADALAH SURGANYA PENYUKA DURIAN 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-6-Female-6_47, best cost 79.6501 + 3154.69 = 3234.34 over 640 frames.
-Female-6-Female-6_47 BANYAK SEKALI YANG HARUS DIPERSIAPKAN UNTUK HOLIDAY KE JEPANG 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-6-Female-6_7, best cost 68.697 + 2686.78 = 2755.48 over 565 frames.
-Female-6-Female-6_7 JUJURLY SAYA TIDAK SABAR UNTUK PERGI LIBURAN LAGI 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-6-Female-6_9, best cost 62.6823 + 2689.92 = 2752.6 over 565 frames.
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-6-Female-6_38, best cost 52.1066 + 2783.44 = 2835.55 over 580 frames.
+Female-6-Female-6_38 PULAU BINTAN COCOK DIKUNJUNGI BERSAMA KELUARGA 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-6-Female-6_41, best cost 91.3584 + 3050.95 = 3142.31 over 640 frames.
+Female-6-Female-6_41 TEMPAT LIBURAN YANG PALING TERKENAL DI BANDUNG KE ADA DI MANA YA 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-6-Female-6_42, best cost 123.596 + 4345.5 = 4469.1 over 890 frames.
+Female-6-Female-6_42 DI LEMBANG BANYAK TEMPAT WISATA YANG BISA DI KUNJUNGI UNTUK LIBURAN BERSAMA TEMAN DAN KELUARGA 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-6-Female-6_43, best cost 94.0866 + 3280.28 = 3374.36 over 660 frames.
+Female-6-Female-6_43 WEEKEND INI AKU DAN TEMANKU AKAN PERGI GLAMPING KE RANCA UPAS E 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-6-Female-6_49, best cost 105.19 + 4292.19 = 4397.38 over 865 frames.
+Female-6-Female-6_49 KITA PERLU PREPARE DENGAN MATANG UNTUK LIBURAN AKHIR TAHUN INI WHICH IS PASTI SANGAT SERU 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-6-Female-6_9, best cost 61.4578 + 2683.41 = 2744.86 over 565 frames.
 Female-6-Female-6_9 INDONESIA TERKENAL AKAN PESONA LAUT DAN PANTAINYA 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-7-human_rights_un_ind_rd_0000, best cost 204.884 + 6279.05 = 6483.94 over 1314 frames.
-Female-7-human_rights_un_ind_rd_0000 NYA DAN UMUM TENTANG HAK HAK ASASI MANUSIA MUKADIMAH MENIMBANG BAHWA PENGAKUAN ATAS MARTABAT ALAMIAH DAN HAK HAK YANG SAMA DAN MUTLAK DARI SEMUA ANGGOTA KELUARGA MANUSIA ADALAH DASAR KEMERDEKAAN 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-7-human_rights_un_ind_rd_0008, best cost 118.461 + 2951.37 = 3069.83 over 608 frames.
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-7-human_rights_un_ind_rd_0004, best cost 158.417 + 5777.93 = 5936.35 over 1192 frames.
+Female-7-human_rights_un_ind_rd_0004 MENIMBANG BAHWA HAK HAK ASASI MANUSIA PERLU DILINDUNGI OLEH PERATURAN HUKUM SUPAYA ORANG TIDAK AKAN TERPAKSA MEMILIH PEMBERONTAKAN SEBAGAI USAHA TERAKHIR GUNA MENENTANG KELALIMAN DAN PENINDASAN 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-7-human_rights_un_ind_rd_0005, best cost 61.6759 + 2152.63 = 2214.31 over 448 frames.
+Female-7-human_rights_un_ind_rd_0005 MENIMBANG BAHWA PEMBANGUNAN HUBUNGAN PERSAHABATAN ANTARA NEGARA NEGARA PERLU DIGALAKKAN 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-7-human_rights_un_ind_rd_0008, best cost 118.568 + 2952.26 = 3070.83 over 608 frames.
 Female-7-human_rights_un_ind_rd_0008 DAN TELAH BERTEKAD UNTUK MENGGALAKKAN KEMAJUAN SOSIAL DAN TARAF HIDUP YANG LEBIH BAIK DI DALAM KEMERDEKAAN YANG LEBIH LUAS 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-7-human_rights_un_ind_rd_0017, best cost 137.078 + 3600.09 = 3737.17 over 738 frames.
-Female-7-human_rights_un_ind_rd_0017 DAN OLEH BANGSA BANGSA DARI NEGARA NEGARA ANGGOTA SENDIRI MAUPUN OLEH BANGSA BANGSA DARI DAERAH DAERAH YANG BERADA DI BAWAH KEKUASAAN HUKUM MEREKA 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-7-human_rights_un_ind_rd_0018, best cost 95.1828 + 2691.94 = 2787.12 over 584 frames.
-Female-7-human_rights_un_ind_rd_0018 PASAL SATU SEMUA ORANG DILAHIRKAN MERDEKA DAN MEMPUNYAI MARTABAT DAN HAK HAK YANG SAMA 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-7-human_rights_un_ind_rd_0021, best cost 85.8882 + 3207.61 = 3293.5 over 680 frames.
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-7-human_rights_un_ind_rd_0010, best cost 40.8564 + 1273.09 = 1313.95 over 266 frames.
+Female-7-human_rights_un_ind_rd_0010 DENGAN BEKERJASAMA DENGAN PERSERIKATAN BANGSA BANGSA 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-7-human_rights_un_ind_rd_0019, best cost 95.0636 + 2729.21 = 2824.27 over 568 frames.
+Female-7-human_rights_un_ind_rd_0019 MEREKA DIKARUNIAI AKAL DAN HATI NURANI DAN HENDAKNYA BERGAUL SATU SAMA LAIN DALAM SEMANGAT PERSAUDARAAN 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-7-human_rights_un_ind_rd_0021, best cost 86.5321 + 3212.03 = 3298.56 over 680 frames.
 Female-7-human_rights_un_ind_rd_0021 SEPERTI RAS WARNA KULIT JENIS KELAMIN BAHASA AGAMA POLITIK ATAU PENDAPAT YANG BERLAINAN 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-7-human_rights_un_ind_rd_0026, best cost 34.1042 + 942.861 = 976.965 over 196 frames.
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-7-human_rights_un_ind_rd_0026, best cost 33.5426 + 953.018 = 986.561 over 196 frames.
 Female-7-human_rights_un_ind_rd_0026 YANG BERBENTUK WILAYAH WILAYAH PERWALIAN 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-7-human_rights_un_ind_rd_0027, best cost 67.5011 + 1630.81 = 1698.31 over 342 frames.
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-7-human_rights_un_ind_rd_0027, best cost 62.9893 + 1635.75 = 1698.74 over 342 frames.
 Female-7-human_rights_un_ind_rd_0027 JAJAHAN ATAU YANG BERADA DI BAWAH BATASAN KEDAULATAN YANG LAIN 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-7-human_rights_un_ind_rd_0033, best cost 99.7736 + 2921.08 = 3020.85 over 628 frames.
-Female-7-human_rights_un_ind_rd_0033 PASAL ENAM SETIAP ORANG BERHAK ATAS PENGAKUAN DI DEPAN HUKUM SEBAGAI PRIBADI DI MANA SAJA IA BERADA 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-7-human_rights_un_ind_rd_0047, best cost 112.868 + 3553.43 = 3666.3 over 760 frames.
-Female-7-human_rights_un_ind_rd_0047 JUGA TIDAK DIPERKENANKAN MENJATUHKAN HUKUMAN LEBIH BERAT DARIPADA HUKUMAN YANG SEHARUSNYA DIKENAKAN KETIKA PELANGGARAN HUKUM ITU DILAKUKAN 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-7-human_rights_un_ind_rd_0053, best cost 38.9036 + 1152.77 = 1191.67 over 250 frames.
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-7-human_rights_un_ind_rd_0042, best cost 101.819 + 3599.76 = 3701.58 over 776 frames.
+Female-7-human_rights_un_ind_rd_0042 PASAL SEBELAS SATU SETIAP ORANG YANG DITUNTUT KARENA DISANGKA MELAKUKAN SUATU PELANGGARAN HUKUM DIANGGAP TIDAK BERSALAH 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-7-human_rights_un_ind_rd_0053, best cost 37.3751 + 1157.53 = 1194.91 over 250 frames.
 Female-7-human_rights_un_ind_rd_0053 SETIAP ORANG BERHAK MENINGGALKAN SUATU NEGERI 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-7-human_rights_un_ind_rd_0063, best cost 52.5313 + 1337.13 = 1389.66 over 274 frames.
-Female-7-human_rights_un_ind_rd_0063 MEREKA MEMPUNYAI HAK YANG SAMA DALAM SOAL PERKAWINAN 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-7-human_rights_un_ind_rd_0065, best cost 98.7174 + 3773.69 = 3872.41 over 830 frames.
-Female-7-human_rights_un_ind_rd_0065 PERKAWINAN HANYA DAPAT DILAKSANAKAN BERDASARKAN PILIHAN BEBAS DAN PERSETUJUAN PENUH OLEH KEDUA MEMPELAI TIGA 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-7-human_rights_un_ind_rd_0068, best cost 54.2582 + 1223.04 = 1277.3 over 250 frames.
-Female-7-human_rights_un_ind_rd_0068 DI SENDIRI MAUPUN BERSAMA SAMA DENGAN ORANG LAIN 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-7-human_rights_un_ind_rd_0074, best cost 97.4251 + 2639.51 = 2736.94 over 590 frames.
-Female-7-human_rights_un_ind_rd_0074 EH SENDIRI MAUPUN BERSAMA SAMA DENGAN ORANG LAIN DI MUKA UMUM MAUPUN SENDIRI 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-7-human_rights_un_ind_rd_0077, best cost 25.0941 + 484.203 = 509.297 over 102 frames.
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-7-human_rights_un_ind_rd_0055, best cost 125.391 + 4158.12 = 4283.51 over 940 frames.
+Female-7-human_rights_un_ind_rd_0055 PASAL EMPAT BELAS SATU SETIAP ORANG BERHAK MENCARI DAN MENIKMATI SUAKA DI NEGARA LAIN UNTUK MELINDUNGI DIRI DARI PENGEJARAN 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-7-human_rights_un_ind_rd_0064, best cost 69.6074 + 1871.26 = 1940.87 over 418 frames.
+Female-7-human_rights_un_ind_rd_0064 DI DALAM MASA PERKAWINAN DAN PADA SAAT PERCERAIAN DUA 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-7-human_rights_un_ind_rd_0067, best cost 67.443 + 2149.07 = 2216.52 over 460 frames.
+Female-7-human_rights_un_ind_rd_0067 PASAL TUJUH BELAS DI SATU SETIAP ORANG BERHAK MEMILIKI HARTA 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-7-human_rights_un_ind_rd_0069, best cost 53.4584 + 1873.66 = 1927.12 over 408 frames.
+Female-7-human_rights_un_ind_rd_0069 TAK SEORANG PUN BOLEH DIRAMPAS HARTANYA DENGAN SEMENA MENA 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-7-human_rights_un_ind_rd_0072, best cost 73.9058 + 2254.71 = 2328.61 over 488 frames.
+Female-7-human_rights_un_ind_rd_0072 DAN KEBEBASAN UNTUK MENYATAKAN AGAMA ATAU KEPERCAYAAN DENGAN CARA MENGAJARKANNYA 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-7-human_rights_un_ind_rd_0076, best cost 62.2753 + 1689.39 = 1751.66 over 366 frames.
+Female-7-human_rights_un_ind_rd_0076 DALAM HAK INI TERMASUK KEBEBASAN MEMILIKI PENDAPAT TANPA GANGGUAN 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-7-human_rights_un_ind_rd_0077, best cost 24.3295 + 488.558 = 512.888 over 102 frames.
 Female-7-human_rights_un_ind_rd_0077 DAN UNTUK MENCARI 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-7-human_rights_un_ind_rd_0080, best cost 54.9961 + 1741.94 = 1796.94 over 368 frames.
-Female-7-human_rights_un_ind_rd_0080 TIDAK SEORANG PUN BOLEH DIPAKSA UNTUK MEMASUKI SUATU PERKUMPULAN 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-7-human_rights_un_ind_rd_0083, best cost 91.2588 + 3202.36 = 3293.62 over 702 frames.
-Female-7-human_rights_un_ind_rd_0083 SETIAP ORANG BERHAK ATAS KESEMPATAN YANG SAMA UNTUK DIANGKAT DALAM JABATAN PEMERINTAHAN NEGERINYA TIGA 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-7-human_rights_un_ind_rd_0091, best cost 21.6144 + 503.039 = 524.653 over 100 frames.
-Female-7-human_rights_un_ind_rd_0091 HAK HAK EKONOMI 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-7-human_rights_un_ind_rd_0092, best cost 93.8611 + 3045.98 = 3139.84 over 676 frames.
-Female-7-human_rights_un_ind_rd_0092 SOSIAL DAN KEBUDAYAAN YANG SANGAT DIPERLUKAN UNTUK MARTABAT DAN PERTUMBUHAN BEBAS PRIBADINYA 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-7-human_rights_un_ind_rd_0100, best cost 59.0481 + 1864 = 1923.05 over 404 frames.
-Female-7-human_rights_un_ind_rd_0100 DAN JIKA PERLU DITAMBAH DENGAN PERLINDUNGAN SOSIAL LAINNYA EMPAT 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-7-human_rights_un_ind_rd_0106, best cost 42.3537 + 1084.68 = 1127.03 over 236 frames.
-Female-7-human_rights_un_ind_rd_0106 DAN BERHAK ATAS JAMINAN PADA SAAT MENGANGGUR 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-7-human_rights_un_ind_rd_0109, best cost 75.4894 + 1779.49 = 1854.98 over 378 frames.
-Female-7-human_rights_un_ind_rd_0109 SEMUA ANAK BAIK YANG DILAHIRKAN DI DALAM MAUPUN DI LUAR PERKAWINAN 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-7-human_rights_un_ind_rd_0111, best cost 63.6397 + 2381.69 = 2445.33 over 532 frames.
-Female-7-human_rights_un_ind_rd_0111 PASAL DUA PULUH ENAM SATU SETIAP ORANG BERHAK MENDAPAT PENDIDIKAN 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-7-human_rights_un_ind_rd_0118, best cost 52.3627 + 1291.39 = 1343.75 over 266 frames.
-Female-7-human_rights_un_ind_rd_0118 TOLERANSI DAN PERSAHABATAN DI ANTARA SEMUA BANGSA 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-7-human_rights_un_ind_rd_0124, best cost 135.971 + 4364.3 = 4500.27 over 930 frames.
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-7-human_rights_un_ind_rd_0087, best cost 35.249 + 1157.13 = 1192.37 over 252 frames.
+Female-7-human_rights_un_ind_rd_0087 PASAL DUA PULUH DUA SETIAP ORANG 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-7-human_rights_un_ind_rd_0096, best cost 39.5807 + 1048.13 = 1087.71 over 234 frames.
+Female-7-human_rights_un_ind_rd_0096 DAN BERHAK ATAS PERLINDUNGAN DARI PENGANGGURAN 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-7-human_rights_un_ind_rd_0098, best cost 110.378 + 3305.71 = 3416.09 over 718 frames.
+Female-7-human_rights_un_ind_rd_0098 SETIAP ORANG YANG MELAKUKAN PEKERJAAN BERHAK ATAS PENGUPAHAN YANG ADIL DAN BAIK YANG MENJAMIN KEHIDUPANNYA DAN KELUARGANYA 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-7-human_rights_un_ind_rd_0099, best cost 53.1057 + 1369.83 = 1422.93 over 288 frames.
+Female-7-human_rights_un_ind_rd_0099 SUATU KEHIDUPAN YANG PANTAS UNTUK MANUSIA BERMARTABAT 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-7-human_rights_un_ind_rd_0101, best cost 81.2442 + 2957.4 = 3038.64 over 650 frames.
+Female-7-human_rights_un_ind_rd_0101 SETIAP ORANG BERHAK MENDIRIKAN DAN MEMASUKI SERIKAT SERIKAT PEKERJA UNTUK MELINDUNGI KEPENTINGANNYA 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-7-human_rights_un_ind_rd_0117, best cost 34.1119 + 1099.88 = 1133.99 over 222 frames.
+Female-7-human_rights_un_ind_rd_0117 PENDIDIKAN HARUS MENGGALAKKAN SALING PENGERTIAN 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-7-human_rights_un_ind_rd_0121, best cost 101.944 + 2791.73 = 2893.67 over 580 frames.
+Female-7-human_rights_un_ind_rd_0121 ORANG TUA MEMPUNYAI HAK UTAMA UNTUK MEMILIH JENIS PENDIDIKAN YANG AKAN DIBERIKAN KEPADA ANAK ANAK MEREKA 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-7-human_rights_un_ind_rd_0124, best cost 132.555 + 4381.09 = 4513.65 over 930 frames.
 Female-7-human_rights_un_ind_rd_0124 SETIAP ORANG BERHAK UNTUK MEMPEROLEH PERLINDUNGAN ATAS KEPENTINGAN KEPENTINGAN MORIL DAN MATERIAL YANG DIPEROLEH SEBAGAI HASIL DARI SESUATU PRODUKSI ILMIAH 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-7-human_rights_un_ind_rd_0130, best cost 62.8709 + 1718.16 = 1781.03 over 360 frames.
-Female-7-human_rights_un_ind_rd_0130 DAN UNTUK MEMENUHI SYARAT SYARAT YANG ADIL DALAM HAL KESUSILAAN 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-7-human_rights_un_ind_rd_0135, best cost 179.317 + 5544.25 = 5723.57 over 1137 frames.
-Female-7-human_rights_un_ind_rd_0135 UNTUK TERLIBAT DI DALAM KEGIATAN APAPUN ATAU MELAKUKAN PERBUATAN YANG BERTUJUAN UNTUK MERUSAK HAK HAK DAN KEBEBASAN KEBEBASAN YANG MANA PUN YANG TERMAKTUB DI DALAM PERNYATAAN INI 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-1-Male-1_1, best cost 60.6266 + 2740.69 = 2801.31 over 564 frames.
-Male-1-Male-1_1 LIBURAN NGILANGIN PENAT PALING ENAK LIBURAN KE PANTAI 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-1-Male-1_11, best cost 134.544 + 6140.48 = 6275.03 over 1275 frames.
-Male-1-Male-1_11 DAN BANDUNG LAGI GUNUNG BUKAN CUMA MASALAH GEOGRAFIS LEBIH JAUH DARI ITU MELIBATKAN PERASAAN YANG BERSAMAKU KETIKA SUNYI 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-1-Male-1_15, best cost 79.1169 + 3712.01 = 3791.12 over 838 frames.
-Male-1-Male-1_15 BUTUH UANG BERAPA YA KALAU MAU YANG JALAN JALAN KE MACAU 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-1-Male-1_19, best cost 64.4981 + 3327.01 = 3391.51 over 718 frames.
-Male-1-Male-1_19 COBAIN DEH PAKE AIR BNB KADANG SUKA ADA DISCOUNT NYA 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-1-Male-1_22, best cost 83.481 + 2937.47 = 3020.95 over 615 frames.
-Male-1-Male-1_22 KAK DI PUNYA RENCANA UNTUK BERLIBUR KE LUAR NEGERI TAHUN DEPAN 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-1-Male-1_28, best cost 76.9732 + 3615.63 = 3692.6 over 752 frames.
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-7-human_rights_un_ind_rd_0129, best cost 202.488 + 6398.14 = 6600.63 over 1344 frames.
+Female-7-human_rights_un_ind_rd_0129 SETIAP ORANG HARUS TUNDUK HANYA PADA PEMBATASAN PEMBATASAN YANG DITETAPKAN OLEH UNDANG UNDANG DENGAN MAKSUD SEMATA MATA UNTUK MENJAMIN PENGAKUAN SERTA PENGHORMATAN YANG LAYAK TERHADAP HAK HAK DAN KEBEBASAN KEBEBASAN ORANG LAIN 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Female-7-human_rights_un_ind_rd_0132, best cost 148.463 + 4788.65 = 4937.12 over 980 frames.
+Female-7-human_rights_un_ind_rd_0132 HAK HAK DAN KEBEBASAN KEBEBASAN INI DENGAN JALAN BAGAIMANA PUN SEKALI SEKALI TIDAK BOLEH DILAKSANAKAN BERTENTANGAN DENGAN TUJUAN DAN DASAR PERSERIKATAN BANGSA BANGSA 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-1-Male-1_17, best cost 189.55 + 8100.06 = 8289.61 over 1652 frames.
+Male-1-Male-1_17 JADI KATANYA SEKARANG TUH LONGEST TRAIN TRACK IN THE WORLD ADALAH TRANS SIBERIAN RAILWAY DENGAN PANJANG STREET HUBUNGAN RATUS LIMA PULUH SEMBILAN KM 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-1-Male-1_18, best cost 86.3585 + 3235.61 = 3321.97 over 701 frames.
+Male-1-Male-1_18 PENGEN DEH RASANYA COBAIN KE SOAL ASLI DARI PERANCIS 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-1-Male-1_28, best cost 85.3044 + 3569.1 = 3654.4 over 752 frames.
 Male-1-Male-1_28 SAYA LEBIH SUKA BAWA KOPER SIH DARIPADA BACKPACK SOALNYA LEBIH RAPI 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-1-Male-1_30, best cost 105.662 + 4682.43 = 4788.1 over 992 frames.
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-1-Male-1_30, best cost 115.069 + 4614 = 4729.07 over 992 frames.
 Male-1-Male-1_30 ASIK BANGET NAIK GUNUNG BROMO KARENA UDARA SEGAR DAN BISA LIAT PEMANDANGAN YANG REFRESHING 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-1-Male-1_43, best cost 102.453 + 3607.73 = 3710.19 over 701 frames.
-Male-1-Male-1_43 SELAMA MASIH WAKTU LIBURAN NAIK KITA EXPLORE PANTAI PANTAI INDAH DI BALI 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-1-Male-1_44, best cost 132.514 + 4540.17 = 4672.68 over 872 frames.
-Male-1-Male-1_44 DAN KITA RELAX SEJENAK YUK DI VILLA YANG ADA DI PEGUNUNGAN SAMBIL MENIKMATI KEINDAHAN ALAM DAN UDARA YANG SEGAR 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-1-Male-1_45, best cost 105.457 + 6517.67 = 6623.13 over 1238 frames.
-Male-1-Male-1_45 KU E KU PULAU 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-10-Male-10_2, best cost 115.336 + 3470.96 = 3586.29 over 766 frames.
-Male-10-Male-10_2 GIMANA KALO KITA CAMPING KE GUNUNG MENIKMATI MALAM YANG BERBINTANG BAWA GITAR NYANYI NYANYI DI TENGAH API UNGGUN 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-10-Male-10_24, best cost 73.1536 + 2371.41 = 2444.57 over 558 frames.
-Male-10-Male-10_24 LIBURAN HARI INI SUDAH SELESAI BESOK LIBURAN DENGAN UJIAN LAGI 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-10-Male-10_25, best cost 81.3834 + 2377.69 = 2459.07 over 526 frames.
-Male-10-Male-10_25 SETELAH SEMESTER INI SELESAI AKU MAU BERLIBUR DI PANTAI SELAMA SEBULAN 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-10-Male-10_28, best cost 41.9669 + 1739.5 = 1781.46 over 398 frames.
-Male-10-Male-10_28 BERLIBUR KE GUNUNG MEMBUTUHKAN TOURGUIDE 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-10-Male-10_29, best cost 38.9936 + 1810.82 = 1849.82 over 414 frames.
-Male-10-Male-10_29 CAMPING SEBELUM SIDANG SEPERTINYA MENYENANGKAN 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-10-Male-10_3, best cost 131.568 + 3733.09 = 3864.66 over 798 frames.
-Male-10-Male-10_3 GA CUMA ITU KALO PAGI PAGI KITA BISA LIAT PEMANDANGAN YANG INDAH KAYA POHON POHON YANG HIJAU ATAU HAMPARAN PADANG RUMPUT YANG LUAS 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-10-Male-10_34, best cost 86.4592 + 2840.26 = 2926.72 over 638 frames.
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-1-Male-1_32, best cost 77.7545 + 3365.25 = 3443 over 727 frames.
+Male-1-Male-1_32 SAYA SUKA MINUM KOPI SAMBIL BERSANTAI DENGAN TEMAN DI GUNUNG 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-1-Male-1_35, best cost 120.126 + 4062.7 = 4182.82 over 855 frames.
+Male-1-Male-1_35 INI LIBURAN KE NIH SIBUK MENJADI OPSI YANG MENARIK KARENA BISA BERMAIN SAMBIL BELAJAR 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-1-Male-1_36, best cost 73.0273 + 3160.03 = 3233.06 over 658 frames.
+Male-1-Male-1_36 SALAH SATU TUJUAN HIKING SAYA ADALAH GUNUNG RINJANI 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-1-Male-1_48, best cost 91.7515 + 3943.09 = 4034.84 over 795 frames.
+Male-1-Male-1_48 RENCANANYA KITA MAU JOIN COOKING CLASS DI UNTUK BELAJAR MEMASAK MASAKAN INDONESIA 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-1-Male-1_49, best cost 105.292 + 4991.2 = 5096.49 over 992 frames.
+Male-1-Male-1_49 LETS EXPLORE CULTURAL LANDMARKS DI YOGYAKARTA DI SANA BANYAK BELAJAR SEJARAH POOL 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-1-Male-1_6, best cost 71.9554 + 2778.52 = 2850.48 over 607 frames.
+Male-1-Male-1_6 HOLIDAY PALING ENAK KALAU BISA JALAN JALAN BARENG KELUARGA 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-10-Male-10_11, best cost 80.119 + 2203.65 = 2283.77 over 494 frames.
+Male-10-Male-10_11 AKHIR SEMESTER NANTI AKU MAU LIBURAN KE BALI WHICH GW 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-10-Male-10_12, best cost 62.7984 + 1984.26 = 2047.05 over 430 frames.
+Male-10-Male-10_12 VILLA DI UBUD ITU SUPER COZY COCOK BUAT LIBURAN 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-10-Male-10_13, best cost 75.8686 + 2510.79 = 2586.66 over 558 frames.
+Male-10-Male-10_13 AKU PERNAH NYELAM DI GILI TRAWANGAN TERUMBU KARANGNYA ITU BAGUS BANGET SIH 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-10-Male-10_18, best cost 62.762 + 2095.7 = 2158.46 over 462 frames.
+Male-10-Male-10_18 KALAU KE MEDAN JANGAN LUPA COBAIN DURIAN ENAK BANGET 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-10-Male-10_21, best cost 56.9003 + 1802.17 = 1859.07 over 398 frames.
+Male-10-Male-10_21 UDARA PALING SEGAR ADALAH UDARA DI GUNUNG 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-10-Male-10_33, best cost 90.154 + 2908.81 = 2998.97 over 622 frames.
+Male-10-Male-10_33 NGOMONG NGOMONG WAKTU LIBUR HAMPIR TIBA KITA HARUS MERENCANAKAN KEMANA KITA PERGI NANTI 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-10-Male-10_34, best cost 91.2967 + 2842.79 = 2934.09 over 638 frames.
 Male-10-Male-10_34 KATANYA TRANS STUDIO BANDUNG LAGI NGADAIN DISKON NIH AYO KE SANA MUMPUNG LAGI LIBUR 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-10-Male-10_40, best cost 66.0678 + 2352.19 = 2418.25 over 510 frames.
-Male-10-Male-10_40 SETELAH SELESAI TESIS NANTI SAYA AKAN BERKEMAH DI UJUNG GENTENG 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-10-Male-10_43, best cost 69.2291 + 2497.16 = 2566.39 over 574 frames.
-Male-10-Male-10_43 KEMARIN AKU NAIK PESAWAT DARI JAKARTA POLUSI UDARANYA KELIHATAN BANGET 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-10-Male-10_44, best cost 61.0139 + 2169.16 = 2230.17 over 494 frames.
-Male-10-Male-10_44 KERETA CEPAT JAKARTA BANDUNG KENAPA DINAMAI BAGUS YA 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-11-Male-11_10, best cost 89.2468 + 3646.57 = 3735.81 over 798 frames.
-Male-11-Male-11_10 TRACKING DI BROMO TUH CAPEK BANGET TAPI SUNRISE VIEW NYA BEH SO BEAUTIFUL 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-11-Male-11_17, best cost 57.9111 + 2322.33 = 2380.24 over 488 frames.
-Male-11-Male-11_17 NAIK GUNUNG HARUS SEDIA BACKPACK KHUSUS GUNUNG 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-11-Male-11_2, best cost 63.2694 + 2646.7 = 2709.97 over 558 frames.
-Male-11-Male-11_2 VILLA DI UBUD ITU SUPER COZY COCOK BUAT LIBURAN 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-11-Male-11_25, best cost 67.227 + 2656.33 = 2723.55 over 550 frames.
-Male-11-Male-11_25 SAYA DENGAR DI PANTAI KUTA ADA SPOT SURFING YANG BAGUS 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-11-Male-11_26, best cost 46.5992 + 1837.65 = 1884.25 over 418 frames.
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-10-Male-10_45, best cost 63.8297 + 1938.33 = 2002.16 over 446 frames.
+Male-10-Male-10_45 BUTUH UANG BERAPA YA KALAU MAU JALAN JALAN KE MACAU 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-10-Male-10_50, best cost 51.3475 + 1594.17 = 1645.52 over 366 frames.
+Male-10-Male-10_50 HATI HATI DI JALAN YA SAFE FLIGHT 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-10-Male-10_8, best cost 91.1745 + 2944.77 = 3035.95 over 654 frames.
+Male-10-Male-10_8 SETELAH BERMAIN SEPANJANG HARI KITA BISA KUMPUL KUMPUL BUAT BARBEQUE MALAM DI TEPI PANTAI 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-11-Male-11_14, best cost 76.0058 + 2885.27 = 2961.28 over 608 frames.
+Male-11-Male-11_14 LIBURAN HARI INI SUDAH SELESAI BESOK LIBURAN DENGAN UJIAN LAGI 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-11-Male-11_19, best cost 39.3448 + 2200.51 = 2239.85 over 478 frames.
+Male-11-Male-11_19 CAMPING SEBELUM SIDANG SEPERTINYA MENYENANGKAN 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-11-Male-11_20, best cost 67.636 + 2897.71 = 2965.35 over 608 frames.
+Male-11-Male-11_20 KE PUNCAK LEBIH CEPAT LEWAT TRACK SATU DARIPADA TRACK DUA 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-11-Male-11_23, best cost 93.2767 + 3667.35 = 3760.63 over 773 frames.
+Male-11-Male-11_23 NGOMONG NGOMONG WAKTU LIBUR HAMPIR TIBA KITA HARUS MERENCANAKAN KEMANA KITA PERGI NANTI 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-11-Male-11_26, best cost 46.3508 + 1849.3 = 1895.65 over 418 frames.
 Male-11-Male-11_26 KAYAKNYA KITA BAKAL LIBURAN MINGGU INI 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-11-Male-11_3, best cost 82.2169 + 3125.98 = 3208.2 over 663 frames.
-Male-11-Male-11_3 AKU PERNAH NYELAM DI GILI TRAWANGAN TERUMBU KARANGNYA ITU BAGUS BANGET SIH 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-11-Male-11_31, best cost 115.766 + 5183.68 = 5299.44 over 1055 frames.
-Male-11-Male-11_31 DAN BANDUNG BAGIKU BUKAN CUMA MASALAH GEOGRAFIS LEBIH JAUH DARI ITU MELIBATKAN PERASAAN YANG BERSAMAKU KETIKA SUNYI 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-11-Male-11_47, best cost 74.6311 + 2978.3 = 3052.93 over 628 frames.
-Male-11-Male-11_47 TAHUN KEMARIN KAMI MENCOBA GLAMPING SELAMA TIGA HARI DI TENGAH HUTAN 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-11-Male-11_50, best cost 101.597 + 3681.27 = 3782.87 over 768 frames.
-Male-11-Male-11_50 ASIK BANGET NAIK GUNUNG BROMO KARENA UDARA SEGAR DAN BISA LIHAT PEMANDANGAN YANG REFRESHING 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-11-Male-11_7, best cost 109.095 + 3536.37 = 3645.46 over 738 frames.
-Male-11-Male-11_7 AKU KEMARIN BARU BALIK DARI YOGYAKARTA THE TEMPLES AND THE CULTURE BELUM MAIN MAIN BRO 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-12-Male-12_1, best cost 55.9032 + 1478.73 = 1534.64 over 298 frames.
-Male-12-Male-12_1 UDARA PALING SEGAR ADALAH UDARA DI GUNUNG 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-12-Male-12_21, best cost 107.753 + 3644.25 = 3752 over 740 frames.
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-11-Male-11_29, best cost 73.2637 + 2756.83 = 2830.1 over 603 frames.
+Male-11-Male-11_29 AKU TAKUT BANGET NAIK BANANA BOAT MENDING MAIN YANG LAIN AJA YA 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-11-Male-11_36, best cost 69.0208 + 2772.23 = 2841.25 over 598 frames.
+Male-11-Male-11_36 KAK AKU MAU JASTIP DONG MUMPUNG KAKAK LAGI ABROAD KE LONDON 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-11-Male-11_4, best cost 75.6858 + 3022.48 = 3098.17 over 645 frames.
+Male-11-Male-11_4 KALAU KE BANDUNG KAMU HARUS COBA JAJANAN PINGGIR JALAN DI BRAGA 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-11-Male-11_44, best cost 92.543 + 3732.94 = 3825.49 over 775 frames.
+Male-11-Male-11_44 KALAU LIBURAN KE SURABAYA JANGAN LUPA COBA RAWON SETAN MAKANAN TERKENAL DI KOTA INI 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-11-Male-11_7, best cost 87.0006 + 3564.23 = 3651.23 over 738 frames.
+Male-11-Male-11_7 AKU KEMARIN BARU BALIK DARI YOGYAKARTA THE TEMPLES AND THE CULTURE BLEW MY MIND BRO 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-12-Male-12_14, best cost 87.0487 + 2410.97 = 2498.02 over 495 frames.
+Male-12-Male-12_14 KATANYA TRANS STUDIO BANDUNG LAGI NGADAIN DISKON NIH AYO KE SANA MUMPUNG LAGI LIBUR 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-12-Male-12_21, best cost 102.88 + 3675.27 = 3778.15 over 740 frames.
 Male-12-Male-12_21 DAN BANDUNG BAGIKU BUKAN CUMA MASALAH GEOGRAFIS LEBIH DARI ITU MELIBATKAN PERASAAN YANG BERSAMAKU KETIKA SUNYI 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-12-Male-12_24, best cost 53.7539 + 1631.09 = 1684.85 over 338 frames.
-Male-12-Male-12_24 KERETA CEPAT JAKARTA BANDUNG KENAPA DINAMAI WHOOSH YA 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-12-Male-12_28, best cost 75.0009 + 2044.03 = 2119.03 over 410 frames.
-Male-12-Male-12_28 PENGEN DEH RASANYA COBAIN KE SANA ASLI DARI PERANCIS 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-12-Male-12_30, best cost 50.9278 + 1408.35 = 1459.27 over 295 frames.
-Male-12-Male-12_30 NEGERI JALAN YA SAFE FLIGHT 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-12-Male-12_31, best cost 63.4885 + 1951.92 = 2015.41 over 393 frames.
-Male-12-Male-12_31 LIBURAN TAHUN INI SERU BANGET SOALNYA BISA BARENG KELUARGA 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-12-Male-12_38, best cost 80.65 + 2409.15 = 2489.8 over 495 frames.
-Male-12-Male-12_38 SAYA LEBIH SUKA BAWA KOPER SIH DARIPADA BACKPACK SOALNYA LEBIH RAPI 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-12-Male-12_43, best cost 65.1792 + 2201.65 = 2266.83 over 470 frames.
-Male-12-Male-12_43 BERLIBUR BERSAMA KELUARGA ADALAH MOMEN YANG SANGAT BERHARGA 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-12-Male-12_47, best cost 70.1057 + 2394.77 = 2464.88 over 520 frames.
-Male-12-Male-12_47 LIBURAN YANG RELAXING BUAT SAYA ADALAH KE UBUD BALI 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-12-Male-12_9, best cost 43.0762 + 1656.89 = 1699.97 over 328 frames.
-Male-12-Male-12_9 CAMPING SEBELUM SIDANG SEPERTINYA MENYENANGKAN 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-13-Male-13_15, best cost 80.6857 + 2193.78 = 2274.47 over 450 frames.
-Male-13-Male-13_15 BUTUH UANG BERAPA YA KALO MAU JALAN JALAN KE BAKAL 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-13-Male-13_16, best cost 74.3741 + 2750.99 = 2825.36 over 545 frames.
-Male-13-Male-13_16 KAK AKU MAU JASTIP DONG MUMPUNG KAKAK LAGI ABROAD KE LONDON 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-13-Male-13_19, best cost 64.864 + 2762.88 = 2827.74 over 545 frames.
-Male-13-Male-13_19 COBAIN DEH PAKE AIR BNB KADANG SUKA ADA DISCOUNT NYA 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-13-Male-13_32, best cost 69.1174 + 2857.23 = 2926.35 over 593 frames.
-Male-13-Male-13_32 SAYA SUKA MINUM KOPI SAMBIL BERSANTAI DENGAN TEMAN DI GUNUNG 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-13-Male-13_34, best cost 88.5693 + 3996.21 = 4084.78 over 825 frames.
-Male-13-Male-13_34 ANCOL MENJADI DESTINASI WISATA FAVORIT DI JAKARTA DENGAN BERAGAM WAHANA PERMAINANNYA 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-13-Male-13_40, best cost 57.8585 + 2782.22 = 2840.08 over 593 frames.
-Male-13-Male-13_40 TREKKING DI GUNUNG SEMERU TERNYATA ADVENTUROUS BANGET 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-13-Male-13_44, best cost 127.774 + 4428.66 = 4556.44 over 900 frames.
-Male-13-Male-13_44 KITA RELAX SEJENAK YUK DI VILLA YANG ADA DI PEGUNUNGAN SAMBIL MENIKMATI KEINDAHAN ALAM DAN UDARA YANG SEGAR 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-13-Male-13_5, best cost 73.0828 + 2846.8 = 2919.88 over 583 frames.
-Male-13-Male-13_5 SAYA DENGAR DI PANTAI KUTA ADA SPOT SURFING YANG BAGUS 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-13-Male-13_6, best cost 49.7726 + 2037.01 = 2086.78 over 433 frames.
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-12-Male-12_25, best cost 66.4748 + 1670.1 = 1736.58 over 350 frames.
+Male-12-Male-12_25 BUTUH UANG BERAPA YA KALAU MAU JALAN JALAN KE MACAU 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-12-Male-12_28, best cost 73.6722 + 2053.44 = 2127.11 over 410 frames.
+Male-12-Male-12_28 PENGEN DEH RASANYA COBAIN KONSER MASIH DARI PERANCIS 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-12-Male-12_29, best cost 62.5534 + 1942.44 = 2004.99 over 383 frames.
+Male-12-Male-12_29 COBAIN DEH PAKE AIR BNB KADANG SUKA ADA DISCOUNT NYA 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-12-Male-12_30, best cost 53.8316 + 1412.4 = 1466.23 over 295 frames.
+Male-12-Male-12_30 BAIK DI JALAN YA SAFE FLIGHT 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-12-Male-12_32, best cost 71.8092 + 2061.38 = 2133.19 over 423 frames.
+Male-12-Male-12_32 KAMI PUNYA RENCANA UNTUK BERLIBUR KE LUAR NEGERI TAHUN DEPAN 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-12-Male-12_40, best cost 99.8588 + 2762.27 = 2862.12 over 560 frames.
+Male-12-Male-12_40 ASIK BANGET NAIK GUNUNG BROMO KARENA UDARA SEGAR DAN BISA LIAT PEMANDANGAN YANG REFRESHING 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-12-Male-12_48, best cost 71.4136 + 2094.52 = 2165.93 over 430 frames.
+Male-12-Male-12_48 TRIP YANG PALING MEMORABLE ADALAH WAKTU AKU KE DANAU TOBA 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-12-Male-12_50, best cost 57.019 + 1990.46 = 2047.48 over 425 frames.
+Male-12-Male-12_50 TRACKING DI GUNUNG SEMERU TERNYATA ADVENTUROUS BANGET 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-13-Male-13_11, best cost 112.389 + 5383.84 = 5496.23 over 1055 frames.
+Male-13-Male-13_11 DAN BANDUNG BAGIKU BUKAN CUMA MASALAH GEOGRAFIS LEBIH JAUH DARI ITU MELIBATKAN PERASAAN YANG BERSAMAKU KETIKA SUNYI 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-13-Male-13_20, best cost 52.9598 + 2144.52 = 2197.48 over 443 frames.
+Male-13-Male-13_20 HATI HATI DI JALAN YA SAFE FLIGHT 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-13-Male-13_22, best cost 67.0797 + 2568.84 = 2635.92 over 533 frames.
+Male-13-Male-13_22 KAMI PUNYA RENCANA UNTUK BERLIBUR KE LUAR NEGERI TAHUN DEPAN 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-13-Male-13_27, best cost 75.4874 + 2840.23 = 2915.72 over 588 frames.
+Male-13-Male-13_27 TAHUN KEMARIN KAMI MENCOBA GLAMPING SELAMA TIGA HARI DI TENGAH HUTAN 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-13-Male-13_37, best cost 71.6938 + 2786.77 = 2858.47 over 598 frames.
+Male-13-Male-13_37 LIBURAN YANG RELAXING BUAT SAYA ADALAH KE UBUD BALI 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-13-Male-13_4, best cost 89.352 + 3422.2 = 3511.55 over 695 frames.
+Male-13-Male-13_4 KATANYA TRANS STUDIO BANDUNG LAGI NGADAIN DISKON NIH AYO KE SANA MUMPUNG LAGI LIBUR 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-13-Male-13_41, best cost 91.1012 + 3896.9 = 3988 over 773 frames.
+Male-13-Male-13_41 REKOMENDASI VACATION SALAH SATUNYA KE WISATA LEMBANG PARK ZOO HEALING SEKALIGUS MENGENAL BINATANG 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-13-Male-13_46, best cost 104.307 + 4305.84 = 4410.15 over 860 frames.
+Male-13-Male-13_46 LETS TRY MAKANAN TRADISIONAL DI PASAR LOKAL DAN EXPERIENCE CITA RASA KHAS MAKANAN INDONESIA 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-13-Male-13_47, best cost 90.9982 + 3518.62 = 3609.62 over 695 frames.
+Male-13-Male-13_47 AYO KITA SNORKELING DI PULAU KOMODO LIHAT BANYAK BIOTA BIOTA LAUT YANG BERAGAM 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-13-Male-13_6, best cost 47.5879 + 2041.7 = 2089.29 over 433 frames.
 Male-13-Male-13_6 KAYAKNYA KITA BAKAL LIBURAN MINGGU INI 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-13-Male-13_9, best cost 75.1058 + 2744.86 = 2819.96 over 553 frames.
-Male-13-Male-13_9 AKU TAKUT BANGET NAIK BANANA BOAT MENDING MAIN YANG LAIN AJA YA 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-2-Male-2_13, best cost 71.6915 + 2400 = 2471.69 over 501 frames.
-Male-2-Male-2_13 KALAU KE BALI BULAN SEMBILAN ENAKNYA NGAPAIN YA DI SANA 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-2-Male-2_20, best cost 59.8924 + 2164.36 = 2224.25 over 480 frames.
-Male-2-Male-2_20 PINGIN LIBURAN KE EROPA BIAR BISA LIAT SALJU 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-2-Male-2_21, best cost 67.2749 + 2287.88 = 2355.16 over 491 frames.
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-2-Male-2_10, best cost 79.1684 + 2853.78 = 2932.95 over 580 frames.
+Male-2-Male-2_10 LIBURAN TERUS BIKIN BOSEN TAPI TUGAS TERUS JUGA PUSING JADI HARUS SEIMBANG 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-2-Male-2_18, best cost 57.8661 + 1887.07 = 1944.94 over 403 frames.
+Male-2-Male-2_18 HIKING DI MUSIM KEMARAU KAYAKNYA SERU NIH 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-2-Male-2_19, best cost 89.4574 + 2882.2 = 2971.66 over 595 frames.
+Male-2-Male-2_19 BUAT KALIAN YANG LAGI MERENCANAKAN LIBURAN PASTIKAN SUDAH PUNYA PLAN YANG BAGUS 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-2-Male-2_21, best cost 72.1948 + 2302.42 = 2374.62 over 491 frames.
 Male-2-Male-2_21 LIBURAN TAHUN INI SERU BANGET SOALNYA BISA BARENG KELUARGA 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-2-Male-2_28, best cost 79.6033 + 2601.31 = 2680.91 over 533 frames.
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-2-Male-2_26, best cost 75.6523 + 2364.06 = 2439.71 over 508 frames.
+Male-2-Male-2_26 LIBURAN DI PANTAI TUH RASANYA KURANG LENGKAP KALAU BELUM LIHAT SUNSET 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-2-Male-2_28, best cost 75.2682 + 2592.2 = 2667.47 over 533 frames.
 Male-2-Male-2_28 SAYA LEBIH SUKA BAWA KOPER SIH DARIPADA BACKPACK SOALNYA LEBIH RAPI 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-2-Male-2_32, best cost 68.4542 + 2167.42 = 2235.87 over 474 frames.
-Male-2-Male-2_32 SAYA SUKA MINUM KOPI SAMBIL BERSANTAI DENGAN TEMAN DI GUNUNG 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-2-Male-2_4, best cost 84.0248 + 3124.35 = 3208.38 over 634 frames.
-Male-2-Male-2_4 BAYANGIN KITA BISA LIBURAN KAPAN AJA LIFE WILL SO RELAXING 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-2-Male-2_43, best cost 90.6949 + 2552.54 = 2643.23 over 536 frames.
-Male-2-Male-2_43 SELAMA MASIH WAKTU LIBURAN AYO KITA EXPLORE PANTAI PANTAI INDAH DI BALI 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-2-Male-2_45, best cost 113.825 + 3772.9 = 3886.73 over 768 frames.
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-2-Male-2_31, best cost 66.9958 + 2313.18 = 2380.18 over 489 frames.
+Male-2-Male-2_31 AKU SUKA BERLIBUR DI PEGUNUNGAN KARENA UDARANYA SEGAR 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-2-Male-2_45, best cost 112.79 + 3751.17 = 3863.96 over 768 frames.
 Male-2-Male-2_45 BESOK KITA BOAT TOUR DI DANAU TOBA YA SEKALIAN EXPLORE THE BEAUTY OF THE LARGEST VOLCANIC LAKE IN THE WORLD 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-2-Male-2_49, best cost 88.051 + 3387.5 = 3475.55 over 700 frames.
-Male-2-Male-2_49 LETS EXPLORE CULTURAL LANDMARKS DI YOGYAKARTA DI SANA BANYAK BELAJAR SEJARAH LOH 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-2-Male-2_8, best cost 58.0395 + 1753.58 = 1811.62 over 359 frames.
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-2-Male-2_6, best cost 72.6859 + 2564.43 = 2637.11 over 525 frames.
+Male-2-Male-2_6 HOLIDAY PALING ENAK KALAU BISA JALAN JALAN BARENG KELUARGA 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-2-Male-2_8, best cost 61.7653 + 1738.13 = 1799.89 over 359 frames.
 Male-2-Male-2_8 LIBURAN KE DAERAH GUNUNG BISA JADI ALTERNATIF 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-3-Male-3_13, best cost 63.0266 + 2046.93 = 2109.96 over 458 frames.
-Male-3-Male-3_13 KALAU KE BALI BULAN SEMBILAN ENAKNYA NGAPAIN YA DI SANA 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-3-Male-3_14, best cost 88.7345 + 2727.75 = 2816.48 over 590 frames.
-Male-3-Male-3_14 INGIN PERGI LIBURAN TAPI KERJAAN MASIH BANYAK DAN DUIT JUGA UDAH MAU HABIS 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-3-Male-3_20, best cost 55.3865 + 2350.26 = 2405.65 over 534 frames.
-Male-3-Male-3_20 PINGIN LIBURAN KE EROPA BIAR BISA LIAT SALJU 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-3-Male-3_24, best cost 53.9875 + 2111.01 = 2165 over 462 frames.
-Male-3-Male-3_24 TERSERAH MAU KEMANA PENTING MAKANANNYA ENAK ENAK 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-3-Male-3_25, best cost 49.4493 + 2191.41 = 2240.86 over 490 frames.
-Male-3-Male-3_25 SIAPA MAU SENDIRIAN STAYCATION DI TENGAH HUTAN GITU 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-3-Male-3_3, best cost 44.2907 + 1500.85 = 1545.14 over 366 frames.
-Male-3-Male-3_3 PALING SERU KALAU LIBURAN BARENG TEMEN 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-3-Male-3_32, best cost 85.3139 + 3311.2 = 3396.52 over 742 frames.
-Male-3-Male-3_32 LIBURAN BULAN DEPAN JANGAN LUPA BAWA OBAT YA JUST IN CASE SAKIT LOKASI 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-3-Male-3_39, best cost 79.0108 + 2386.19 = 2465.2 over 534 frames.
-Male-3-Male-3_39 KALAU TIDAK BISA LIBURAN KE LEMBANG AKU LEBIH PILIH DI RUMAH AJA 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-3-Male-3_44, best cost 113.822 + 3768.99 = 3882.82 over 786 frames.
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-3-Male-3_1, best cost 54.9493 + 2053.27 = 2108.22 over 482 frames.
+Male-3-Male-3_1 BUAT NGILANGIN PENAT PALING ENAK LIBURAN KE PANTAI 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-3-Male-3_18, best cost 53.2511 + 2121.34 = 2174.59 over 478 frames.
+Male-3-Male-3_18 HIKING DI MUSIM KEMARAU KAYAKNYA SERU NIH 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-3-Male-3_22, best cost 44.1877 + 1827.3 = 1871.49 over 422 frames.
+Male-3-Male-3_22 DESTINATION STREET FOOD GITU ENAK KALI YA 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-3-Male-3_26, best cost 45.7198 + 1818.48 = 1864.2 over 394 frames.
+Male-3-Male-3_26 LIBURAN KE PALEMBANG WAJIB MAKAN PEMPEK 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-3-Male-3_29, best cost 46.2551 + 2048.69 = 2094.94 over 458 frames.
+Male-3-Male-3_29 PENGEN LIBURAN TAPI TESIS BELOM KELAR 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-3-Male-3_30, best cost 84.8172 + 2815.31 = 2900.12 over 622 frames.
+Male-3-Male-3_30 KAYAKNYA TIDUR MAIN YANG MAKAN MAKAN SELAMA LIBURAN ENAK KALI YA 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-3-Male-3_37, best cost 71.9265 + 2709.58 = 2781.51 over 586 frames.
+Male-3-Male-3_37 KALAU TURUN DARI GUNUNG BISA NGGA TINGGAL NGGELINDING AJA CAPEK SOALNYA 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-3-Male-3_39, best cost 79.4675 + 2388.4 = 2467.86 over 534 frames.
+Male-3-Male-3_39 KALO KITA BISA LIBURAN KE LEMBANG AKU LEBIH PILIH DI RUMAH AJA 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-3-Male-3_41, best cost 89.5541 + 3896.36 = 3985.91 over 834 frames.
+Male-3-Male-3_41 REKOMENDASI VACATION SALAH SATUNYA KE WISATA LEMBANG PARK ZOO HEALING SEKALIGUS MENGENAL BINATANG 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-3-Male-3_44, best cost 115.669 + 3764.06 = 3879.73 over 786 frames.
 Male-3-Male-3_44 KITA RELAX SEJENAK YUK DI VILLA YANG ADA DI PEGUNUNGAN SAMBIL MENIKMATI KEINDAHAN ALAM DAN UDARA SEGAR 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-3-Male-3_49, best cost 79.8072 + 3150.31 = 3230.11 over 642 frames.
-Male-3-Male-3_49 LETS EXPLORE CULTURAL LANDMARKS DI YOGYAKARTA DI SANA BANYAK BELAJAR SEJARAH LOH 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-4-Male-4_11, best cost 100.774 + 2762.05 = 2862.82 over 599 frames.
-Male-4-Male-4_11 SEBENTAR LAGI MASA LIBURAN TAPI HARUS SELALU IS SEGALA TUGAS BERDIAM 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-4-Male-4_15, best cost 148.681 + 4041.9 = 4190.58 over 822 frames.
-Male-4-Male-4_15 DENGAN BEGITU LAUT LIBURAN AYO BROMO KE KALI DENGAN BEGITU LIBURAN JADI LEBIH BERMAKNA DAN LEBIH MENYENANGKAN 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-4-Male-4_26, best cost 57.7127 + 2630.34 = 2688.05 over 585 frames.
-Male-4-Male-4_26 MRT ADALAH CARA TERBAIK UNTUK MENJELAJAHI SINGAPURA 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-4-Male-4_31, best cost 73.8041 + 1447.33 = 1521.13 over 286 frames.
-Male-4-Male-4_31 TEMPAT LIBURAN YANG BAIK KALI BANTUAN TIBALAH 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-4-Male-4_36, best cost 74.1674 + 2400.79 = 2474.96 over 498 frames.
-Male-4-Male-4_36 AKU DAN KELUARGAKU BERENCANA UNTUK LIBURAN DI BALI PADA AKHIR TAHUN INI 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-4-Male-4_37, best cost 63.9483 + 2185.24 = 2249.19 over 479 frames.
-Male-4-Male-4_37 BANYAK SEKALI HARUS DIPERSIAPKAN UNTUK HOLIDAY KE JEPANG 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-4-Male-4_4, best cost 93.4357 + 3214.52 = 3307.95 over 667 frames.
-Male-4-Male-4_4 TEMPAT PALING ENAK BUAT LIBURAN TUH YANG UDARANYA SEJUK ADEM AYEM BIAR NGGA KERINGETAN 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-4-Male-4_43, best cost 60.3558 + 2012.95 = 2073.3 over 416 frames.
-Male-4-Male-4_43 MENETAPKAN KE HEAD IN THE CLOUD YUK NONTON YOASOBI 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-4-Male-4_44, best cost 54.7072 + 1573.94 = 1628.65 over 325 frames.
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-4-Male-4_12, best cost 66.7216 + 1525.67 = 1592.4 over 339 frames.
+Male-4-Male-4_12 NANTI KALAU SUDAH LIBURAN JAM LUPA JALAN JALAN 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-4-Male-4_27, best cost 66.808 + 1706.38 = 1773.19 over 349 frames.
+Male-4-Male-4_27 PANTAI SELALU MENJADI TUJUH FAVORIT SAYA UNTUK LIBURAN 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-4-Male-4_32, best cost 130.321 + 3407.74 = 3538.06 over 734 frames.
+Male-4-Male-4_32 DI LEMBANG LALU BANYAK TEMPAT WISATA YANG BISA DI KUNJUNGI UNTUK LIBURAN SAMA TEMAN DAN KELUARGA 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-4-Male-4_33, best cost 94.4278 + 2480.04 = 2574.47 over 498 frames.
+Male-4-Male-4_33 WEEKEND INI AKU DAN TEMANKU AKAN PERGI GLAMPING CLOUD RANCA UPAS DI 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-4-Male-4_34, best cost 64.2098 + 2200.64 = 2264.85 over 498 frames.
+Male-4-Male-4_34 KALAU LAGI LIBURAN PALING ENAK HUNTING STREET FOOD DI BANDUNG 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-4-Male-4_44, best cost 54.4117 + 1562.83 = 1617.24 over 325 frames.
 Male-4-Male-4_44 JAKARTA GERAH BANGET DAH BUTUH LIBURAN BUAH 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-4-Male-4_9, best cost 102.495 + 2712.89 = 2815.38 over 575 frames.
-Male-4-Male-4_9 JANGAN LUPA MAMPIR KE LUAR MAKAN SUNDA IA RASA MAKANANNYA DIJAMIN BETAH PISAN 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-5-Male-5_1, best cost 80.0767 + 3067.73 = 3147.81 over 638 frames.
-Male-5-Male-5_1 SEBENTAR LAGI MASA LIBURAN TAPI HARUS MELALUI SEGALA TUGAS DAN UJIAN 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-5-Male-5_10, best cost 97.8516 + 3976.72 = 4074.57 over 870 frames.
-Male-5-Male-5_10 KALAU SUDAH DITENTUKAN MAU KEMANA BISA LANGSUNG DEH SUSUN RENCANA BUDGET DAN ITINERARY 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-5-Male-5_13, best cost 65.1194 + 2453.5 = 2518.62 over 515 frames.
-Male-5-Male-5_13 SEMOGA SUATU HARI KAMI BISA STAYCATION DI VILLA PEGUNUNGAN 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-5-Male-5_17, best cost 61.1707 + 2556.63 = 2617.8 over 563 frames.
-Male-5-Male-5_17 PANTAI SELALU MENJADI TUJUAN FAVORIT SAYA UNTUK LIBURAN 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-5-Male-5_19, best cost 81.2297 + 2848.43 = 2929.66 over 603 frames.
-Male-5-Male-5_19 SETIAP DAERAH DI INDONESIA MEMILIKI MAKANAN KASUS YANG WAJIB DICOBA 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-5-Male-5_25, best cost 90.6567 + 3703.09 = 3793.74 over 790 frames.
-Male-5-Male-5_25 LIBURAN KE TANGKUBAN PERAHU SANGAT MENYENANGKAN KARENA PEMANDANGAN DARI ATAS KAWAH SANGAT INDAH 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-5-Male-5_28, best cost 86.7161 + 3369.14 = 3455.85 over 718 frames.
-Male-5-Male-5_28 KARENA AKHIR TAHUN INI DI JEPANG LAGI MUSIN DINGIN KITA PERLU NYIAPIN WINTER CLOTHES 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-5-Male-5_29, best cost 90.1017 + 3480.85 = 3570.95 over 743 frames.
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-4-Male-4_46, best cost 53.7691 + 2246.39 = 2300.16 over 493 frames.
+Male-4-Male-4_46 INI KULIAH MULU KAPAN LIBURANNYA DAH PINTER KAGAK MUMET IYA 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-4-Male-4_47, best cost 62.65 + 2446.86 = 2509.51 over 512 frames.
+Male-4-Male-4_47 TEMEN GW KEMARIN LIBURAN KE JERMAN KATANYA DISITU NYIMENG LEGAL 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-4-Male-4_5, best cost 50.2129 + 1600.36 = 1650.57 over 324 frames.
+Male-4-Male-4_5 JADI BISA BENER BENER MENIKMATI LIBURAN GITU 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-4-Male-4_7, best cost 81.9478 + 2655.56 = 2737.5 over 570 frames.
+Male-4-Male-4_7 CARI MAKANAN BUAT TEMAN SAMBIL LOKAL PERJALANAN BIAR NGGA LAPER 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-5-Male-5_15, best cost 57.3096 + 2747.9 = 2805.21 over 608 frames.
+Male-5-Male-5_15 SEBELUM LIBURAN JANGAN LUPA UNTUK MEMBUAT ITINERARY 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-5-Male-5_29, best cost 94.2371 + 3477.01 = 3571.25 over 743 frames.
 Male-5-Male-5_29 KITA PERLU PREPARE DENGAN MATANG UNTUK LIBURAN AKHIR TAHUN INI WHICH IS PASTI SANGAT SERU 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-5-Male-5_3, best cost 60.037 + 2080.72 = 2140.75 over 445 frames.
-Male-5-Male-5_3 WISATA PANTAI BAKAL KE PEGUNUNGAN 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-5-Male-5_43, best cost 67.5987 + 2571.84 = 2639.44 over 538 frames.
-Male-5-Male-5_43 SEMOGA AJA TAHUN DEPAN BISA TRAVELING KE KOREA KETEMU BLACKPINK 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-6-Male-6_11, best cost 75.1442 + 2982.77 = 3057.92 over 640 frames.
-Male-6-Male-6_11 TEMPAT LIBURAN YANG PALING TERKENAL DI BANDUNG ADA DI MANA YA 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-6-Male-6_14, best cost 88.4892 + 3059.56 = 3148.05 over 643 frames.
-Male-6-Male-6_14 KALAU LAGI LIBURAN PALING ENAK AKAN DI STREET FOOD DI BANDUNG 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-6-Male-6_15, best cost 89.4092 + 3845.85 = 3935.26 over 798 frames.
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-5-Male-5_41, best cost 50.4491 + 1900.35 = 1950.8 over 450 frames.
+Male-5-Male-5_41 DI BANDUNG ENAKNYA STAYCATION DI MANA YA 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-5-Male-5_46, best cost 65.8851 + 2472.54 = 2538.43 over 533 frames.
+Male-5-Male-5_46 MAIN MAIN DI TAHURA PAGI HARI TERNYATA SERU JUGA 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-5-Male-5_47, best cost 72.1284 + 2597.63 = 2669.76 over 530 frames.
+Male-5-Male-5_47 AKU SANGAT MENANTIKAN LIBURAN AKHIR TAHUN INI UNTUK PERGI KE PANTAI 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-5-Male-5_48, best cost 78.5411 + 3409.09 = 3487.63 over 720 frames.
+Male-5-Male-5_48 AKU SELALU MEMBAWA KAMERA UNTUK MENGABADIKAN MOMEN MOMEN INDAH SELAMA PERJALANAN 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-5-Male-5_49, best cost 53.2068 + 2344.73 = 2397.94 over 503 frames.
+Male-5-Male-5_49 JONI MENGAJAKKU PERGI KE PULAU KOMODO MINGGU DEPAN 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-5-Male-5_5, best cost 72.855 + 2761.36 = 2834.22 over 578 frames.
+Male-5-Male-5_5 DENGAN BEGITU LIBURAN JADI LEBIH BERMAKNA DAN LEBIH MENYENANGKAN 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-5-Male-5_6, best cost 73.5978 + 2533.97 = 2607.57 over 540 frames.
+Male-5-Male-5_6 AKAN LIAT AKU SUDAH LAMA TIDAK LIBURAN BARENG KELUARGA 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-5-Male-5_7, best cost 83.5669 + 3182 = 3265.57 over 675 frames.
+Male-5-Male-5_7 JADI HARUS DIAGENDAKAN JALAN JALAN ATAU SEKEDAR KUMPUL KELUARGA UNTUK HEALING 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-6-Male-6_10, best cost 46.3376 + 2453.24 = 2499.58 over 543 frames.
+Male-6-Male-6_10 KOTA MEDAN ADALAH SURGANYA PENYUKA DURIAN 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-6-Male-6_15, best cost 91.686 + 3816.58 = 3908.27 over 798 frames.
 Male-6-Male-6_15 LIBURAN KE TANGKUBAN PERAHU SANGAT MENYENANGKAN KARENA PEMANDANGAN DARI ATAS KAWAH SANGAT INDAH 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-6-Male-6_33, best cost 72.3748 + 3101.12 = 3173.49 over 668 frames.
-Male-6-Male-6_33 SEMOGA AJA TAHUN DEPAN BISA TRAVELING KE KOREA KETEMU BLACKPINK 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-6-Male-6_34, best cost 79.7275 + 3520.11 = 3599.84 over 760 frames.
-Male-6-Male-6_34 MAU NONTON KONSER TAYLOR SWIFT DI SINGAPUR TAPI TIKETNYA UDAH SOLD OUT 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-6-Male-6_38, best cost 77.1671 + 3636.43 = 3713.59 over 770 frames.
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-6-Male-6_2, best cost 53.1154 + 2387.24 = 2440.36 over 538 frames.
+Male-6-Male-6_2 KAMI BERENCANA UNTUK HIKING KE GUNUNG RINJANI 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-6-Male-6_21, best cost 80.8778 + 3201.17 = 3282.05 over 675 frames.
+Male-6-Male-6_21 KATA AKU MAH YA KITA BUTUH VACATION SETENGAH TAHUN DUA KALI SETAHUN 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-6-Male-6_26, best cost 61.5937 + 3245.6 = 3307.19 over 685 frames.
+Male-6-Male-6_26 INI KULIAH MULU KAPAN LIBURANNYA DAH PINTER KAGAK MUMET IYA 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-6-Male-6_35, best cost 75.7867 + 3120.26 = 3196.05 over 678 frames.
+Male-6-Male-6_35 JALAN JALAN KE BALI BELUM PUAS KALAU BELUM MAKAN SEAFOOD DI JIMBARAN 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-6-Male-6_37, best cost 78.3387 + 3209.97 = 3288.31 over 695 frames.
+Male-6-Male-6_37 AKU SANGAT MENANTIKAN LIBURAN AKHIR TAHUN INI UNTUK PERGI KE PANTAI 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-6-Male-6_38, best cost 76.9438 + 3624.51 = 3701.46 over 770 frames.
 Male-6-Male-6_38 AKU SELALU MEMBAWA KAMERA UNTUK MENGABADIKAN MOMEN MOMEN INDAH SELAMA PERJALANAN 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-6-Male-6_41, best cost 92.9023 + 4150.82 = 4243.72 over 880 frames.
-Male-6-Male-6_41 KALAU HIDUP UDAH STRES SAATNYA MERENCANAKAN LIBURAN YANG MENYEGARKAN DAN MELEPASKAN SEMUA BEBAN 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-6-Male-6_43, best cost 141.672 + 5045.78 = 5187.45 over 1023 frames.
-Male-6-Male-6_43 GA CUMA ITU KALO PAGI PAGI KITA BISA LIAT PEMANDANGAN DARI INDAH KAYA POHON POHON YANG HIJAU ATAU HAMPARAN PADANG RUMPUT YANG LUAS 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-6-Male-6_44, best cost 104.736 + 4155.9 = 4260.64 over 865 frames.
-Male-6-Male-6_44 SAAT BERADA DI GUNUNG JANGAN LUPA BAWA PERLENGKAPAN YANG CUKUP TERMASUK SLEEPING BAG DAN JUGA ALAT MASAK 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-6-Male-6_5, best cost 56.275 + 2419.43 = 2475.7 over 523 frames.
-Male-6-Male-6_5 SEBELUM LIBURAN JANGAN LUPA UNTUK MEMBUAT ITINERARY 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-7-Male-7_11, best cost 98.0101 + 3907.76 = 4005.77 over 773 frames.
-Male-7-Male-7_11 KATA AKU MAH YA KITA BUTUH VACATION SETENGAH TAHUN DUA KALI SETAHUN 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-7-Male-7_2, best cost 114.343 + 4186.91 = 4301.25 over 860 frames.
-Male-7-Male-7_2 DI LEMBANG BANYAK TEMPAT WISATA YANG BISA DI KUNJUNGI UNTUK LIBURAN BERSAMA TEMAN DAN KELUARGA 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-7-Male-7_29, best cost 66.974 + 2560.76 = 2627.74 over 545 frames.
-Male-7-Male-7_29 JONI MENGAJAKKU PERGI KE PULAU KOMODO MINGGU DEPAN 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-7-Male-7_34, best cost 109.63 + 4218.83 = 4328.46 over 848 frames.
-Male-7-Male-7_34 SAAT BERADA DI GUNUNG JANGAN LUPA BAWA PERLENGKAPAN YANG CUKUP TERMASUK SLEEPING BAG DAN JUGA ALAT MASAK 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-7-Male-7_39, best cost 102.122 + 3628.18 = 3730.3 over 735 frames.
-Male-7-Male-7_39 KITA JUGA BISA NYANYI NYANYI SAMBIL MEMANDANGI BINTANG BINTANG YANG BERSINAR DI LANGIT MALAM 
-LOG (lattice-scale[5.5.1124~1-21ae4]:main():lattice-scale.cc:107) Done 217 lattices.
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-7-Male-7_4, best cost 81.1186 + 3027.41 = 3108.53 over 660 frames.
-Male-7-Male-7_4 KALAU LAGI LIBURAN PALING ENAK HUNTING STREET FOOD DI BANDUNG 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-7-Male-7_44, best cost 80.2459 + 3603.56 = 3683.8 over 738 frames.
-Male-7-Male-7_44 KALAU KE BANDUNG KAMU HARUS COBA JAJANAN PINGGIR JALAN DI BRAGA 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-7-Male-7_46, best cost 89.0378 + 3232.22 = 3321.26 over 660 frames.
-Male-7-Male-7_46 SELAMA DI JAKARTA THE TRAFFIC WAS CRAZY TAPI NIGHTLIFE NYA SERU BANGET 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-7-Male-7_49, best cost 87.4804 + 3891.13 = 3978.61 over 773 frames.
-Male-7-Male-7_49 GOING TO RAJA AMPAT SELALU JADI BUCKET LIST KU SIH AIRNYA SO CLEAR AND BEAUTIFUL 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-7-Male-7_50, best cost 92.6002 + 3403.68 = 3496.28 over 668 frames.
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-6-Male-6_45, best cost 95.1042 + 3919.92 = 4015.02 over 803 frames.
+Male-6-Male-6_45 KALO MAU DOKUMENTASI KATA FOTO FOTO SEBAIKNYA SAAT SAAT SUNRISE BIAR EYE CATCHY 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-6-Male-6_49, best cost 104.655 + 3919.99 = 4024.65 over 803 frames.
+Male-6-Male-6_49 KITA JUGA BISA NYANYI NYANYI SAMBIL MEMANDANGI BINTANG BINTANG YANG BERSINAR DI LANGIT MALAM 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-7-Male-7_12, best cost 62.9738 + 3354.13 = 3417.1 over 670 frames.
+Male-7-Male-7_12 KANTOR LAGI SIBUK SIBUKNYA PROJECTNYA SAATNYA AMBIL UNPAID LEAVE 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-7-Male-7_19, best cost 90.8615 + 3519.1 = 3609.96 over 730 frames.
+Male-7-Male-7_19 STRESS GAK SIH LIBURAN DI PRINDAVAN SALAH MAKAN DIKIT LANGSUNG NAMUN 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-7-Male-7_26, best cost 63.2679 + 2686.94 = 2750.2 over 575 frames.
+Male-7-Male-7_26 MAIN MAIN DI TAHURA PAGI HARI TERNYATA SERU JUGA 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-7-Male-7_35, best cost 83.632 + 3890.69 = 3974.32 over 768 frames.
+Male-7-Male-7_35 KALAU MAU DOKUMENTASI ATAU FOTO FOTO SEBAIKNYA SAAT SAAT SUNRISE BIAR EYE CATCHY 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-7-Male-7_40, best cost 100.361 + 3913.24 = 4013.6 over 795 frames.
+Male-7-Male-7_40 PAS PULANG KITA BISA MAMPIR DAN MEMBELI BEBERAPA OLEH OLEH BUAT TEMAN DAN KELUARGA 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-7-Male-7_42, best cost 76.046 + 3171.08 = 3247.12 over 633 frames.
+Male-7-Male-7_42 SEKALI UBUD ITU SUPER COZY COCOK BUAT LIBURAN 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-7-Male-7_43, best cost 83.2576 + 3509.02 = 3592.28 over 698 frames.
+Male-7-Male-7_43 AKU PERNAH NYELAM DI GILI TRAWANGAN TERUMBU KARANGNYA ITU BAGUS BANGET SIH 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-7-Male-7_48, best cost 66.7611 + 2757.49 = 2824.25 over 593 frames.
+Male-7-Male-7_48 KALAU KE MEDAN JANGAN LUPA COBAIN DURIAN ENAK BANGET 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-7-Male-7_5, best cost 107.852 + 4534.45 = 4642.3 over 940 frames.
+Male-7-Male-7_5 LIBURAN KE TANGKUBAN PERAHU SANGAT MENYENANGKAN KARENA PEMANDANGAN DARI ATAS KAWAH SANGAT INDAH 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-7-Male-7_50, best cost 85.1981 + 3402.08 = 3487.28 over 668 frames.
 Male-7-Male-7_50 TREKKING DI BROMO TUH CAPEK BANGET TAPI SUNRISE VIEW NYA BEH SO BEAUTIFUL 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-8-Male-8_10, best cost 52.0324 + 2398.66 = 2450.69 over 550 frames.
-Male-8-Male-8_10 DI MEDAN ADA RESTORAN JUAL KODOK SEBESAR AYAM 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-8-Male-8_11, best cost 49.6652 + 1897.7 = 1947.37 over 453 frames.
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-8-Male-8_11, best cost 51.3296 + 1901.17 = 1952.49 over 453 frames.
 Male-8-Male-8_11 DI BANDUNG ENAKNYA STAYCATION DI MANA YA 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-8-Male-8_14, best cost 85.8901 + 3241.35 = 3327.24 over 720 frames.
-Male-8-Male-8_14 MAU NONTON KONSER TAYLOR SWIFT DI SINGAPUR TAPI TIKETNYA UDAH SOLD OUT 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-8-Male-8_19, best cost 57.4408 + 2569.93 = 2627.37 over 600 frames.
-Male-8-Male-8_19 JONI MENGAJAKKU PERGI KE PULAU KOMODO MINGGU DEPAN 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-8-Male-8_22, best cost 121.139 + 4924.7 = 5045.84 over 1132 frames.
-LOG (lattice-add-penalty[5.5.1124~1-21ae4]:main():lattice-add-penalty.cc:62) Done adding word insertion penalty to 217 lattices.
-Male-8-Male-8_22 GIMANA KALO KITA CAMPING KE GUNUNG MENIKMATI MALAM YANG BERBINTANG BAWA GITAR NYANYI NYANYI DI TENGAH API UNGGUN 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-8-Male-8_39, best cost 106.228 + 3883.89 = 3990.11 over 870 frames.
-Male-8-Male-8_39 GOING TO RAJA AMPAT SELALU JADI BUCKET LIST KU SIH AIRNYA SO PILIH LAIN BEAUTIFUL 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-8-Male-8_41, best cost 56.8874 + 2627.14 = 2684.02 over 608 frames.
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-8-Male-8_16, best cost 65.3891 + 2085.09 = 2150.48 over 480 frames.
+Male-8-Male-8_16 MAIN MAIN DI TAHURA PAGI HARI TERNYATA SERU JUGA 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-8-Male-8_2, best cost 78.2783 + 2975.78 = 3054.06 over 678 frames.
+LOG (lattice-scale[5.5.1124~1-21ae4]:main():lattice-scale.cc:107) Done 217 lattices.
+Male-8-Male-8_2 KANTOR LAGI SIBUK SIBUKNYA JOGJA SAATNYA AMBIL UNPAID LEAVE 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-8-Male-8_22, best cost 134.909 + 4948.83 = 5083.74 over 1132 frames.
+Male-8-Male-8_22 GIMANA KALO KITA CAMPING KE GUNUNG MENIKMATI MALAM YANG BERBINTANG BAWA KITA NYANYI NYANYI DI TENGAH API UNGGUN 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-8-Male-8_23, best cost 167.807 + 5226.58 = 5394.39 over 1165 frames.
+Male-8-Male-8_23 GA CUMA ITU KALO PAGI PAGI KITA BISA LIAT PEMANDANGAN YANG INDAH KAYA POHON POHON YANG HIJAU LOMBOK BAWA HAMPARAN PADANG RUMPUT YANG LUAS 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-8-Male-8_32, best cost 69.1268 + 2758.89 = 2828.02 over 606 frames.
+Male-8-Male-8_32 VILLA DI UBUD ITU SUPER COZY COCOK BUAT LIBURAN 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-8-Male-8_38, best cost 65.9194 + 3066.3 = 3132.22 over 750 frames.
+Male-8-Male-8_38 KALAU KE MEDAN JANGAN LUPA COBAIN DURIAN ENAK BANGET 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-8-Male-8_41, best cost 59.1538 + 2579.22 = 2638.38 over 608 frames.
 Male-8-Male-8_41 UDARA PALING SEGAR ADALAH UDARA DI GUNUNG 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-8-Male-8_48, best cost 45.7323 + 2381.01 = 2426.74 over 558 frames.
-Male-8-Male-8_48 BERLIBUR KE GUNUNG MEMBUTUHKAN TOURGUIDE 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-8-Male-8_5, best cost 67.0086 + 2742.49 = 2809.5 over 643 frames.
-Male-8-Male-8_5 DI JEPANG UDAH GA PAKE VISA YA KALAU MAKE E PASPOR 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-8-Male-8_9, best cost 77.1359 + 3323.64 = 3400.78 over 750 frames.
-Male-8-Male-8_9 SETELAH SELESAI LIBURAN DI PRINDAVAN SALAH MAKAN DIKIT LANGSUNG OPNAME 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-9-Male-9_1, best cost 48.5471 + 2068.02 = 2116.56 over 478 frames.
-Male-9-Male-9_1 DI BANDUNG ENAKNYA STAYCATION DI MANA YA 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-9-Male-9_12, best cost 115.936 + 3613.35 = 3729.29 over 718 frames.
-Male-9-Male-9_12 GIMANA KALO KITA CAMPING KE GUNUNG MENIKMATI MALAM YANG BERBINTANG BAWA GITAR NYANYI NYANYI DI TENGAH API UNGGUN 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-9-Male-9_22, best cost 67.4011 + 2159.1 = 2226.5 over 427 frames.
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-8-Male-8_43, best cost 60.1002 + 2798.62 = 2858.72 over 648 frames.
+Male-8-Male-8_43 AKHIR TAHUN INI AKU AKAN LIBURAN DI PANTAI 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-8-Male-8_45, best cost 88.8316 + 4034.02 = 4122.85 over 893 frames.
+Male-8-Male-8_45 SETELAH SEMESTER INI SELESAI AKU MAU BERLIBUR DI PANTAI SELAMA SEBULAN 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-9-Male-9_18, best cost 85.9647 + 2938.47 = 3024.43 over 581 frames.
+Male-9-Male-9_18LOG (lattice-add-penalty[5.5.1124~1-21ae4]:main():lattice-add-penalty.cc:62) Done adding word insertion penalty to 217 lattices.
+ SETELAH BERMAIN SEPANJANG HARI KITA BISA KUMPUL KUMPUL BUAT BARBEQUE MALAM DI TEPI PANTAI 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-9-Male-9_21, best cost 68.7935 + 2322.69 = 2391.48 over 461 frames.
+Male-9-Male-9_21 AKHIR SEMESTER NANTI AKU MAU LIBURAN KE BALI MAU IKUT 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-9-Male-9_22, best cost 67.8088 + 2160.03 = 2227.84 over 427 frames.
 Male-9-Male-9_22 VILLA DI UBUD ITU SUPER COZY COCOK BUAT LIBURAN 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-9-Male-9_27, best cost 97.756 + 3227.59 = 3325.34 over 641 frames.
-Male-9-Male-9_27 AKU KEMARIN BARU BALIK DARI YOGYAKARTA THE TEMPLES AND THE CULTURE BLEW MY MIND BRO 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-9-Male-9_29, best cost 82.2279 + 2966.72 = 3048.94 over 581 frames.
-Male-9-Male-9_29 GOING TO RAJA AMPAT SELALU JADI BUCKET LIST KU SIH AIRNYA SO CLEAR AND BEAUTIFUL 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-9-Male-9_33, best cost 54.9281 + 1487.94 = 1542.87 over 307 frames.
-Male-9-Male-9_33 AKHIR TAHUN INI AKU AKAN LIBURAN DI PANTAI 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-9-Male-9_38, best cost 37.5045 + 1531.59 = 1569.1 over 324 frames.
-Male-9-Male-9_38 BERLIBUR KE GUNUNG MEMBUTUHKAN TOURGUIDE 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-9-Male-9_39, best cost 40.1863 + 1617.08 = 1657.27 over 332 frames.
-Male-9-Male-9_39 CAMPING SEBELUM SIDANG SEPERTINYA MENYENANGKAN 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-9-Male-9_45, best cost 66.9091 + 1903.73 = 1970.64 over 384 frames.
-Male-9-Male-9_45 SAYA DENGAR DI PANTAI KUTA ADA SPOT SURFING YANG BAGUS 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-9-Male-9_6, best cost 67.5849 + 2228.12 = 2295.7 over 478 frames.
-Male-9-Male-9_6 MAIN MAIN DI TAHURA PAGI HARI TERNYATA SERU JUGA 
-LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:124) Overall cost per frame is 4.90792 = 0.131914 [graph] + 4.77601 [acoustic] over 128341 frames.
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-9-Male-9_26, best cost 77.6926 + 2797.96 = 2875.66 over 555 frames.
+Male-9-Male-9_26 SELAMA DI JAKARTA THE TRAFFIC WAS CRAZY TAPI NIGHTLIFE NYA SERU BANGET 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-9-Male-9_30, best cost 81.2447 + 2889.49 = 2970.74 over 581 frames.
+Male-9-Male-9_30 TREKKING DI BROMO TUH CAPEK BANGET TAPI SUNRISE VIEW NYA BEH SO BEAUTIFUL 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-9-Male-9_31, best cost 54.2601 + 1632.76 = 1687.02 over 332 frames.
+Male-9-Male-9_31 UDARA PALING SEGAR ADALAH UDARA DI GUNUNG 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-9-Male-9_32, best cost 50.6653 + 1756.76 = 1807.42 over 367 frames.
+Male-9-Male-9_32 LIBURAN AKAN TERASA JIKA BERSAMA KELUARGA 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-9-Male-9_43, best cost 87.9132 + 2759.39 = 2847.3 over 564 frames.
+Male-9-Male-9_43 NGOMONG NGOMONG WAKTU LIBUR HAMPIR TIBA KITA HARUS MERENCANAKAN KEMANA KITA PERGI NANTI 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-9-Male-9_44, best cost 86.3357 + 2710.5 = 2796.84 over 538 frames.
+Male-9-Male-9_44 KATANYA TRANS STUDIO BANDUNG LAGI NGADAIN DISKON NIH AYO KE SANA MUMPUNG LAGI LIBUR 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:99) For utterance Male-9-Male-9_49, best cost 68.7262 + 2238.99 = 2307.72 over 461 frames.
+Male-9-Male-9_49 AKU TAKUT BANGET NAIK BANANA BOAT MENDING MAIN YANG LAIN AJA YA 
+LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:124) Overall cost per frame is 4.9093 = 0.129579 [graph] + 4.77972 [acoustic] over 128454 frames.
 LOG (lattice-best-path[5.5.1124~1-21ae4]:main():lattice-best-path.cc:128) Done 217 lattices, failed for 0
 # Accounting: time=1 threads=1
-# Ended (code 0) at Tue Dec  5 23:37:40 WIB 2023, elapsed time 1 seconds
+# Ended (code 0) at Thu Dec  7 00:07:54 WIB 2023, elapsed time 1 seconds

@@ -1,446 +1,446 @@
 # gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/tri1/graph/words.txt exp/tri1/final.mdl exp/tri1/graph/HCLG.fst "ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split1/1/utt2spk scp:data/test/split1/1/cmvn.scp scp:data/test/split1/1/feats.scp ark:- | add-deltas  ark:- ark:- |" "ark:|gzip -c > exp/tri1/decode/lat.1.gz" 
-# Started at Tue Dec  5 23:35:26 WIB 2023
+# Started at Thu Dec  7 00:05:23 WIB 2023
 #
 gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/tri1/graph/words.txt exp/tri1/final.mdl exp/tri1/graph/HCLG.fst 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split1/1/utt2spk scp:data/test/split1/1/cmvn.scp scp:data/test/split1/1/feats.scp ark:- | add-deltas  ark:- ark:- |' 'ark:|gzip -c > exp/tri1/decode/lat.1.gz' 
 add-deltas ark:- ark:- 
 apply-cmvn --utt2spk=ark:data/test/split1/1/utt2spk scp:data/test/split1/1/cmvn.scp scp:data/test/split1/1/feats.scp ark:- 
-Female-1-Female-1_1 BUAT NGILANGIN PENAT PALING ENAK LIBURAN KE PANTAI E 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-1-Female-1_1 is -7.85397 over 440 frames.
-Female-1-Female-1_19 BUAT KALIAN YANG LAGI MERENCANAKAN LIBURAN PASTIKAN SUDAH PUNYA PLAN YANG BAGUS 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-1-Female-1_19 is -7.6354 over 638 frames.
-Female-1-Female-1_21 STAYCATION ENAKNYA KEMANA YA 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-1-Female-1_21 is -7.58245 over 325 frames.
+Female-1-Female-1_22 DESTINATION STREET FOOD GITU ENAK KALI YA 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-1-Female-1_22 is -8.03191 over 380 frames.
+Female-1-Female-1_27 PENGEN LIBURAN TAPI TUGAS BANYAK 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-1-Female-1_27 is -7.47396 over 376 frames.
 Female-1-Female-1_32 SAYA SUKA MINUM KOPI SAMBIL BERSANTAI DENGAN TEMAN DI GUNUNG 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-1-Female-1_32 is -7.88729 over 588 frames.
-Female-1-Female-1_36 SALAH SATU TUJUAN HIKING SAYA ADALAH GUNUNG RINJANI 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-1-Female-1_36 is -8.06246 over 409 frames.
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-1-Female-1_32 is -7.90584 over 588 frames.
+Female-1-Female-1_33 BERLIBUR BERSAMA KELUARGA ADALAH MOMEN YANG SANGAT BERHARGA 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-1-Female-1_33 is -7.70036 over 533 frames.
 Female-1-Female-1_37 LIBURAN YANG RELAXING BUAT SAYA ADALAH KE UBUD BALI 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-1-Female-1_37 is -7.84181 over 471 frames.
-Female-1-Female-1_39 MAIN GAME DESTINATION IALAH LIBURAN KE RAJA AMPAT 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-1-Female-1_39 is -7.53317 over 461 frames.
-Female-1-Female-1_43 SELAMA MASIH WAKTU LIBURAN AYO KITA EXPLORE PANTAI PANTAI NYA DI BALI 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-1-Female-1_43 is -7.76484 over 640 frames.
-Female-1-Female-1_48 RENCANANYA KITA MAU JOIN COOKING CLASS UNTUK BELAJAR MEMASAK MASAKAN INDONESIA 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-1-Female-1_48 is -7.95951 over 648 frames.
-Female-1-Female-1_50 DENGAN BERENANG TUBUH KITA AKAN JADI LEBIH TERUS MENANTI 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-1-Female-1_50 is -7.68395 over 590 frames.
-Female-2-Female-2_13 KALAU KE BALI BULAN SEMBILAN ENAKNYA NGAPAIN YA DI SANA 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-2-Female-2_13 is -7.97262 over 375 frames.
-Female-2-Female-2_16 HAL PALING MALESIN PAS LIBURAN TUH DIHUBUNGIN ATASAN TERUS DISURUH IKUT MEETING 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-2-Female-2_16 is -8.05991 over 581 frames.
-Female-2-Female-2_20 PINGIN LIBURAN KE EROPA BIAR BISA LIAT SALJU 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-2-Female-2_20 is -8.23271 over 367 frames.
-Female-2-Female-2_3 PALING SERU KALAU LIBURAN BARENG TEMEN BARENG 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-2-Female-2_3 is -8.15199 over 272 frames.
-Female-2-Female-2_33 TAHUN LALU SAYA INGIN KE JEPANG SEBENERNYA TAPI TIDAK BISA KARENA MEREKA MASIH CLOSE BORDER DARI AWAL TAHUNNYA 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-2-Female-2_33 is -8.02454 over 684 frames.
-Female-2-Female-2_35 JANGAN LUPA NANTI JAM EMPAT SORE KUMPUL DEPAN VILLA YA JANGAN SAMPAI TERLEWAT GOLDEN HOUR SORE INI 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-2-Female-2_35 is -7.79572 over 752 frames.
-Female-2-Female-2_37 KALAU TURUN DARI GUNUNG BISA NGGA TINGGAL NGGELINDING AJA CAPEK SOALNYA 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-2-Female-2_37 is -7.88455 over 495 frames.
-Female-2-Female-2_43 BANDUNG MEMPUNYAI BANYAK OBJEK WISATA YANG BISA JADI PILIHAN LIBURAN BAGI WARGA JABODETABEK 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-2-Female-2_43 is -8.0261 over 581 frames.
-Female-2-Female-2_6 HOLIDAY PALING ENAK KALAU BISA JALAN JALAN BARENG KELUARGA 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-2-Female-2_6 is -7.93274 over 418 frames.
-Female-2-Female-2_7 OVERTIME BAGAI KUDA BIAR BISA DIBATASI IBU DAN 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-2-Female-2_7 is -8.07762 over 375 frames.
-Female-3-Female-3_13 HEALING TU ENAKNYA TIDUR AJA DI HOTEL SEHARIAN 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-3-Female-3_13 is -7.91694 over 408 frames.
-Female-3-Female-3_15 SIAPA MAU SENDIRIAN STAYCATION DI TENGAH HUTAN GITU 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-3-Female-3_15 is -7.8347 over 448 frames.
-Female-3-Female-3_23 TAHUN LALU SAYA INGIN KE JEPANG SEBENERNYA TAPI JADI BISA KARENA MEREKA MASIH CLOSE BORDER DARI AWAL TAHUNNYA 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-3-Female-3_23 is -8.12184 over 783 frames.
-Female-3-Female-3_28 LIBURAN TAHUN LALU KURANG KERASA MENURUTKU GAK BISA PERGI JAUH KARENA MASIH WABAH 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-3-Female-3_28 is -8.09673 over 658 frames.
-Female-3-Female-3_3 KALAU KE BALI BULAN SEMBILAN ENAKNYA NGAPAIN YA DI SANA 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-3-Female-3_3 is -7.88377 over 493 frames.
-Female-3-Female-3_32 LITERALLY TRACKING KE PEGUNUNGAN MEMBERIKAN KESEMPATAN UNTUK MERASAKAN KESEGARAN UDARA ALAMI 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-3-Female-3_32 is -8.29751 over 775 frames.
-Female-3-Female-3_33 BANDUNG MEMPUNYAI BANYAK OBJEK WISATA YANG BISA JADI PILIHAN LIBURAN BAGI WARGA JABODETABEK 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-3-Female-3_33 is -8.37193 over 735 frames.
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-1-Female-1_37 is -7.79135 over 471 frames.
+Female-1-Female-1_40 TREKKING DI GUNUNG SEMERU TERNYATA ADVENTUROUS BANGET 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-1-Female-1_40 is -7.82678 over 473 frames.
+Female-1-Female-1_42 GIMANA KALAU NATURE HIKE DI GUNUNG SALAK JADI KITA BISA MENIKMATI KEINDAHAN ALAMNYA YANG KEREN 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-1-Female-1_42 is -7.78992 over 826 frames.
+Female-1-Female-1_45 DEH SAAT KITA BOAT TOUR DI DANAU TOBA YA SEKALIAN EXPLORE THE BEAUTY OF THE LARGEST VOLCANIC LAKE IN THE WORLD 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-1-Female-1_45 is -8.05536 over 863 frames.
+Female-1-Female-1_49 LETS EXPLORE CULTURAL LANDMARKS DI YOGYAKARTA DI SANA BANYAK BELAJAR SEJARAH LOH 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-1-Female-1_49 is -8.0709 over 734 frames.
+Female-1-Female-1_9 BERKEMAH DI DAERAH PERBUKITAN ATAU KEBUN TEH JUGA BISA JADI ALTERNATIF BERLIBUR 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-1-Female-1_9 is -7.79955 over 640 frames.
+Female-2-Female-2_15 TEMPAT DINNER YANG EXPENSIVE BANGET TAPI ENAK DI MANA YA 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-2-Female-2_15 is -7.86157 over 418 frames.
+Female-2-Female-2_2 LIBURAN PALING ENAK KALAU KITA ABIS NGELARIN KERJAAN WORK LIFE BALANCE 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-2-Female-2_2 is -8.09549 over 521 frames.
+Female-2-Female-2_21 STAYCATION ENAKNYA KEMANA YA 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-2-Female-2_21 is -7.80263 over 238 frames.
+Female-2-Female-2_27 PINGIN LIBURAN TAPI TUGAS BANYAK 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-2-Female-2_27 is -7.62758 over 307 frames.
+Female-2-Female-2_3 PALING SERU KALAU LIBURAN BARENG TEMEN MALAM 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-2-Female-2_3 is -8.04403 over 272 frames.
+Female-2-Female-2_38 LIBURAN TAHUN LALU KURANG KERASA MENURUTKU GAK BISA PERGI JAUH KARENA MASIH WABAH 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-2-Female-2_38 is -8.01865 over 564 frames.
+Female-2-Female-2_42 LITERALLY TRACKING KE PEGUNUNGAN MEMBERIKAN KESEMPATAN UNTUK MERASAKAN KESEGARAN UDARA ALAMI 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-2-Female-2_42 is -8.04413 over 667 frames.
+Female-2-Female-2_5 KEBANYAKAN LIBURAN ENAK JUGA SIH BORING JUGA TERNYATA 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-2-Female-2_5 is -8.38659 over 358 frames.
+Female-2-Female-2_50 SEBAGIAN BESAR MAHASISWA SUDAH MENGUNJUNGI AIR TERJUN CILEMBER 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-2-Female-2_50 is -7.98508 over 444 frames.
+Female-2-Female-2_9 BERKEMAH DI DAERAH PERBUKITAN ATAU KEBUN TEH JADI BISA JADI ALTERNATIF BERLIBUR 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-2-Female-2_9 is -8.09747 over 512 frames.
+Female-3-Female-3_11 STAYCATION ENAKNYA KEMANA YA 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-3-Female-3_11 is -7.92084 over 305 frames.
+Female-3-Female-3_14 TERSERAH MAU KEMANA PENTING MAKANANNYA ENAK ENAK 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-3-Female-3_14 is -7.75864 over 410 frames.
+Female-3-Female-3_16 LIBURAN KE PALEMBANG WAJIB MAKAN PEMPEK 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-3-Female-3_16 is -7.90206 over 398 frames.
+Female-3-Female-3_2 BESOK LONG WEEKEND NIH ENAKNYA LIBURAN KEMANA YA 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-3-Female-3_2 is -7.88841 over 405 frames.
+Female-3-Female-3_20 KAYAKNYA TIDUR MAIN DI DAN MAKAN MAKAN SELAMA LIBURAN ENAK KALI YA 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-3-Female-3_20 is -7.78719 over 620 frames.
+Female-3-Female-3_22 LIBURAN BULAN DEPAN JANGAN LUPA BAWA OBAT YA JUST IN CASE SAKIT DI LOKASI 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-3-Female-3_22 is -8.23048 over 550 frames.
 Female-3-Female-3_39 INDONESIA TERKENAL AKAN PESONA LAUT DAN PANTAINYA 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-3-Female-3_39 is -8.4075 over 425 frames.
-Female-3-Female-3_4 INGIN PERGI LIBURAN TAPI KERJAAN MASIH BANYAK DAN DUIT JUGA UDAH MAU ABIS 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-3-Female-3_4 is -8.01749 over 540 frames.
-Female-3-Female-3_8 HIKING DI MUSIM KEMARAU KAYAKNYA SERU NIH 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-3-Female-3_8 is -7.60206 over 390 frames.
-Female-4-Female-4_12 LIBURAN BULAN DEPAN JANGAN LUPA BAWA OBAT YA IS TINGGI SAKIT DI LOKASI 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-4-Female-4_12 is -7.55266 over 598 frames.
-Female-4-Female-4_26 MESKIPUN JACKSON SOCIALLY AWKWARD NAMUN DIA HOBI JOIN OPEN TRIP 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-4-Female-4_26 is -7.65744 over 607 frames.
-Female-4-Female-4_3 HEALING TU ENAKNYA TIDUR AJA YA DI HOTEL SEHARIAN 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-4-Female-4_3 is -7.80847 over 435 frames.
-Female-4-Female-4_34 TEMPAT PALING ENAK BUAT LIBURAN TUH YANG UDARANYA SEJUK ADEM AYEM BIAR NGGA KERINGETAN 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-4-Female-4_34 is -7.84195 over 598 frames.
-Female-4-Female-4_38 PAS SAMPE TEMPAT TUJUAN COBA HIRUP UDARANYA YANG SEGAR DIJAMIN BETAH 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-4-Female-4_38 is -7.64028 over 572 frames.
-Female-4-Female-4_4 TERSERAH MAU KEMANA PENTING MAKANANNYA ENAK ENAK 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-4-Female-4_4 is -7.52859 over 478 frames.
-Female-4-Female-4_42 NANTI KALAU SUDAH LIBURAN JANGAN LUPA JALAN JALAN 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-4-Female-4_42 is -7.77131 over 401 frames.
-Female-4-Female-4_43 BISA KE PANTAI YANG ATAU KE PEGUNUNGAN 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-4-Female-4_43 is -7.69449 over 367 frames.
-Female-4-Female-4_6 LIBURAN KE PALEMBANG WAJIB MAKAN PEMPEK 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-4-Female-4_6 is -7.47473 over 358 frames.
-Female-4-Female-4_8 LIBUR TELAH TIBA LIBUR TELAH TIBA HORE HORE 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-4-Female-4_8 is -7.72387 over 572 frames.
-Female-5-Female-5_11 BERLIBUR KE PANTAI SELALU MENJADI PILIHAN FAVORIT SAYA 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-5-Female-5_11 is -7.78021 over 618 frames.
-Female-5-Female-5_12 LITERALLY TRACKING KE PEGUNUNGAN MEMBERIKAN KESEMPATAN UNTUK MERASAKAN KESEGARAN UDARA ALAMI 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-5-Female-5_12 is -7.75868 over 905 frames.
-Female-5-Female-5_17 JUJURLY SAYA TIDAK SABAR UNTUK PERGI LIBURAN LAGI 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-5-Female-5_17 is -7.72964 over 565 frames.
-Female-5-Female-5_21 KALAU CAPE KERJA ENAKNYA LIBURAN SIH PINGIN MAH 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-5-Female-5_21 is -7.90509 over 550 frames.
-Female-5-Female-5_33 BISA KE PANTAI DI AKAL KE PEGUNUNGAN 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-5-Female-5_33 is -7.92875 over 433 frames.
-Female-5-Female-5_35 DENGAN BEGITU LIBURAN JADI LEBIH BERMAKNA DAN LEBIH MENYENANGKAN 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-5-Female-5_35 is -7.928 over 670 frames.
-Female-5-Female-5_43 SEMOGA SUATU HARI KAMI BISA STAYCATION DI VILLA PEGUNUNGAN 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-5-Female-5_43 is -8.03569 over 618 frames.
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-3-Female-3_39 is -8.39126 over 425 frames.
+Female-3-Female-3_42 SAMBIL KULINERAN TERUS ENJOY BARENG KELUARGA 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-3-Female-3_42 is -7.82667 over 510 frames.
+Female-3-Female-3_48 PAS SAMPE TEMPAT TUJUAN COBA HIRUP UDARANYA YANG SEGER DIJAMIN BETAH 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-3-Female-3_48 is -7.82836 over 705 frames.
+Female-3-Female-3_9 BUAT KALIAN YANG LAGI MERENCANAKAN LIBURAN PASTIKAN SUDAH PUNYA PLAN YANG BAGUS 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-3-Female-3_9 is -8.2197 over 605 frames.
+Female-4-Female-4_11 SOMETIMES KITA TUH INGIN LIBURAN KE TEMPAT YANG SEPI GITU NGGA SIH SEJENAK MENJAUH DARI KERAMAIAN KOTA 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-4-Female-4_11 is -7.78875 over 812 frames.
+Female-4-Female-4_14 KALAU LIBURAN NAIK KERETA DARI BANDUNG KE JOGJA JANGAN LUPA REGISTRASI UNTUK FACE RECOGNITION DULU BEBERAPA JAM SEBELUMNYA 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-4-Female-4_14 is -7.96755 over 804 frames.
+Female-4-Female-4_2 DESTINATION STREET FOOD GITU ENAK KALI YA 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-4-Female-4_2 is -8.19908 over 324 frames.
+Female-4-Female-4_22 LITERALLY TRACKING KE PEGUNUNGAN MEMBERIKAN KESEMPATAN UNTUK MERASAKAN KESEGARAN UDARA ALAMI 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-4-Female-4_22 is -7.86934 over 744 frames.
+Female-4-Female-4_25 LIBURAN DENGAN MEREKA SELALU SANGAT MENYENANGKAN MEREKA SEPERTI SECOND FAMILY BAGI SAYA 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-4-Female-4_25 is -7.80304 over 718 frames.
+Female-4-Female-4_28 SEMAKIN BANYAK TURIS ASING YANG BERKUNJUNG KE LOMBOK 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-4-Female-4_28 is -8.02086 over 435 frames.
+Female-4-Female-4_30 SEBAGIAN BESAR MAHASISWA SUDAH MENGUNJUNGI AIR TERJUN CILEMBER 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-4-Female-4_30 is -7.80937 over 504 frames.
+Female-4-Female-4_40 ABIS LIBURAN TIBALAH KERJAAN DAN TUGAS SUDAH MENANTI 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-4-Female-4_40 is -7.93649 over 521 frames.
+Female-4-Female-4_44 KALAU SEMPAT BAWAKAN OLEH OLEH UNTUK ORANG KESAYANGAN 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-4-Female-4_44 is -7.85165 over 487 frames.
+Female-4-Female-4_8 LIBUR TELAH TIBA LIBUR TELAH TIBA HORE HARI DI 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-4-Female-4_8 is -7.79571 over 572 frames.
+Female-5-Female-5_14 ACTUALLY LIBURAN SAYA TAHUN INI SANGAT MENGESANKAN 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-5-Female-5_14 is -7.77208 over 580 frames.
+Female-5-Female-5_15 LIBURAN DENGAN MEREKA SELALU SANGAT MENYENANGKAN MEREKA SEPERTI SECOND FAMILY BAGI SAYA 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-5-Female-5_15 is -7.81476 over 855 frames.
+Female-5-Female-5_2 LIBURAN BULAN DEPAN JANGAN LUPA BAWA OBAT YA JUST IN CASE SAKIT DI LOKASI E 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-5-Female-5_2 is -7.9918 over 803 frames.
+Female-5-Female-5_20 SEBAGIAN BESAR MAHASISWA SUDAH MENGUNJUNGI AIR TERJUN CILEMBER 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-5-Female-5_20 is -7.98409 over 660 frames.
+Female-5-Female-5_24 TEMPAT PALING ENAK BUAT LIBURAN TUH YANG UDARANYA SEJUK ADEM AYEM BIAR NGGA KERINGETAN 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-5-Female-5_24 is -8.14149 over 830 frames.
+Female-5-Female-5_30 ABIS LIBURAN TIBALAH KERJAAN DAN TUGAS SUDAH MENANTI 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-5-Female-5_30 is -7.99212 over 538 frames.
+Female-5-Female-5_36 KATA KALI AKU SUDAH LAMA TIDAK LIBURAN BARENG KELUARGA 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-5-Female-5_36 is -7.84975 over 580 frames.
 Female-5-Female-5_44 SEKARANG TRAVELING JADI MAKIN MUDAH DENGAN RESERVASI ONLINE 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-5-Female-5_44 is -7.94787 over 608 frames.
-Female-5-Female-5_5 JANGAN LUPA NANTI JAM EMPAT SORE INI KUMPUL DEPAN VILLA YA JANGAN SAMPAI TERLEWAT GOLDEN HOUR SORE INI 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-5-Female-5_5 is -8.07211 over 915 frames.
-Female-5-Female-5_50 KOTA MEDAN ADALAH SURGANYA PENYUKA DURIAN 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-5-Female-5_50 is -7.50908 over 543 frames.
-Female-6-Female-6_1 BERLIBUR KE PANTAI SELALU MENJADI PILIHAN FAVORIT SAYA 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-6-Female-6_1 is -7.94114 over 608 frames.
-Female-6-Female-6_19 JANGAN LUPA MAMPIR KE RUMAH MAKAN SUNDA YANG RASA MAKANANNYA DIJAMIN ENAK PISAN 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-6-Female-6_19 is -7.93129 over 753 frames.
-Female-6-Female-6_27 JADI HARUS DIAGENDAKAN JALAN JALAN AKAL SEKEDAR KUMPUL KELUARGA UNTUK GILI 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-6-Female-6_27 is -7.85865 over 815 frames.
-Female-6-Female-6_28 REFRESHING SANGAT PENTING UNTUK MENJAGA KESEHATAN DAN KEWARASAN JIWA KITA 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-6-Female-6_28 is -7.71911 over 763 frames.
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-5-Female-5_44 is -7.9466 over 608 frames.
+Female-5-Female-5_6 KALAU KE PUNCAK JANGAN BUANG SAMPAH SEMBARANGAN SAMPAHNYA DIBAWA LAGI TURUN KE BAWAH 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-5-Female-5_6 is -7.75155 over 918 frames.
+Female-5-Female-5_9 KALAU TIDAK BISA LIBURAN KE LEMBANG AKU LEBIH PILIH DI RUMAH AJA 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-5-Female-5_9 is -7.58749 over 700 frames.
+Female-6-Female-6_10 SEBAGIAN BESAR MAHASISWA SUDAH MENGUNJUNGI AIR TERJUN CILEMBER 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-6-Female-6_10 is -7.92014 over 683 frames.
+Female-6-Female-6_11 KALO CAPE KERJA ENAKNYA LIBURAN SIH INI MAH 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-6-Female-6_11 is -7.70665 over 510 frames.
+Female-6-Female-6_33 SEMOGA SUATU HARI KAMI BISA STAYCATION DI VILLA PEGUNUNGAN 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-6-Female-6_33 is -7.5743 over 680 frames.
 Female-6-Female-6_34 SEKARANG TRAVELING JADI MAKIN MUDAH DENGAN RESERVASI ONLINE 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-6-Female-6_34 is -7.91163 over 630 frames.
-Female-6-Female-6_37 PANTAI SELALU MENJADI TUJUAN FAVORIT SAYA UNTUK LIBURAN 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-6-Female-6_37 is -7.61444 over 680 frames.
-Female-6-Female-6_40 KUTA MEDAN ADALAH SURGANYA PENYUKA DURIAN 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-6-Female-6_40 is -7.8638 over 560 frames.
-Female-6-Female-6_47 BANYAK SEKALI YANG HARUS DIPERSIAPKAN UNTUK HOLIDAY KE JEPANG 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-6-Female-6_47 is -7.89678 over 640 frames.
-Female-6-Female-6_7 JUJURLY SAYA TIDAK SABAR UNTUK PERGI LIBURAN LAGI 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-6-Female-6_7 is -7.64692 over 565 frames.
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-6-Female-6_34 is -7.85073 over 630 frames.
+Female-6-Female-6_38 PULAU BINTAN COCOK DIKUNJUNGI BERSAMA KELUARGA 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-6-Female-6_38 is -7.64472 over 580 frames.
+Female-6-Female-6_41 TEMPAT LIBURAN YANG PALING TERKENAL DI BANDUNG ADA DI MANA YA 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-6-Female-6_41 is -7.63771 over 640 frames.
+Female-6-Female-6_42 DI LEMBANG BANYAK TEMPAT WISATA YANG BISA DI KUNJUNGI UNTUK LIBURAN BERSAMA TEMAN DAN KELUARGA 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-6-Female-6_42 is -7.84024 over 890 frames.
+Female-6-Female-6_43 WEEKEND INI AKU DAN TEMANKU AKAN PERGI GLAMPING KE RANCA UPAS 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-6-Female-6_43 is -7.97244 over 660 frames.
+Female-6-Female-6_49 KITA PERLU PREPARE DENGAN MATANG UNTUK LIBURAN AKHIR TAHUN INI WHICH IS PASTI SANGAT SERU 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-6-Female-6_49 is -7.96002 over 865 frames.
 Female-6-Female-6_9 INDONESIA TERKENAL AKAN PESONA LAUT DAN PANTAINYA 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-6-Female-6_9 is -7.60987 over 565 frames.
-Female-7-human_rights_un_ind_rd_0000 NYA DAN UMUM TENTANG HAK HAK ASASI MANUSIA MUKADIMAH MENIMBANG BAHWA PENGAKUAN ATAS MARTABAT ALAMIAH DAN HAK HAK YANG SAMA DAN MUTLAK DARI SEMUA ANGGOTA KELUARGA MANUSIA ADALAH DASAR KEMERDEKAAN 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-7-human_rights_un_ind_rd_0000 is -7.6749 over 1314 frames.
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-6-Female-6_9 is -7.58566 over 565 frames.
+Female-7-human_rights_un_ind_rd_0004 MENIMBANG BAHWA HAK HAK ASASI MANUSIA PERLU DILINDUNGI OLEH PERATURAN HUKUM SUPAYA ORANG TIDAK AKAN TERPAKSA MEMILIH PEMBERONTAKAN SEBAGAI USAHA TERAKHIR GUNA MENENTANG KELALIMAN DAN PENINDASAN 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-7-human_rights_un_ind_rd_0004 is -7.79079 over 1192 frames.
+Female-7-human_rights_un_ind_rd_0005 MENIMBANG BAHWA PEMBANGUNAN HUBUNGAN PERSAHABATAN ANTARA NEGARA NEGARA PERLU DIGALAKKAN 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-7-human_rights_un_ind_rd_0005 is -7.70896 over 448 frames.
 Female-7-human_rights_un_ind_rd_0008 DAN TELAH BERTEKAD UNTUK MENGGALAKKAN KEMAJUAN SOSIAL DAN TARAF HIDUP YANG LEBIH BAIK DI DALAM KEMERDEKAAN YANG LEBIH LUAS 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-7-human_rights_un_ind_rd_0008 is -7.86301 over 608 frames.
-Female-7-human_rights_un_ind_rd_0017 BAIK OLEH BANGSA BANGSA DARI NEGARA NEGARA ANGGOTA SENDIRI MAUPUN OLEH BANGSA BANGSA DARI DAERAH DAERAH YANG BERADA DI BAWAH KEKUASAAN HUKUM MEREKA 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-7-human_rights_un_ind_rd_0017 is -7.86917 over 738 frames.
-Female-7-human_rights_un_ind_rd_0018 PASAL SATU SEMUA ORANG DILAHIRKAN MERDEKA DAN MEMPUNYAI MARTABAT DAN HAK HAK YANG SAMA 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-7-human_rights_un_ind_rd_0018 is -7.47973 over 584 frames.
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-7-human_rights_un_ind_rd_0008 is -7.85025 over 608 frames.
+Female-7-human_rights_un_ind_rd_0010 KITA BEKERJASAMA DENGAN PERSERIKATAN BANGSA BANGSA 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-7-human_rights_un_ind_rd_0010 is -7.67389 over 266 frames.
+Female-7-human_rights_un_ind_rd_0019 MEREKA DIKARUNIAI AKAL DAN HATI NURANI DAN HENDAKNYA BERGAUL SATU SAMA LAIN DALAM SEMANGAT PERSAUDARAAN 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-7-human_rights_un_ind_rd_0019 is -7.7432 over 568 frames.
 Female-7-human_rights_un_ind_rd_0021 SEPERTI RAS WARNA KULIT JENIS KELAMIN BAHASA AGAMA POLITIK ATAU PENDAPAT YANG BERLAINAN 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-7-human_rights_un_ind_rd_0021 is -7.58937 over 680 frames.
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-7-human_rights_un_ind_rd_0021 is -7.57665 over 680 frames.
 Female-7-human_rights_un_ind_rd_0026 YANG BERBENTUK WILAYAH WILAYAH PERWALIAN 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-7-human_rights_un_ind_rd_0026 is -7.78693 over 196 frames.
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-7-human_rights_un_ind_rd_0026 is -7.81224 over 196 frames.
 Female-7-human_rights_un_ind_rd_0027 JAJAHAN ATAU YANG BERADA DI BAWAH BATASAN KEDAULATAN YANG LAIN 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-7-human_rights_un_ind_rd_0027 is -7.7251 over 342 frames.
-Female-7-human_rights_un_ind_rd_0033 PASAL ENAM SETIAP ORANG BERHAK ATAS PENGAKUAN DI DEPAN HUKUM SEBAGAI PRIBADI DI MANA SAJA IA BERADA 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-7-human_rights_un_ind_rd_0033 is -7.51926 over 628 frames.
-Female-7-human_rights_un_ind_rd_0047 JUGA TIDAK DIPERKENANKAN MENJATUHKAN HUKUMAN LEBIH BERAT DARIPADA HUKUMAN YANG SEHARUSNYA DIKENAKAN KETIKA PELANGGARAN HUKUM ITU DILAKUKAN 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-7-human_rights_un_ind_rd_0047 is -7.52662 over 760 frames.
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-7-human_rights_un_ind_rd_0027 is -7.71673 over 342 frames.
+Female-7-human_rights_un_ind_rd_0042 PASAL SEBELAS SATU SETIAP ORANG YANG DITUNTUT KARENA DISANGKA MELAKUKAN SUATU PELANGGARAN HUKUM DIANGGAP TIDAK BERSALAH 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-7-human_rights_un_ind_rd_0042 is -7.46275 over 776 frames.
 Female-7-human_rights_un_ind_rd_0053 SETIAP ORANG BERHAK MENINGGALKAN SUATU NEGERI 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-7-human_rights_un_ind_rd_0053 is -7.39681 over 250 frames.
-Female-7-human_rights_un_ind_rd_0063 MEREKA MEMPUNYAI HAK YANG SAMA DALAM SOAL PERKAWINAN 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-7-human_rights_un_ind_rd_0063 is -7.88295 over 274 frames.
-Female-7-human_rights_un_ind_rd_0065 PERKAWINAN HANYA DAPAT DILAKSANAKAN BERDASARKAN PILIHAN BEBAS DAN PERSETUJUAN PENUH OLEH KEDUA MEMPELAI TIGA 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-7-human_rights_un_ind_rd_0065 is -7.3017 over 830 frames.
-Female-7-human_rights_un_ind_rd_0068 EH SENDIRI MAUPUN BERSAMA SAMA DENGAN ORANG LAIN 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-7-human_rights_un_ind_rd_0068 is -7.90596 over 250 frames.
-Female-7-human_rights_un_ind_rd_0074 BAIK SENDIRI MAUPUN BERSAMA SAMA DENGAN ORANG LAIN DI MUKA UMUM MAUPUN SENDIRI 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-7-human_rights_un_ind_rd_0074 is -7.24746 over 590 frames.
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-7-human_rights_un_ind_rd_0053 is -7.44098 over 250 frames.
+Female-7-human_rights_un_ind_rd_0055 PASAL EMPAT BELAS SATU SETIAP ORANG BERHAK MENCARI DAN MENIKMATI SUAKA DI NEGARA LAIN UNTUK MELINDUNGI DIRI DARI PENGEJARAN 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-7-human_rights_un_ind_rd_0055 is -7.12502 over 940 frames.
+Female-7-human_rights_un_ind_rd_0064 DI DALAM MASA PERKAWINAN DAN PADA SAAT PERCERAIAN DUA 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-7-human_rights_un_ind_rd_0064 is -7.22892 over 418 frames.
+Female-7-human_rights_un_ind_rd_0067 PASAL TUJUH BELAS IS SATU SETIAP ORANG BERHAK MEMILIKI HARTA 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-7-human_rights_un_ind_rd_0067 is -7.44544 over 460 frames.
+Female-7-human_rights_un_ind_rd_0069 TAK SEORANG PUN BOLEH DIRAMPAS HARTANYA DENGAN SEMENA MENA 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-7-human_rights_un_ind_rd_0069 is -7.44757 over 408 frames.
+Female-7-human_rights_un_ind_rd_0072 DAN KEBEBASAN UNTUK MENYATAKAN AGAMA ATAU KEPERCAYAAN DENGAN CARA MENGAJARKANNYA 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-7-human_rights_un_ind_rd_0072 is -7.47404 over 488 frames.
+Female-7-human_rights_un_ind_rd_0076 DALAM HAK INI TERMASUK KEBEBASAN MEMILIKI PENDAPAT TANPA GANGGUAN 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-7-human_rights_un_ind_rd_0076 is -7.45678 over 366 frames.
 Female-7-human_rights_un_ind_rd_0077 DAN UNTUK MENCARI 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-7-human_rights_un_ind_rd_0077 is -7.73455 over 102 frames.
-Female-7-human_rights_un_ind_rd_0080 TIDAK SEORANG PUN BOLEH DIPAKSA UNTUK MEMASUKI SUATU PERKUMPULAN 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-7-human_rights_un_ind_rd_0080 is -7.62269 over 368 frames.
-Female-7-human_rights_un_ind_rd_0083 SETIAP ORANG BERHAK ATAS KESEMPATAN YANG SAMA UNTUK DIANGKAT DALAM JABATAN PEMERINTAHAN NEGERINYA TIGA 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-7-human_rights_un_ind_rd_0083 is -7.32468 over 702 frames.
-Female-7-human_rights_un_ind_rd_0091 HAK HAK EKONOMI 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-7-human_rights_un_ind_rd_0091 is -8.05445 over 100 frames.
-Female-7-human_rights_un_ind_rd_0092 SOSIAL DAN KEBUDAYAAN YANG SANGAT DIPERLUKAN UNTUK MARTABAT DAN PERTUMBUHAN BEBAS PRIBADINYA 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-7-human_rights_un_ind_rd_0092 is -7.29451 over 676 frames.
-Female-7-human_rights_un_ind_rd_0100 DAN JIKA PERLU DITAMBAH DENGAN PERLINDUNGAN SOSIAL LAINNYA EMPAT 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-7-human_rights_un_ind_rd_0100 is -7.44798 over 404 frames.
-Female-7-human_rights_un_ind_rd_0106 DAN BERHAK ATAS JAMINAN PADA SAAT MENGANGGUR 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-7-human_rights_un_ind_rd_0106 is -7.41395 over 236 frames.
-Female-7-human_rights_un_ind_rd_0109 SEMUA ANAK BAIK YANG DILAHIRKAN DI DALAM MAUPUN DI LUAR PERKAWINAN 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-7-human_rights_un_ind_rd_0109 is -7.60438 over 378 frames.
-Female-7-human_rights_un_ind_rd_0111 PASAL DUA PULUH ENAM SATU SETIAP ORANG BERHAK MENDAPAT PENDIDIKAN 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-7-human_rights_un_ind_rd_0111 is -7.22648 over 532 frames.
-Female-7-human_rights_un_ind_rd_0118 TOLERANSI DAN PERSAHABATAN DI ANTARA SEMUA BANGSA 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-7-human_rights_un_ind_rd_0118 is -7.87345 over 266 frames.
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-7-human_rights_un_ind_rd_0077 is -7.79481 over 102 frames.
+Female-7-human_rights_un_ind_rd_0087 PASAL DUA PULUH DUA SETIAP ORANG 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-7-human_rights_un_ind_rd_0087 is -7.36766 over 252 frames.
+Female-7-human_rights_un_ind_rd_0096 DAN BERHAK ATAS PERLINDUNGAN DARI PENGANGGURAN 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-7-human_rights_un_ind_rd_0096 is -7.29077 over 234 frames.
+Female-7-human_rights_un_ind_rd_0098 SETIAP ORANG YANG MELAKUKAN PEKERJAAN BERHAK ATAS PENGUPAHAN YANG ADIL DAN BAIK YANG MENJAMIN KEHIDUPANNYA DAN KELUARGANYA 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-7-human_rights_un_ind_rd_0098 is -7.44834 over 718 frames.
+Female-7-human_rights_un_ind_rd_0099 SUATU KEHIDUPAN YANG PANTAS UNTUK MANUSIA BERMARTABAT 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-7-human_rights_un_ind_rd_0099 is -7.65282 over 288 frames.
+Female-7-human_rights_un_ind_rd_0101 SETIAP ORANG BERHAK MENDIRIKAN DAN MEMASUKI SERIKAT SERIKAT PEKERJA UNTUK MELINDUNGI KEPENTINGANNYA 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-7-human_rights_un_ind_rd_0101 is -7.35043 over 650 frames.
+Female-7-human_rights_un_ind_rd_0117 PENDIDIKAN HARUS MENGGALAKKAN SALING PENGERTIAN 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-7-human_rights_un_ind_rd_0117 is -8.01083 over 222 frames.
+Female-7-human_rights_un_ind_rd_0121 ORANG TUA MEMPUNYAI HAK UTAMA UNTUK MEMILIH JENIS PENDIDIKAN YANG AKAN DIBERIKAN KEPADA ANAK ANAK MEREKA 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-7-human_rights_un_ind_rd_0121 is -7.75023 over 580 frames.
 Female-7-human_rights_un_ind_rd_0124 SETIAP ORANG BERHAK UNTUK MEMPEROLEH PERLINDUNGAN ATAS KEPENTINGAN KEPENTINGAN MORIL DAN MATERIAL YANG DIPEROLEH SEBAGAI HASIL DARI SESUATU PRODUKSI ILMIAH 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-7-human_rights_un_ind_rd_0124 is -7.56728 over 930 frames.
-Female-7-human_rights_un_ind_rd_0130 DAN UNTUK MEMENUHI SYARAT SYARAT YANG ADIL DALAM HAK KESUSILAAN 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-7-human_rights_un_ind_rd_0130 is -7.73956 over 360 frames.
-Female-7-human_rights_un_ind_rd_0135 AKAN UNTUK TERLIBAT DI DALAM KEGIATAN APAPUN ATAU MELAKUKAN PERBUATAN YANG BERTUJUAN UNTUK MERUSAK HAK HAK DAN KEBEBASAN KEBEBASAN YANG MANA PUN YANG TERMAKTUB DI DALAM PERNYATAAN INI 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-7-human_rights_un_ind_rd_0135 is -7.84549 over 1137 frames.
-Male-1-Male-1_1 BUAT NGILANGIN PENAT PALING ENAK LIBURAN KE PANTAI 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-1-Male-1_1 is -7.74896 over 564 frames.
-Male-1-Male-1_11 DAN BANDUNG BAGIKU BUKAN CUMA MASALAH GEOGRAFIS LEBIH JAUH DARI ITU MELIBATKAN PERASAAN YANG BERSAMAKU KETIKA SUNYI 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-1-Male-1_11 is -7.68913 over 1275 frames.
-Male-1-Male-1_15 DAH BUTUH UANG BERAPA YA KALAU MAU IN JALAN JALAN KE MACAU 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-1-Male-1_15 is -7.07395 over 838 frames.
-Male-1-Male-1_19 COBAIN DEH PAKE AIR BNB KADANG SUKA ADA DISCOUNT NYA 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-1-Male-1_19 is -7.37174 over 718 frames.
-Male-1-Male-1_22 KAK DI PUNYA RENCANA UNTUK BERLIBUR KE LUAR NEGERI TAHUN DEPAN 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-1-Male-1_22 is -7.69047 over 615 frames.
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-7-human_rights_un_ind_rd_0124 is -7.58514 over 930 frames.
+Female-7-human_rights_un_ind_rd_0129 SETIAP ORANG HARUS TUNDUK HANYA PADA PEMBATASAN PEMBATASAN YANG DITETAPKAN OLEH UNDANG UNDANG DENGAN MAKSUD SEMATA MATA UNTUK MENJAMIN PENGAKUAN SERTA PENGHORMATAN YANG LAYAK TERHADAP HAK HAK DAN KEBEBASAN KEBEBASAN ORANG LAIN 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-7-human_rights_un_ind_rd_0129 is -7.67359 over 1344 frames.
+Female-7-human_rights_un_ind_rd_0132 HAK HAK DAN KEBEBASAN KEBEBASAN INI DENGAN JALAN BAGAIMANA PUN SEKALI SEKALI TIDAK BOLEH DILAKSANAKAN BERTENTANGAN DENGAN TUJUAN DAN DASAR PERSERIKATAN BANGSA BANGSA 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Female-7-human_rights_un_ind_rd_0132 is -7.85414 over 980 frames.
+Male-1-Male-1_17 JADI KATANYA SEKARANG TUH LONGEST TRAIN TRACK IN TU PULANG ADALAH TRANS SIBERIAN RAILWAY DENGAN PANJANG SEPI KUMPUL RATUS LIMA PULUH SEMBILAN KM 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-1-Male-1_17 is -7.85858 over 1652 frames.
+Male-1-Male-1_18 PENGEN DEH RASANYA COBAIN CLEAR SESEORANG ASLI DARI PERANCIS 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-1-Male-1_18 is -7.40846 over 701 frames.
 Male-1-Male-1_28 SAYA LEBIH SUKA BAWA KOPER SIH DARIPADA BACKPACK SOALNYA LEBIH RAPI 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-1-Male-1_28 is -7.66284 over 752 frames.
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-1-Male-1_28 is -7.61301 over 752 frames.
 Male-1-Male-1_30 ASIK BANGET NAIK GUNUNG BROMO KARENA UDARA SEGAR DAN BISA LIAT PEMANDANGAN YANG REFRESHING 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-1-Male-1_30 is -7.51447 over 992 frames.
-Male-1-Male-1_43 IN SELAMA MASIH WAKTU LIBURAN NAIK KITA EXPLORE PANTAI PANTAI TINGGAL DI LAIN 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-1-Male-1_43 is -8.14203 over 701 frames.
-Male-1-Male-1_44 IN KITA RELAX SEJENAK YUK DI VILLA YANG LONDON DI PEGUNUNGAN SAMBIL MENIKMATI KEINDAHAN ALAM DAN UDARA YANG SEGAR DAN 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-1-Male-1_44 is -8.27035 over 872 frames.
-Male-1-Male-1_45 IA PULAU 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-1-Male-1_45 is -8.37213 over 1238 frames.
-Male-10-Male-10_2 GIMANA KALO KITA CAMPING KE GUNUNG MENIKMATI MALAM YANG BERBINTANG BAWA GITAR NYANYI NYANYI DI TENGAH API UNGGUN 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-10-Male-10_2 is -7.32808 over 766 frames.
-Male-10-Male-10_24 LIBURAN HARI INI SUDAH SELESAI BESOK LIBURAN DENGAN UJIAN LAGI 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-10-Male-10_24 is -6.85555 over 558 frames.
-Male-10-Male-10_25 SETELAH SEMESTER INI SELESAI AKU MAU BERLIBUR DI PANTAI SELAMA SEBULAN 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-10-Male-10_25 is -7.32553 over 526 frames.
-Male-10-Male-10_28 BERLIBUR KE GUNUNG MEMBUTUHKAN TOURGUIDE 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-10-Male-10_28 is -7.02839 over 398 frames.
-Male-10-Male-10_29 CAMPING SEBELUM SIDANG SEPERTINYA MENYENANGKAN 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-10-Male-10_29 is -7.02719 over 414 frames.
-Male-10-Male-10_3 GA CUMA ITU KALO PAGI PAGI KITA BISA LIAT PEMANDANGAN YANG INDAH KAYA POHON POHON YANG HIJAU ATAU HAMPARAN PADANG RUMPUT YANG LUAS 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-10-Male-10_3 is -7.55981 over 798 frames.
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-1-Male-1_30 is -7.4623 over 992 frames.
+Male-1-Male-1_32 SAYA SUKA MINUM KOPI SAMBIL BERSANTAI DENGAN TEMAN DI GUNUNG 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-1-Male-1_32 is -7.39584 over 727 frames.
+Male-1-Male-1_35 DI DI BULAN KE MENDING SIH YUK MENJADI OPSI YANG MENARIK KARENA BISA BERMAIN SAMBIL BELAJAR 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-1-Male-1_35 is -7.63204 over 855 frames.
+Male-1-Male-1_36 SALAH SATU TUJUAN HIKING SAYA ADALAH GUNUNG RINJANI 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-1-Male-1_36 is -7.67359 over 658 frames.
+Male-1-Male-1_48 RENCANANYA KITA MAU JOIN COOKING CLASS KE UNTUK BELAJAR MEMASAK MASAKAN INDONESIA 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-1-Male-1_48 is -7.93865 over 795 frames.
+Male-1-Male-1_49 LETS EXPLORE CULTURAL LANDMARKS DI YOGYAKARTA DI SANA BANYAK BELAJAR SEJARAH LOH 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-1-Male-1_49 is -8.04428 over 992 frames.
+Male-1-Male-1_6 HOLIDAY PALING ENAK KALAU BISA JALAN JALAN BARENG KELUARGA 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-1-Male-1_6 is -7.3592 over 607 frames.
+Male-10-Male-10_11 AKHIR SEMESTER NANTI AKU MAU LIBURAN KE BALI MAU IKUT 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-10-Male-10_11 is -7.20128 over 494 frames.
+Male-10-Male-10_12 VILLA DI UBUD ITU SUPER COZY COCOK BUAT LIBURAN 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-10-Male-10_12 is -7.41559 over 430 frames.
+Male-10-Male-10_13 AKU PERNAH NYELAM DI GILI TRAWANGAN TERUMBU KARANGNYA ITU BAGUS BANGET SIH 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-10-Male-10_13 is -7.23397 over 558 frames.
+Male-10-Male-10_18 KALAU KE MEDAN JANGAN LUPA COBAIN DURIAN ENAK BANGET 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-10-Male-10_18 is -7.30661 over 462 frames.
+Male-10-Male-10_21 UDARA PALING SEGAR ADALAH UDARA DI GUNUNG 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-10-Male-10_21 is -7.29846 over 398 frames.
+Male-10-Male-10_33 NGOMONG NGOMONG WAKTU LIBUR HAMPIR TIBA KITA HARUS MERENCANAKAN KEMANA KITA PERGI NANTI 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-10-Male-10_33 is -7.52357 over 622 frames.
 Male-10-Male-10_34 KATANYA TRANS STUDIO BANDUNG LAGI NGADAIN DISKON NIH AYO KE SANA MUMPUNG LAGI LIBUR 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-10-Male-10_34 is -7.18219 over 638 frames.
-Male-10-Male-10_40 SETELAH SELESAI TESIS NANTI SAYA AKAN BERKEMAH DI UJUNG GENTENG 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-10-Male-10_40 is -7.40377 over 510 frames.
-Male-10-Male-10_43 KEMARIN AKU NAIK PESAWAT DARI JAKARTA POLUSI UDARANYA KELIHATAN BANGET 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-10-Male-10_43 is -7.00531 over 574 frames.
-Male-10-Male-10_44 KERETA CEPAT JAKARTA BANDUNG KENAPA DINAMAI IBU USIA 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-10-Male-10_44 is -7.07396 over 494 frames.
-Male-11-Male-11_10 TRACKING DI BROMO TUH CAPEK BANGET TAPI SUNRISE VIEW NYA BEH SO BEAUTIFUL 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-11-Male-11_10 is -7.35372 over 798 frames.
-Male-11-Male-11_17 NAIK GUNUNG HARUS SEDIA BACKPACK KHUSUS GUNUNG 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-11-Male-11_17 is -7.63198 over 488 frames.
-Male-11-Male-11_2 VILLA DI UBUD ITU SUPER COZY COCOK BUAT LIBURAN 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-11-Male-11_2 is -7.60797 over 558 frames.
-Male-11-Male-11_25 SAYA DENGAR DI PANTAI KUTA ADA SPOT SURFING YANG BAGUS 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-11-Male-11_25 is -7.77548 over 550 frames.
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-10-Male-10_34 is -7.17419 over 638 frames.
+Male-10-Male-10_45 BUTUH UANG BERAPA YA KALAU MAU JALAN JALAN KE MACAU 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-10-Male-10_45 is -7.0053 over 446 frames.
+Male-10-Male-10_50 HATI HATI DI JALAN YA SAFE FLIGHT 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-10-Male-10_50 is -7.02886 over 366 frames.
+Male-10-Male-10_8 SETELAH BERMAIN SEPANJANG HARI KITA BISA KUMPUL KUMPUL BUAT BARBEQUE MALAM DI TEPI PANTAI 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-10-Male-10_8 is -7.26134 over 654 frames.
+Male-11-Male-11_14 LIBURAN HARI INI SUDAH SELESAI BESOK LIBURAN DENGAN UJIAN LAGI 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-11-Male-11_14 is -7.61513 over 608 frames.
+Male-11-Male-11_19 CAMPING SEBELUM SIDANG SEPERTINYA MENYENANGKAN 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-11-Male-11_19 is -7.37727 over 478 frames.
+Male-11-Male-11_20 KE PUNCAK LEBIH CEPAT LEWAT TRACK SATU DARIPADA TRACK DUA 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-11-Male-11_20 is -7.63745 over 608 frames.
+Male-11-Male-11_23 NGOMONG NGOMONG WAKTU LIBUR HAMPIR TIBA KITA HARUS MERENCANAKAN KEMANA KITA PERGI NANTI 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-11-Male-11_23 is -7.6288 over 773 frames.
 Male-11-Male-11_26 KAYAKNYA KITA BAKAL LIBURAN MINGGU INI 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-11-Male-11_26 is -7.07234 over 418 frames.
-Male-11-Male-11_3 AKU PERNAH NYELAM DI GILI TRAWANGAN TERUMBU KARANGNYA ITU BAGUS BANGET SIH 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-11-Male-11_3 is -7.58732 over 663 frames.
-Male-11-Male-11_31 DAN BANDUNG BAGIKU BUKAN CUMA MASALAH GEOGRAFIS LEBIH JAUH DARI ITU MELIBATKAN PERASAAN YANG BERSAMAKU KETIKA SUNYI 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-11-Male-11_31 is -7.86759 over 1055 frames.
-Male-11-Male-11_47 TAHUN KEMARIN KAMI MENCOBA GLAMPING SELAMA TIGA HARI DI TENGAH HUTAN 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-11-Male-11_47 is -7.6068 over 628 frames.
-Male-11-Male-11_50 ASIK BANGET NAIK GUNUNG BROMO KARENA UDARA SEGAR DAN BISA LIHAT PEMANDANGAN YANG REFRESHING 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-11-Male-11_50 is -7.71314 over 768 frames.
-Male-11-Male-11_7 AKU KEMARIN BARU BALIK DARI YOGYAKARTA THE TEMPLES AND THE CULTURE BLEW MAIN MAIN PERLU 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-11-Male-11_7 is -7.71654 over 738 frames.
-Male-12-Male-12_1 UDARA PALING SEGAR ADALAH UDARA DI GUNUNG 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-12-Male-12_1 is -7.99553 over 298 frames.
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-11-Male-11_26 is -7.13371 over 418 frames.
+Male-11-Male-11_29 AKU TAKUT BANGET NAIK BANANA BOAT MENDING MAIN YANG LAIN AJA YA 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-11-Male-11_29 is -7.33129 over 603 frames.
+Male-11-Male-11_36 KAK AKU MAU JASTIP DONG MUMPUNG KAKAK LAGI ABROAD KE LONDON 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-11-Male-11_36 is -7.44339 over 598 frames.
+Male-11-Male-11_4 KALAU KE BANDUNG KAMU HARUS COBA JAJANAN PINGGIR JALAN DI BRAGA 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-11-Male-11_4 is -7.55518 over 645 frames.
+Male-11-Male-11_44 KALAU LIBURAN KE SURABAYA JANGAN LUPA COBA RAWON SETAN MAKANAN TERKENAL DI KOTA INI 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-11-Male-11_44 is -7.71378 over 775 frames.
+Male-11-Male-11_7 AKU KEMARIN BARU BALIK DARI YOGYAKARTA THE TEMPLES AND THE CULTURE BLEW MY MIND BRO 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-11-Male-11_7 is -7.75267 over 738 frames.
+Male-12-Male-12_14 KATANYA TRANS STUDIO BANDUNG LAGI NGADAIN DISKON NIH AYO KE SANA NGOMONG WAKTU LIBUR 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-12-Male-12_14 is -7.86513 over 495 frames.
 Male-12-Male-12_21 DAN BANDUNG BAGIKU BUKAN CUMA MASALAH GEOGRAFIS LEBIH DARI ITU MELIBATKAN PERASAAN YANG BERSAMAKU KETIKA SUNYI 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-12-Male-12_21 is -7.91726 over 740 frames.
-Male-12-Male-12_24 KERETA CEPAT JAKARTA BANDUNG KENAPA DINAMAI WHOOSH YA 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-12-Male-12_24 is -7.78237 over 338 frames.
-Male-12-Male-12_28 PINGIN DEH RASANYA COBAIN AKU SIANG ASLI DARI PERANCIS 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-12-Male-12_28 is -8.06043 over 410 frames.
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-12-Male-12_21 is -7.9729 over 740 frames.
+Male-12-Male-12_25 BUTUH UANG BERAPA YA KALAU MAU JALAN JALAN KE MACAU 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-12-Male-12_25 is -7.75947 over 350 frames.
+Male-12-Male-12_28 PINGIN DI RASANYA COBAIN CROISSANT ASLI DARI PERANCIS 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-12-Male-12_28 is -8.07164 over 410 frames.
+Male-12-Male-12_29 COBAIN DEH PAKE AIR BNB KADANG SUKA ADA DISCOUNT NYA 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-12-Male-12_29 is -8.17945 over 383 frames.
 Male-12-Male-12_30 GAK DI JALAN YA SAFE FLIGHT 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-12-Male-12_30 is -7.76461 over 295 frames.
-Male-12-Male-12_31 LIBURAN TAHUN INI SERU BANGET SOALNYA BISA BARENG KELUARGA 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-12-Male-12_31 is -8.0291 over 393 frames.
-Male-12-Male-12_38 SAYA LEBIH SUKA BAWA KOPER SIH DARIPADA BACKPACK SOALNYA LEBIH RAPI 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-12-Male-12_38 is -7.84984 over 495 frames.
-Male-12-Male-12_43 BERLIBUR BERSAMA KELUARGA ADALAH MOMEN YANG SANGAT BERHARGA 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-12-Male-12_43 is -7.5771 over 470 frames.
-Male-12-Male-12_47 LIBURAN YANG RELAXING BUAT SAYA ADALAH KE UBUD BALI 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-12-Male-12_47 is -7.44217 over 520 frames.
-Male-12-Male-12_9 CAMPING SEBELUM SIDANG SEPERTINYA MENYENANGKAN 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-12-Male-12_9 is -8.10536 over 328 frames.
-Male-13-Male-13_15 BUTUH UANG BERAPA YA KALAU MAU JALAN JALAN KE BAKAL 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-13-Male-13_15 is -7.84828 over 450 frames.
-Male-13-Male-13_16 KATA AKU MAU JASTIP DONG MUMPUNG KAKAK LAGI ABROAD KE LONDON 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-13-Male-13_16 is -8.06217 over 545 frames.
-Male-13-Male-13_19 COBAIN DEH PAKE AIR BNB KADANG SUKA ADA DISKON YA 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-13-Male-13_19 is -8.11716 over 545 frames.
-Male-13-Male-13_32 SAYA SUKA MINUM KOPI SAMBIL BERSANTAI DENGAN TEMAN DI GUNUNG 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-13-Male-13_32 is -7.72875 over 593 frames.
-Male-13-Male-13_34 ANCOL MENJADI DESTINASI WISATA FAVORIT DI JAKARTA DENGAN BERAGAM WAHANA PERMAINANNYA 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-13-Male-13_34 is -7.75841 over 825 frames.
-Male-13-Male-13_40 TREKKING DI GUNUNG SEMERU TERNYATA ADVENTUROUS BANGET 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-13-Male-13_40 is -7.50357 over 593 frames.
-Male-13-Male-13_44 KITA RELAX SEJENAK YUK DI VILLA YANG ADA DI PEGUNUNGAN SAMBIL MENIKMATI KEINDAHAN ALAM DAN UDARA YANG SEGAR 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-13-Male-13_44 is -7.90067 over 900 frames.
-Male-13-Male-13_5 SAYA DENGAR DI PANTAI KUTA ADA SPOT SURFING YANG BAGUS 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-13-Male-13_5 is -7.85928 over 583 frames.
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-12-Male-12_30 is -7.71164 over 295 frames.
+Male-12-Male-12_32 KAMI PUNYA RENCANA UNTUK BERLIBUR KE LUAR NEGERI TAHUN DEPAN 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-12-Male-12_32 is -7.86595 over 423 frames.
+Male-12-Male-12_40 ASIK BANGET NAIK GUNUNG BROMO KARENA UDARA SEGAR DAN BISA LIAT PEMANDANGAN YANG REFRESHING 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-12-Male-12_40 is -7.97945 over 560 frames.
+Male-12-Male-12_48 TRIP YANG PALING MEMORABLE ADALAH WAKTU AKU KE DANAU TOBA 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-12-Male-12_48 is -7.82862 over 430 frames.
+Male-12-Male-12_50 TRACKING DI GUNUNG SEMERU TERNYATA ADVENTUROUS BANGET 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-12-Male-12_50 is -7.54204 over 425 frames.
+Male-13-Male-13_11 DAN BANDUNG BAGIKU BUKAN CUMA MASALAH GEOGRAFIS LEBIH JAUH DARI ITU MELIBATKAN PERASAAN YANG BERSAMAKU KETIKA SUNYI 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-13-Male-13_11 is -8.12724 over 1055 frames.
+Male-13-Male-13_20 HATI HATI DI JALAN YA SAFE FLIGHT 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-13-Male-13_20 is -7.75588 over 443 frames.
+Male-13-Male-13_22 KAMI PUNYA RENCANA UNTUK BERLIBUR KE LUAR NEGERI TAHUN DEPAN 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-13-Male-13_22 is -7.75724 over 533 frames.
+Male-13-Male-13_27 TAHUN KEMARIN KAMI MENCOBA GLAMPING SELAMA TIGA HARI DI TENGAH HUTAN 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-13-Male-13_27 is -7.74038 over 588 frames.
+Male-13-Male-13_37 LIBURAN YANG RELAXING BUAT SAYA ADALAH KE UBUD BALI 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-13-Male-13_37 is -7.48889 over 598 frames.
+Male-13-Male-13_4 KATANYA TRANS STUDIO BANDUNG LAGI NGADAIN DISKON NIH AYO KE SANA MUMPUNG LAGI LIBUR 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-13-Male-13_4 is -7.89669 over 695 frames.
+Male-13-Male-13_41 REKOMENDASI VACATION SALAH SATUNYA KE WISATA LEMBANG PARK ZOO HEALING SEKALIGUS MENGENAL BINATANG 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-13-Male-13_41 is -8.05111 over 773 frames.
+Male-13-Male-13_46 LETS TRY MAKANAN TRADISIONAL DI PASAR LOKAL DAN EXPERIENCE CITA RASA KHAS MAKANAN INDONESIA 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-13-Male-13_46 is -8.01431 over 860 frames.
+Male-13-Male-13_47 AYO KITA SNORKELING DI PULAU KOMODO LIHAT BANYAK BIOTA BIOTA LAUT YANG BERAGAM 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-13-Male-13_47 is -8.0928 over 695 frames.
 Male-13-Male-13_6 KAYAKNYA KITA BAKAL LIBURAN MINGGU INI 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-13-Male-13_6 is -7.51505 over 433 frames.
-Male-13-Male-13_9 AKU TAKUT BANGET NAIK BANANA BOAT MENDING MAIN YANG LAIN AJA YA 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-13-Male-13_9 is -7.94825 over 553 frames.
-Male-2-Male-2_13 KALAU KE BALI BULAN SEMBILAN ENAKNYA NGAPAIN YA DI SANA 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-2-Male-2_13 is -7.71457 over 501 frames.
-Male-2-Male-2_20 PINGIN LIBURAN KE EROPA KE BISA LIAT SALJU 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-2-Male-2_20 is -7.27693 over 480 frames.
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-13-Male-13_6 is -7.55051 over 433 frames.
+Male-2-Male-2_10 LIBURAN TERUS BIKIN BOSEN TAPI TUGAS TERUS JUGA PUSING JADI HARUS SEIMBANG 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-2-Male-2_10 is -7.89146 over 580 frames.
+Male-2-Male-2_18 HIKING DI MUSIM KEMARAU KAYAKNYA SERU NIH 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-2-Male-2_18 is -7.55215 over 403 frames.
+Male-2-Male-2_19 BUAT KALIAN YANG LAGI MERENCANAKAN LIBURAN PASTIKAN SUDAH PUNYA PLAN YANG BAGUS 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-2-Male-2_19 is -7.79626 over 595 frames.
 Male-2-Male-2_21 LIBURAN TAHUN INI SERU BANGET SOALNYA BISA BARENG KELUARGA 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-2-Male-2_21 is -7.49672 over 491 frames.
-Male-2-Male-2_28 SAYA LEBIH SUKA MAU KOPER SIH DARIPADA BACKPACK SOALNYA LEBIH RAPI 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-2-Male-2_28 is -7.83885 over 533 frames.
-Male-2-Male-2_32 SAYA SUKA MINUM KOPI SAMBIL BERSANTAI DENGAN TEMAN DI GUNUNG 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-2-Male-2_32 is -7.37007 over 474 frames.
-Male-2-Male-2_4 BAYANGIN KITA BISA LIBURAN KAPAN AJA LIFE WILL SO RELAXING 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-2-Male-2_4 is -7.93211 over 634 frames.
-Male-2-Male-2_43 SELAMA MASIH WAKTU LIBURAN AYO KITA EXPLORE PANTAI PANTAI INDAH DI BALI 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-2-Male-2_43 is -7.71451 over 536 frames.
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-2-Male-2_21 is -7.55908 over 491 frames.
+Male-2-Male-2_26 LIBURAN DI PANTAI TUH RASANYA KURANG LENGKAP KALAU BELUM LIHAT SUNSET 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-2-Male-2_26 is -7.51895 over 508 frames.
+Male-2-Male-2_28 SAYA LEBIH SUKA BAWA KOPER SIH DARIPADA BACKPACK SOALNYA LEBIH RAPI 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-2-Male-2_28 is -7.8141 over 533 frames.
+Male-2-Male-2_31 AKU SUKA BERLIBUR DI PEGUNUNGAN KARENA UDARANYA SEGAR 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-2-Male-2_31 is -7.61842 over 489 frames.
 Male-2-Male-2_45 BESOK KITA BOAT TOUR DI DANAU TOBA YA SEKALIAN EXPLORE THE BEAUTY OF THE LARGEST VOLCANIC LAKE IN THE WORLD 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-2-Male-2_45 is -7.87668 over 768 frames.
-Male-2-Male-2_49 LETS EXPLORE CULTURAL LANDMARKS DI YOGYAKARTA DI SANA BANYAK BELAJAR SEJARAH LOH 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-2-Male-2_49 is -7.77752 over 700 frames.
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-2-Male-2_45 is -7.84751 over 768 frames.
+Male-2-Male-2_6 HOLIDAY PALING ENAK KALAU BISA JALAN JALAN BARENG KELUARGA 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-2-Male-2_6 is -7.84671 over 525 frames.
 Male-2-Male-2_8 LIBURAN KE DAERAH GUNUNG BISA JADI ALTERNATIF 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-2-Male-2_8 is -7.89214 over 359 frames.
-Male-3-Male-3_13 KALAU KE BALI BULAN SEMBILAN ENAKNYA NGAPAIN YA DI SANA 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-3-Male-3_13 is -7.19189 over 458 frames.
-Male-3-Male-3_14 INGIN PERGI LIBURAN TAPI KERJAAN MASIH BANYAK DAN DUIT JUGA UDAH MAU ABIS 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-3-Male-3_14 is -7.44845 over 590 frames.
-Male-3-Male-3_20 PINGIN LIBURAN KE EROPA BIAR BISA LIAT SALJU 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-3-Male-3_20 is -7.0664 over 534 frames.
-Male-3-Male-3_24 TERSERAH MAU KEMANA PENTING MAKANANNYA ENAK ENAK 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-3-Male-3_24 is -7.3299 over 462 frames.
-Male-3-Male-3_25 SIAPA MAU SENDIRIAN STAYCATION DI TENGAH HUTAN GITU 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-3-Male-3_25 is -7.16979 over 490 frames.
-Male-3-Male-3_3 PALING SERU KALAU LIBURAN BARENG TEMEN 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-3-Male-3_3 is -6.62143 over 366 frames.
-Male-3-Male-3_32 LIBURAN BULAN DEPAN JANGAN LUPA BAWA OBAT YA JUST IN CASE SAKIT LOKASI 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-3-Male-3_32 is -7.18129 over 742 frames.
-Male-3-Male-3_39 KALAU TIDAK BISA LIBURAN KE LEMBANG AKU LEBIH PILIH DI RUMAH AJA 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-3-Male-3_39 is -7.23644 over 534 frames.
-Male-3-Male-3_44 KITA RELAX SEJENAK JADI VILLA YANG ADA DI PEGUNUNGAN SAMBIL MENIKMATI BINTAN ALAM DAN UDARA SEGAR 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-3-Male-3_44 is -7.6889 over 786 frames.
-Male-3-Male-3_49 LETS EXPLORE CULTURAL LANDMARKS DI YOGYAKARTA DI SANA BANYAK BAGUS LALU 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-3-Male-3_49 is -7.85677 over 642 frames.
-Male-4-Male-4_11 SEBENTAR LAGI MASA LIBURAN TAPI INI HARUS MELALUI SEGALA TUGAS BERDIAM 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-4-Male-4_11 is -7.44359 over 599 frames.
-Male-4-Male-4_15 DENGAN BEGITU OUT LIBURAN AYO BROMO UBUD KAK KALI DENGAN BEGITU LIBURAN JADI LEBIH BERMAKNA DAN LEBIH MENYENANGKAN 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-4-Male-4_15 is -7.91698 over 822 frames.
-Male-4-Male-4_26 MRT ADALAH CARA TERBAIK UNTUK MENJELAJAHI SINGAPURA 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-4-Male-4_26 is -7.20967 over 585 frames.
-Male-4-Male-4_31 TEMPAT LIBURAN YANG BAIK KALI BANTUAN TIBALAH 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-4-Male-4_31 is -8.2264 over 286 frames.
-Male-4-Male-4_36 AKU DAN KELUARGAKU BERENCANA UNTUK LIBURAN DI BALI PADA AKHIR TAHUN INI 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-4-Male-4_36 is -7.75648 over 498 frames.
-Male-4-Male-4_37 BANYAK SEKALI YA HARUS DIPERSIAPKAN UNTUK HOLIDAY KE JEPANG 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-4-Male-4_37 is -7.36516 over 479 frames.
-Male-4-Male-4_4 TEMPAT PALING ENAK BUAT LIBURAN TUH YANG UDARANYA SEJUK ADEM AYEM BIAR NGGA KERINGETAN 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-4-Male-4_4 is -7.75296 over 667 frames.
-Male-4-Male-4_43 MENA DEPAN KE HAPPY IN THE CLOUD YUK NONTON YOASOBI 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-4-Male-4_43 is -7.78877 over 416 frames.
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-2-Male-2_8 is -7.84954 over 359 frames.
+Male-3-Male-3_1 BUAT NGILANGIN PENAT PALING ENAK LIBURAN KE PANTAI 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-3-Male-3_1 is -6.85019 over 482 frames.
+Male-3-Male-3_18 HIKING DI MUSIM KEMARAU KAYAKNYA SERU NIH 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-3-Male-3_18 is -7.11674 over 478 frames.
+Male-3-Male-3_22 DESTINATION STREET FOOD GITU ENAK KALI YA 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-3-Male-3_22 is -6.93805 over 422 frames.
+Male-3-Male-3_26 LIBURAN KE PALEMBANG WAJIB MAKAN PEMPEK 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-3-Male-3_26 is -7.40071 over 394 frames.
+Male-3-Male-3_29 PENGEN LIBURAN TAPI TESIS BELOM KELAR 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-3-Male-3_29 is -7.16962 over 458 frames.
+Male-3-Male-3_30 KAYAKNYA TIDUR MAIN DI YANG MAKAN MAKAN SELAMA LIBURAN ENAK KALI YA 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-3-Male-3_30 is -7.2955 over 622 frames.
+Male-3-Male-3_37 KALAU TURUN DARI GUNUNG BISA NGGA TINGGAL NGGELINDING AJA CAPEK SOALNYA 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-3-Male-3_37 is -7.4278 over 586 frames.
+Male-3-Male-3_39 KALO KITA BISA LIBURAN KE LEMBANG AKU LEBIH PILIH DI RUMAH AJA 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-3-Male-3_39 is -7.22987 over 534 frames.
+Male-3-Male-3_41 REKOMENDASI VACATION SALAH SEPI KE WISATA LEMBANG PARK ZOO HEALING SEKALIGUS MENGENAL BINATANG 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-3-Male-3_41 is -7.47092 over 834 frames.
+Male-3-Male-3_44 KITA RELAX SEJENAK YUK DI VILLA YANG ADA DI PEGUNUNGAN SAMBIL MENIKMATI PIDANA ALAM DAN UDARA SEGAR 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-3-Male-3_44 is -7.69841 over 786 frames.
+Male-4-Male-4_12 NANTI KALAU SUDAH LIBURAN DAN LUPA JALAN JALAN 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-4-Male-4_12 is -7.32397 over 339 frames.
+Male-4-Male-4_27 PANTAI SELALU MENJADI TUJUH FAVORIT SAYA UNTUK LIBURAN 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-4-Male-4_27 is -7.90906 over 349 frames.
+Male-4-Male-4_32 DI LEMBANG BANYAK TEMPAT WISATA YANG BISA DI KUNJUNGI UNTUK LIBURAN SAMA TEMAN DAN KELUARGA 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-4-Male-4_32 is -7.51304 over 734 frames.
+Male-4-Male-4_33 WEEKEND INI AKU DAN TEMANKU AKAN PERGI GLAMPING KE LAIN AJA UPAH SEPI 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-4-Male-4_33 is -8.10596 over 498 frames.
+Male-4-Male-4_34 KALAU LAGI LIBURAN PALING ENAK HUNTING STREET FOOD DI BANDUNG 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-4-Male-4_34 is -7.17206 over 498 frames.
 Male-4-Male-4_44 JAKARTA GERAH BANGET DAH BUTUH LIBURAN BUAH 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-4-Male-4_44 is -7.82991 over 325 frames.
-Male-4-Male-4_9 JANGAN LUPA LAPER KALO MAKAN SUNDA YA RASA MAKANANNYA DIJAMIN BETAH PISAN 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-4-Male-4_9 is -7.63387 over 575 frames.
-Male-5-Male-5_1 SEBENTAR LAGI MASA LIBURAN TAPI HARUS MELALUI SEGALA TUGAS DAN UJIAN 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-5-Male-5_1 is -7.72443 over 638 frames.
-Male-5-Male-5_10 KALAU SUDAH DITENTUKAN MAU KEMANA BISA LANGSUNG DEH SUSUN RENCANA BUDGET DAN ITINERARY 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-5-Male-5_10 is -7.34668 over 870 frames.
-Male-5-Male-5_13 SEMOGA SUATU HARI KAMI BISA STAYCATION DI VILLA PEGUNUNGAN 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-5-Male-5_13 is -7.65998 over 515 frames.
-Male-5-Male-5_17 PANTAI SELALU MENJADI TUJUAN FAVORIT SAYA UNTUK LIBURAN 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-5-Male-5_17 is -7.31326 over 563 frames.
-Male-5-Male-5_19 SETIAP DAERAH DI INDONESIA MEMILIKI MAKANAN ASLI YANG WAJIB DICOBA 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-5-Male-5_19 is -7.62304 over 603 frames.
-Male-5-Male-5_25 LIBURAN KE TANGKUBAN PERAHU SANGAT MENYENANGKAN KARENA PEMANDANGAN DARI ATAS KAWAH SANGAT INDAH 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-5-Male-5_25 is -7.53888 over 790 frames.
-Male-5-Male-5_28 KARENA AKHIR TAHUN INI DI JEPANG LAGI MUSIN DINGIN KITA PERLU NYIAPIN WINTER CLOTHES 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-5-Male-5_28 is -7.54949 over 718 frames.
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-4-Male-4_44 is -7.81171 over 325 frames.
+Male-4-Male-4_46 INI KULIAH MULU KAPAN LIBURANNYA DAH PINTER KAGAK BEAUTY YA 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-4-Male-4_46 is -7.34291 over 493 frames.
+Male-4-Male-4_47 TEMEN GW KEMARIN LIBURAN KE JERMAN KATANYA DISITU NYIMENG LEGAL 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-4-Male-4_47 is -7.70597 over 512 frames.
+Male-4-Male-4_5 JADI BISA BENER BENER MENIKMATI LIBURAN GITU 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-4-Male-4_5 is -8.00126 over 324 frames.
+Male-4-Male-4_7 CARI MAKANAN BUAT CEPAT SEMOGA SUARA PERJALANAN BIAR NGGA LAPER 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-4-Male-4_7 is -7.51027 over 570 frames.
+Male-5-Male-5_15 SEBELUM LIBURAN JANGAN LUPA UNTUK MEMBUAT ITINERARY 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-5-Male-5_15 is -7.26562 over 608 frames.
 Male-5-Male-5_29 KITA PERLU PREPARE DENGAN MATANG UNTUK LIBURAN AKHIR TAHUN INI WHICH IS PASTI SANGAT SERU 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-5-Male-5_29 is -7.54105 over 743 frames.
-Male-5-Male-5_3 WISATA PANTAI YANG AKAL KE PEGUNUNGAN 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-5-Male-5_3 is -7.53038 over 445 frames.
-Male-5-Male-5_43 SEMOGA AJA TAHUN DEPAN BISA TRAVELING KE KOREA KETEMU BLACKPINK 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-5-Male-5_43 is -7.67875 over 538 frames.
-Male-6-Male-6_11 TEMPAT LIBURAN YANG PALING TERKENAL DI BANDUNG ADA DI MANA YA 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-6-Male-6_11 is -7.48608 over 640 frames.
-Male-6-Male-6_14 KALAU LAGI LIBURAN PALING YANG AKAN DI STREET FOOD DI BANDUNG 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-6-Male-6_14 is -7.62129 over 643 frames.
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-5-Male-5_29 is -7.53708 over 743 frames.
+Male-5-Male-5_41 DI BANDUNG ENAKNYA STAYCATION DI MANA YA 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-5-Male-5_41 is -6.82176 over 450 frames.
+Male-5-Male-5_46 MAIN MAIN DI TAHURA PAGI HARI TERNYATA SERU JUGA 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-5-Male-5_46 is -7.44442 over 533 frames.
+Male-5-Male-5_47 AKU SANGAT MENANTIKAN LIBURAN AKHIR TAHUN INI UNTUK PERGI KE PANTAI 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-5-Male-5_47 is -7.89315 over 530 frames.
+Male-5-Male-5_48 AKU SELALU MEMBAWA KAMERA UNTUK MENGABADIKAN MOMEN MOMEN INDAH SELAMA PERJALANAN 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-5-Male-5_48 is -7.60587 over 720 frames.
+Male-5-Male-5_49 JONI MENGAJAKKU PERGI KE PULAU KOMODO MINGGU DEPAN 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-5-Male-5_49 is -7.47238 over 503 frames.
+Male-5-Male-5_5 DENGAN BEGITU LIBURAN JADI LEBIH BERMAKNA DAN LEBIH MENYENANGKAN 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-5-Male-5_5 is -7.67209 over 578 frames.
+Male-5-Male-5_6 APPARENTLY AKU SUDAH LAMA TIDAK LIBURAN BARENG KELUARGA 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-5-Male-5_6 is -7.53296 over 540 frames.
+Male-5-Male-5_7 JADI HARUS DIAGENDAKAN JALAN JALAN ATAU SEKEDAR KUMPUL KELUARGA UNTUK HEALING 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-5-Male-5_7 is -7.56902 over 675 frames.
+Male-6-Male-6_10 KOTA MEDAN ADALAH SURGANYA PENYUKA DURIAN 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-6-Male-6_10 is -7.24648 over 543 frames.
 Male-6-Male-6_15 LIBURAN KE TANGKUBAN PERAHU SANGAT MENYENANGKAN KARENA PEMANDANGAN DARI ATAS KAWAH SANGAT INDAH 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-6-Male-6_15 is -7.70479 over 798 frames.
-Male-6-Male-6_33 SEMOGA AJA TAHUN DEPAN BISA TRAVELING KE KOREA KETEMU BLACKPINK 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-6-Male-6_33 is -7.44622 over 668 frames.
-Male-6-Male-6_34 MAU NONTON KONSER TAYLOR SWIFT DI SINGAPUR TAPI TIKETNYA UDAH SOLD OUT 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-6-Male-6_34 is -7.40213 over 760 frames.
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-6-Male-6_15 is -7.65505 over 798 frames.
+Male-6-Male-6_2 KAMI BERENCANA UNTUK HIKING KE GUNUNG RINJANI 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-6-Male-6_2 is -7.09032 over 538 frames.
+Male-6-Male-6_21 KATA AKU MAH YA KITA BUTUH VACATION SETENGAH TAHUN DUA KALI SETAHUN 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-6-Male-6_21 is -7.60111 over 675 frames.
+Male-6-Male-6_26 INI KULIAH MULU KAPAN LIBURANNYA DAH PINTER KAGAK MUMET IYA 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-6-Male-6_26 is -7.55039 over 685 frames.
+Male-6-Male-6_35 JALAN JALAN KE BALI BELUM PUAS KALAU BELUM MAKAN SEAFOOD DI JIMBARAN 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-6-Male-6_35 is -7.34568 over 678 frames.
+Male-6-Male-6_37 AKU SANGAT MENANTIKAN LIBURAN AKHIR TAHUN INI UNTUK PERGI KE PANTAI 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-6-Male-6_37 is -7.42793 over 695 frames.
 Male-6-Male-6_38 AKU SELALU MEMBAWA KAMERA UNTUK MENGABADIKAN MOMEN MOMEN INDAH SELAMA PERJALANAN 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-6-Male-6_38 is -7.54151 over 770 frames.
-Male-6-Male-6_41 KALAU HIDUP UDAH STRES SAATNYA MERENCANAKAN LIBURAN YANG MENYEGARKAN DAN MELEPASKAN SEMUA BEBAN 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-6-Male-6_41 is -7.52895 over 880 frames.
-Male-6-Male-6_43 GA CUMA ITU KALO PAGI PAGI KITA BISA LIAT PEMANDANGAN E INDAH KAYA POHON POHON YANG DI JAKARTA HAMPARAN PADANG RUMPUT YANG LUAS 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-6-Male-6_43 is -7.89707 over 1023 frames.
-Male-6-Male-6_44 SAAT BERADA DI GUNUNG JANGAN LUPA BAWA PERLENGKAPAN YANG CUKUP TERMASUK SLEEPING BAG DAN JUGA ALAT MASAK 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-6-Male-6_44 is -7.69414 over 865 frames.
-Male-6-Male-6_5 SEBELUM LIBURAN JANGAN LUPA UNTUK MEMBUAT ITINERARY 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-6-Male-6_5 is -7.44424 over 523 frames.
-Male-7-Male-7_11 KATA AKU MAH YA KITA BUTUH VACATION SETENGAH TAHUN DUA KALI SETAHUN 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-7-Male-7_11 is -8.08679 over 773 frames.
-Male-7-Male-7_2 DI LEMBANG BANYAK TEMPAT WISATA YANG BISA DI KUNJUNGI UNTUK LIBURAN BERSAMA TEMAN DAN KELUARGA 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-7-Male-7_2 is -7.80039 over 860 frames.
-Male-7-Male-7_29 JONI MENGAJAKKU PERGI KE PULAU KOMODO MINGGU DEPAN 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-7-Male-7_29 is -7.56124 over 545 frames.
-Male-7-Male-7_34 SAAT BERADA DI GUNUNG JANGAN LUPA BAWA PERLENGKAPAN YANG CUKUP TERMASUK SLEEPING BAG DAN JUGA ALAT MASAK 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-7-Male-7_34 is -7.97357 over 848 frames.
-Male-7-Male-7_39 KITA TIGA BISA NYANYI NYANYI SAMBIL MEMANDANGI BINTANG BINTANG YANG BERSINAR DI LANGIT MALAM 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-7-Male-7_39 is -7.89621 over 735 frames.
-Male-7-Male-7_4 KALAU LAGI LIBURAN PALING ENAK HUNTING STREET FOOD DI BANDUNG 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-7-Male-7_4 is -7.39022 over 660 frames.
-Male-7-Male-7_44 KALAU KE BANDUNG KAMU HARUS COBA JAJANAN PINGGIR JALAN DI BRAGA 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-7-Male-7_44 is -7.85086 over 738 frames.
-Male-7-Male-7_46 SELAMA DI JAKARTA THE TRAFFIC WAS CRAZY TAPI NIGHTLIFE NYA SERU BANGET 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-7-Male-7_46 is -7.88657 over 660 frames.
-Male-7-Male-7_49 GOING TO RAJA AMPAT SELALU JADI BUCKET LIST KU SIH AIRNYA SO CLEAR AND BEAUTIFUL 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-7-Male-7_49 is -7.99811 over 773 frames.
-Male-7-Male-7_50 TRACKING KE BROMO TUH CAPEK BANGET TAPI SUNRISE VIEW NYA BEH SO BEAUTIFUL 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-7-Male-7_50 is -8.13926 over 668 frames.
-Male-8-Male-8_10 DI MEDAN ADA RESTORAN JUAL KODOK SEBESAR AYAM 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-8-Male-8_10 is -6.97428 over 550 frames.
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-6-Male-6_38 is -7.52586 over 770 frames.
+Male-6-Male-6_45 KALAU MAU DOKUMENTASI KATA FOTO FOTO SEBAIKNYA SAAT SAAT SUNRISE BIAR EYE CATCHY 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-6-Male-6_45 is -7.80119 over 803 frames.
+Male-6-Male-6_49 KITA JUGA BISA NYANYI NYANYI SAMBIL MEMANDANGI BINTANG BINTANG YANG BERSINAR DI LANGIT MALAM 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-6-Male-6_49 is -7.80846 over 803 frames.
+Male-7-Male-7_12 KANTOR LAGI SIBUK SIBUKNYA PROJECTNYA SAATNYA AMBIL UNPAID FOOD 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-7-Male-7_12 is -7.9546 over 670 frames.
+Male-7-Male-7_19 STRESS GAK SIH LIBURAN DI PRINDAVAN SALAH MAKAN DIKIT LANGSUNG OPNAME 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-7-Male-7_19 is -7.73696 over 730 frames.
+Male-7-Male-7_26 MAIN MAIN DI TAHURA PAGI HARI TERNYATA SERU JUGA 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-7-Male-7_26 is -7.5116 over 575 frames.
+Male-7-Male-7_35 KALAU MAU DOKUMENTASI ATAU FOTO FOTO SEBAIKNYA SAAT SAAT SUNRISE BIAR EYE CATCHY 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-7-Male-7_35 is -8.11311 over 768 frames.
+Male-7-Male-7_40 PAS PULANG KITA BISA MAMPIR DAN MEMBELI BEBERAPA OLEH OLEH BUAT TEMAN DAN KELUARGA 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-7-Male-7_40 is -7.88036 over 795 frames.
+Male-7-Male-7_42 SETELAH DI UBUD ITU SUPER COZY COCOK BUAT LIBURAN 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-7-Male-7_42 is -7.97261 over 633 frames.
+Male-7-Male-7_43 AKU PERNAH NYELAM DI GILI TRAWANGAN TERUMBU KARANGNYA ITU BAGUS BANGET SIH 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-7-Male-7_43 is -8.03375 over 698 frames.
+Male-7-Male-7_48 KALAU KE MEDAN JANGAN LUPA COBAIN DURIAN ENAK BANGET 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-7-Male-7_48 is -7.42838 over 593 frames.
+Male-7-Male-7_5 LIBURAN KE TANGKUBAN PERAHU SANGAT MENYENANGKAN KARENA YANG PEMANDANGAN DARI ATAS KAWAH SANGAT INDAH 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-7-Male-7_5 is -7.72798 over 940 frames.
+Male-7-Male-7_50 TREKKING DI BROMO TUH CAPEK BANGET TAPI SUNRISE VIEW NYA BEH SO BEAUTIFUL 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-7-Male-7_50 is -8.15737 over 668 frames.
 Male-8-Male-8_11 DI BANDUNG ENAKNYA STAYCATION DI MANA YA 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-8-Male-8_11 is -6.7362 over 453 frames.
-Male-8-Male-8_14 MAU NONTON KONSER TAYLOR SWIFT DI SANA MUMPUNG TAPI TIKETNYA UDAH SOLD OUT 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-8-Male-8_14 is -7.20285 over 720 frames.
-Male-8-Male-8_19 JONI MENGAJAKKU PERGI KE PULAU KOMODO MINGGU DEPAN 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-8-Male-8_19 is -6.84536 over 600 frames.
-Male-8-Male-8_22 GIMANA KALO KITA CAMPING KE GUNUNG MENIKMATI MALAM YANG BERBINTANG BAWA GITAR NYANYI NYANYI NYANYI DI TENGAH API UNGGUN 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-8-Male-8_22 is -6.97689 over 1132 frames.
-Male-8-Male-8_39 GOING TO RAJA AMPAT SELALU JADI BUCKET LIST KU SIH AIRNYA SO BELI MAIN BEAUTIFUL 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-8-Male-8_39 is -7.17479 over 870 frames.
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-8-Male-8_11 is -6.77668 over 453 frames.
+Male-8-Male-8_16 MAIN MAIN DI TAHURA PAGI HARI TERNYATA SERU JUGA 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-8-Male-8_16 is -7.01455 over 480 frames.
+Male-8-Male-8_2 KANTOR LAGI SIBUK SIBUKNYA JANDA SAATNYA AMBIL UNPAID LIFE 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-8-Male-8_2 is -7.07445 over 678 frames.
+Male-8-Male-8_22 GIMANA KALO KITA CAMPING KE GUNUNG MENIKMATI MALAM YANG BERBINTANG BAWA KITA MENA NYANYI NYANYI DI TENGAH API UNGGUN 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-8-Male-8_22 is -7.00844 over 1132 frames.
+Male-8-Male-8_23 GA CUMA ITU KALO PAGI PAGI KITA BISA LIAT PEMANDANGAN YANG INDAH KAYA POHON POHON YANG HIJAU LUPA BAWA HAMPARAN PADANG RUMPUT YANG LUAS 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-8-Male-8_23 is -7.19641 over 1165 frames.
+Male-8-Male-8_32 ASLI LAGI UBUD ITU SUPER COZY COCOK BUAT LIBURAN 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-8-Male-8_32 is -7.32958 over 606 frames.
+Male-8-Male-8_38 KALAU KE MEDAN JANGAN LUPA COBAIN DURIAN ENAK BANGET 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-8-Male-8_38 is -6.56816 over 750 frames.
 Male-8-Male-8_41 UDARA PALING SEGAR ADALAH UDARA DI GUNUNG 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-8-Male-8_41 is -6.90506 over 608 frames.
-Male-8-Male-8_48 BERLIBUR KE GUNUNG MEMBUTUHKAN TOURGUIDE 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-8-Male-8_48 is -6.83125 over 558 frames.
-Male-8-Male-8_5 EH JEPANG UDAH GA PAKE VISA YA KALAU MAKE E PASPOR 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-8-Male-8_5 is -6.86974 over 643 frames.
-Male-8-Male-8_9 SETELAH SELESAI LIBURAN DI PRINDAVAN SALAH MAKAN DIKIT LANGSUNG OPNAME 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-8-Male-8_9 is -7.11118 over 750 frames.
-Male-9-Male-9_1 DI BANDUNG ENAKNYA STAYCATION DI MANA YA 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-9-Male-9_1 is -6.94838 over 478 frames.
-Male-9-Male-9_12 GIMANA KALO KITA CAMPING KE GUNUNG MENIKMATI MALAM YANG BERBINTANG BAWA GITAR NYANYI NYANYI DI TENGAH API UNGGUN 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-9-Male-9_12 is -8.05802 over 718 frames.
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-8-Male-8_41 is -6.81372 over 608 frames.
+Male-8-Male-8_43 AKHIR TAHUN INI AKU AKAN LIBURAN DI PANTAI 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-8-Male-8_43 is -6.89183 over 648 frames.
+Male-8-Male-8_45 SETELAH SEMESTER INI SELESAI AKU MAU BERLIBUR DI PANTAI SELAMA SEBULAN 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-8-Male-8_45 is -7.23243 over 893 frames.
+Male-9-Male-9_18 SETELAH BERMAIN SEPANJANG HARI KITA BISA KUMPUL KUMPUL BUAT BARBEQUE MALAM DI TEPI PANTAI 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-9-Male-9_18 is -8.11787 over 581 frames.
+Male-9-Male-9_21 AKHIR SEMESTER NANTI AKU MAU LIBURAN KE BALI MAU IKUT 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-9-Male-9_21 is -8.1267 over 461 frames.
 Male-9-Male-9_22 VILLA DI UBUD ITU SUPER COZY COCOK BUAT LIBURAN 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-9-Male-9_22 is -8.12808 over 427 frames.
-Male-9-Male-9_27 AKU KEMARIN BARU BALIK DARI YOGYAKARTA THE TEMPLES AND THE CULTURE BLEW MY MIND BRO 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-9-Male-9_27 is -8.06285 over 641 frames.
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-9-Male-9_22 is -8.13787 over 427 frames.
+Male-9-Male-9_26 SELAMA DI JAKARTA THE TRAFFIC WAS CRAZY TAPI NIGHTLIFE NYA SERU BANGET 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-9-Male-9_26 is -8.0864 over 555 frames.
+Male-9-Male-9_30 TREKKING DI BROMO TUH CAPEK BANGET TAPI SUNRISE VIEW NYA BEH SO BEAUTIFUL 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-9-Male-9_30 is -8.01228 over 581 frames.
 LOG (apply-cmvn[5.5.1124~1-21ae4]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 217 utterances, errors on 0
-Male-9-Male-9_29 GOING TO RAJA AMPAT SELALU JADI BUCKET LIST KU SIH AIRNYA SO CLEAR AND BEAUTIFUL 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-9-Male-9_29 is -8.16048 over 581 frames.
-Male-9-Male-9_33 AKHIR TAHUN INI AKU AKAN LIBURAN DI PANTAI 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-9-Male-9_33 is -7.81656 over 307 frames.
-Male-9-Male-9_38 BERLIBUR KE GUNUNG MEMBUTUHKAN TOURGUIDE 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-9-Male-9_38 is -7.59491 over 324 frames.
-Male-9-Male-9_39 CAMPING SEBELUM SIDANG SEPERTINYA MENYENANGKAN 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-9-Male-9_39 is -7.83836 over 332 frames.
-Male-9-Male-9_45 SAYA DENGAR DI PANTAI KUTA ADA SPOT SURFING YANG BAGUS 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-9-Male-9_45 is -8.01184 over 384 frames.
-Male-9-Male-9_6 MAIN MAIN DI TAHURA PAGI HARI TERNYATA SERU JUGA 
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-9-Male-9_6 is -7.51763 over 478 frames.
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:main():gmm-latgen-faster.cc:176) Time taken 33.6295s: real-time factor assuming 100 frames/sec is 0.0262032
+Male-9-Male-9_31 UDARA PALING SEGAR ADALAH UDARA DI GUNUNG 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-9-Male-9_31 is -7.92947 over 332 frames.
+Male-9-Male-9_32 LIBURAN AKAN TERASA JIKA BERSAMA KELUARGA 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-9-Male-9_32 is -7.74451 over 367 frames.
+Male-9-Male-9_43 NGOMONG NGOMONG WAKTU LIBUR HAMPIR TIBA KITA HARUS MERENCANAKAN KEMANA KITA PERGI NANTI 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-9-Male-9_43 is -7.85558 over 564 frames.
+Male-9-Male-9_44 KATANYA TRANS STUDIO BANDUNG LAGI NGADAIN DISKON NIH AYO KE SANA MUMPUNG LAGI LIBUR 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-9-Male-9_44 is -8.11961 over 538 frames.
+Male-9-Male-9_49 AKU TAKUT BANGET NAIK BANANA BOAT MENDING MAIN YANG LAIN AJA YA 
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Male-9-Male-9_49 is -7.83065 over 461 frames.
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:main():gmm-latgen-faster.cc:176) Time taken 42.4105s: real-time factor assuming 100 frames/sec is 0.0330161
 LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:main():gmm-latgen-faster.cc:179) Done 217 utterances, failed for 0
-LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:main():gmm-latgen-faster.cc:181) Overall log-likelihood per frame is -7.66651 over 128341 frames.
-# Accounting: time=34 threads=1
-# Ended (code 0) at Tue Dec  5 23:36:00 WIB 2023, elapsed time 34 seconds
+LOG (gmm-latgen-faster[5.5.1124~1-21ae4]:main():gmm-latgen-faster.cc:181) Overall log-likelihood per frame is -7.67177 over 128454 frames.
+# Accounting: time=43 threads=1
+# Ended (code 0) at Thu Dec  7 00:06:06 WIB 2023, elapsed time 43 seconds

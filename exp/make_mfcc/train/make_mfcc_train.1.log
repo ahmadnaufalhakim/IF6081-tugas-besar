@@ -1,8 +1,9 @@
 # compute-mfcc-feats --write-utt2dur=ark,t:exp/make_mfcc/train/utt2dur.1 --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/train/wav_train.1.scp ark:- | copy-feats --write-num-frames=ark,t:exp/make_mfcc/train/utt2num_frames.1 --compress=true ark:- ark,scp:/home/ahmadnaufalhakim/kaldi/egs/IF6081-tugas-besar/mfcc/raw_mfcc_train.1.ark,/home/ahmadnaufalhakim/kaldi/egs/IF6081-tugas-besar/mfcc/raw_mfcc_train.1.scp 
-# Started at Tue Dec  5 18:17:54 WIB 2023
+# Started at Thu Dec  7 00:00:43 WIB 2023
 #
 copy-feats --write-num-frames=ark,t:exp/make_mfcc/train/utt2num_frames.1 --compress=true ark:- ark,scp:/home/ahmadnaufalhakim/kaldi/egs/IF6081-tugas-besar/mfcc/raw_mfcc_train.1.ark,/home/ahmadnaufalhakim/kaldi/egs/IF6081-tugas-besar/mfcc/raw_mfcc_train.1.scp 
 compute-mfcc-feats --write-utt2dur=ark,t:exp/make_mfcc/train/utt2dur.1 --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/train/wav_train.1.scp ark:- 
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-1-Female-1_1
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-1-Female-1_10
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-1-Female-1_11
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-1-Female-1_12
@@ -11,164 +12,162 @@ VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) 
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-1-Female-1_15
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-1-Female-1_16
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-1-Female-1_17
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-1-Female-1_18
 LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 10 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-1-Female-1_18
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-1-Female-1_19
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-1-Female-1_2
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-1-Female-1_20
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-1-Female-1_22
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-1-Female-1_21
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-1-Female-1_23
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-1-Female-1_24
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-1-Female-1_25
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-1-Female-1_26
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-1-Female-1_27
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-1-Female-1_28
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-1-Female-1_29
 LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 20 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-1-Female-1_29
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-1-Female-1_3
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-1-Female-1_30
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-1-Female-1_31
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-1-Female-1_33
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-1-Female-1_34
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-1-Female-1_35
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-1-Female-1_36
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-1-Female-1_38
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-1-Female-1_39
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-1-Female-1_4
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-1-Female-1_40
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-1-Female-1_41
 LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 30 utterances
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-1-Female-1_42
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-1-Female-1_41
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-1-Female-1_43
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-1-Female-1_44
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-1-Female-1_45
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-1-Female-1_46
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-1-Female-1_47
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-1-Female-1_49
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-1-Female-1_48
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-1-Female-1_5
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-1-Female-1_50
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-1-Female-1_6
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-1-Female-1_7
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-1-Female-1_8
 LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 40 utterances
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-1-Female-1_9
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-1-Female-1_8
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-2-Female-2_1
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-2-Female-2_10
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-2-Female-2_11
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-2-Female-2_12
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-2-Female-2_13
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-2-Female-2_14
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-2-Female-2_15
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-2-Female-2_16
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-2-Female-2_17
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-2-Female-2_18
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-2-Female-2_19
 LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 50 utterances
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-2-Female-2_2
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-2-Female-2_21
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-2-Female-2_19
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-2-Female-2_20
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-2-Female-2_22
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-2-Female-2_23
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-2-Female-2_24
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-2-Female-2_25
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-2-Female-2_26
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-2-Female-2_27
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-2-Female-2_28
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-2-Female-2_29
-LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 60 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-2-Female-2_30
+LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 60 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-2-Female-2_31
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-2-Female-2_32
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-2-Female-2_33
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-2-Female-2_34
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-2-Female-2_35
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-2-Female-2_36
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-2-Female-2_38
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-2-Female-2_37
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-2-Female-2_39
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-2-Female-2_4
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-2-Female-2_40
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-2-Female-2_41
 LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 70 utterances
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-2-Female-2_42
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-2-Female-2_41
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-2-Female-2_43
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-2-Female-2_44
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-2-Female-2_45
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-2-Female-2_46
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-2-Female-2_47
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-2-Female-2_48
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-2-Female-2_49
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-2-Female-2_5
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-2-Female-2_50
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-2-Female-2_8
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-2-Female-2_6
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-2-Female-2_7
 LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 80 utterances
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-2-Female-2_9
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-2-Female-2_8
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-3-Female-3_1
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-3-Female-3_10
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-3-Female-3_11
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-3-Female-3_12
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-3-Female-3_14
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-3-Female-3_16
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-3-Female-3_13
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-3-Female-3_15
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-3-Female-3_17
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-3-Female-3_18
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-3-Female-3_19
-LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 90 utterances
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-3-Female-3_2
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-3-Female-3_20
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-3-Female-3_21
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-3-Female-3_22
+LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 90 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-3-Female-3_23
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-3-Female-3_24
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-3-Female-3_25
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-3-Female-3_26
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-3-Female-3_27
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-3-Female-3_28
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-3-Female-3_29
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-3-Female-3_3
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-3-Female-3_30
-LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 100 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-3-Female-3_31
+LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 100 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-3-Female-3_32
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-3-Female-3_33
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-3-Female-3_34
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-3-Female-3_35
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-3-Female-3_36
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-3-Female-3_37
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-3-Female-3_38
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-3-Female-3_4
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-3-Female-3_40
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-3-Female-3_41
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-3-Female-3_42
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-3-Female-3_43
 LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 110 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-3-Female-3_43
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-3-Female-3_44
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-3-Female-3_45
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-3-Female-3_46
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-3-Female-3_47
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-3-Female-3_48
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-3-Female-3_49
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-3-Female-3_5
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-3-Female-3_50
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-3-Female-3_6
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-3-Female-3_7
 LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 120 utterances
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-3-Female-3_9
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-3-Female-3_8
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-4-Female-4_1
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-4-Female-4_10
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-4-Female-4_11
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-4-Female-4_12
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-4-Female-4_13
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-4-Female-4_14
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-4-Female-4_15
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-4-Female-4_16
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-4-Female-4_17
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-4-Female-4_18
-LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 130 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-4-Female-4_19
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-4-Female-4_2
+LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 130 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-4-Female-4_20
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-4-Female-4_21
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-4-Female-4_22
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-4-Female-4_23
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-4-Female-4_24
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-4-Female-4_25
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-4-Female-4_26
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-4-Female-4_27
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-4-Female-4_28
-LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 140 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-4-Female-4_29
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-4-Female-4_30
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-4-Female-4_3
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-4-Female-4_31
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-4-Female-4_32
+LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 140 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-4-Female-4_33
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-4-Female-4_34
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-4-Female-4_35
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-4-Female-4_36
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-4-Female-4_37
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-4-Female-4_38
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-4-Female-4_39
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-4-Female-4_40
-LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 150 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-4-Female-4_4
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-4-Female-4_41
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-4-Female-4_44
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-4-Female-4_42
+LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 150 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-4-Female-4_43
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-4-Female-4_45
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-4-Female-4_46
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-4-Female-4_47
@@ -176,55 +175,55 @@ VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) 
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-4-Female-4_49
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-4-Female-4_5
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-4-Female-4_50
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-4-Female-4_6
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-4-Female-4_7
 LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 160 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-4-Female-4_9
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-5-Female-5_1
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-5-Female-5_10
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-5-Female-5_11
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-5-Female-5_12
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-5-Female-5_13
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-5-Female-5_14
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-5-Female-5_15
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-5-Female-5_16
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-5-Female-5_17
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-5-Female-5_18
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-5-Female-5_19
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-5-Female-5_2
 LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 170 utterances
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-5-Female-5_20
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-5-Female-5_21
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-5-Female-5_22
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-5-Female-5_23
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-5-Female-5_24
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-5-Female-5_25
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-5-Female-5_26
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-5-Female-5_27
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-5-Female-5_28
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-5-Female-5_29
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-5-Female-5_3
-LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 180 utterances
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-5-Female-5_30
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-5-Female-5_31
+LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 180 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-5-Female-5_32
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-5-Female-5_33
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-5-Female-5_34
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-5-Female-5_36
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-5-Female-5_35
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-5-Female-5_37
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-5-Female-5_38
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-5-Female-5_39
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-5-Female-5_4
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-5-Female-5_40
-LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 190 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-5-Female-5_41
+LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 190 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-5-Female-5_42
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-5-Female-5_43
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-5-Female-5_45
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-5-Female-5_46
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-5-Female-5_47
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-5-Female-5_48
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-5-Female-5_49
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-5-Female-5_6
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-5-Female-5_5
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-5-Female-5_50
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-5-Female-5_7
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-5-Female-5_8
 LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 200 utterances
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-5-Female-5_9
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-6-Female-6_10
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-6-Female-6_11
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-5-Female-5_8
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-6-Female-6_1
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-6-Female-6_12
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-6-Female-6_13
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-6-Female-6_14
@@ -232,6 +231,7 @@ VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) 
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-6-Female-6_16
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-6-Female-6_17
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-6-Female-6_18
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-6-Female-6_19
 LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 210 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-6-Female-6_2
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-6-Female-6_20
@@ -241,60 +241,60 @@ VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) 
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-6-Female-6_24
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-6-Female-6_25
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-6-Female-6_26
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-6-Female-6_27
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-6-Female-6_28
+LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 220 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-6-Female-6_29
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-6-Female-6_3
-LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 220 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-6-Female-6_30
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-6-Female-6_31
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-6-Female-6_32
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-6-Female-6_33
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-6-Female-6_35
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-6-Female-6_36
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-6-Female-6_38
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-6-Female-6_37
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-6-Female-6_39
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-6-Female-6_4
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-6-Female-6_41
 LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 230 utterances
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-6-Female-6_42
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-6-Female-6_43
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-6-Female-6_40
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-6-Female-6_44
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-6-Female-6_45
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-6-Female-6_46
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-6-Female-6_47
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-6-Female-6_48
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-6-Female-6_49
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-6-Female-6_5
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-6-Female-6_50
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-6-Female-6_6
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-6-Female-6_7
 LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 240 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-6-Female-6_8
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0000
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0001
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0002
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0003
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0004
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0005
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0006
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0007
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0009
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0010
-LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 250 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0011
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0012
+LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 250 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0013
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0014
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0015
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0016
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0019
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0017
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0018
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0020
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0022
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0023
-LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 260 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0024
+LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 260 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0025
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0028
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0029
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0030
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0031
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0032
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0033
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0034
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0035
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0036
@@ -304,11 +304,11 @@ VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) 
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0039
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0040
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0041
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0042
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0043
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0044
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0045
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0046
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0047
 LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 280 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0048
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0049
@@ -316,63 +316,63 @@ VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) 
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0051
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0052
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0054
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0055
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0056
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0057
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0058
-LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 290 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0059
+LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 290 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0060
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0061
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0062
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0064
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0063
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0065
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0066
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0067
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0069
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0068
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0070
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0071
-LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 300 utterances
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0072
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0073
+LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 300 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0074
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0075
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0076
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0078
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0079
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0080
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0081
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0082
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0083
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0084
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0085
 LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 310 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0086
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0087
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0088
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0090
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0091
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0092
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0093
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0094
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0095
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0096
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0097
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0098
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0100
 LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 320 utterances
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0099
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0101
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0102
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0103
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0104
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0105
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0106
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0107
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0108
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0109
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0110
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0112
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0111
 LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 330 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0112
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0113
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0114
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0115
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0116
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0117
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0118
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0119
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0120
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0121
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0122
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0123
 LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 340 utterances
@@ -380,24 +380,27 @@ VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) 
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0126
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0127
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0128
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0129
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0130
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0131
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0132
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0133
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0134
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-1-Male-1_10
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Female-7-human_rights_un_ind_rd_0135
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-1-Male-1_1
 LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 350 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-1-Male-1_10
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-1-Male-1_11
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-1-Male-1_12
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-1-Male-1_13
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-1-Male-1_14
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-1-Male-1_15
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-1-Male-1_16
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-1-Male-1_17
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-1-Male-1_18
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-1-Male-1_19
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-1-Male-1_2
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-1-Male-1_20
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-1-Male-1_21
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-1-Male-1_23
 LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 360 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-1-Male-1_21
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-1-Male-1_22
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-1-Male-1_23
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-1-Male-1_24
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-1-Male-1_25
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-1-Male-1_26
@@ -405,12 +408,9 @@ VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) 
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-1-Male-1_29
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-1-Male-1_3
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-1-Male-1_31
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-1-Male-1_32
+LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 370 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-1-Male-1_33
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-1-Male-1_34
-LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 370 utterances
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-1-Male-1_35
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-1-Male-1_36
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-1-Male-1_37
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-1-Male-1_38
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-1-Male-1_39
@@ -418,40 +418,40 @@ VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) 
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-1-Male-1_40
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-1-Male-1_41
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-1-Male-1_42
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-1-Male-1_46
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-1-Male-1_43
 LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 380 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-1-Male-1_44
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-1-Male-1_45
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-1-Male-1_46
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-1-Male-1_47
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-1-Male-1_48
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-1-Male-1_49
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-1-Male-1_5
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-1-Male-1_50
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-1-Male-1_6
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-1-Male-1_7
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-1-Male-1_8
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-1-Male-1_9
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-10-Male-10_1
 LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 390 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-10-Male-10_10
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-10-Male-10_11
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-10-Male-10_12
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-10-Male-10_13
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-10-Male-10_14
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-10-Male-10_15
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-10-Male-10_16
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-10-Male-10_17
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-10-Male-10_18
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-10-Male-10_19
-LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 400 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-10-Male-10_2
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-10-Male-10_20
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-10-Male-10_21
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-10-Male-10_22
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-10-Male-10_23
+LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 400 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-10-Male-10_24
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-10-Male-10_25
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-10-Male-10_26
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-10-Male-10_27
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-10-Male-10_28
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-10-Male-10_29
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-10-Male-10_3
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-10-Male-10_30
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-10-Male-10_31
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-10-Male-10_32
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-10-Male-10_33
 LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 410 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-10-Male-10_35
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-10-Male-10_36
@@ -459,70 +459,70 @@ VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) 
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-10-Male-10_38
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-10-Male-10_39
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-10-Male-10_4
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-10-Male-10_40
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-10-Male-10_41
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-10-Male-10_42
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-10-Male-10_45
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-10-Male-10_46
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-10-Male-10_43
 LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 420 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-10-Male-10_44
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-10-Male-10_46
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-10-Male-10_47
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-10-Male-10_48
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-10-Male-10_49
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-10-Male-10_5
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-10-Male-10_50
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-10-Male-10_6
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-10-Male-10_7
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-10-Male-10_8
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-10-Male-10_9
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-11-Male-11_1
 LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 430 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-11-Male-11_10
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-11-Male-11_11
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-11-Male-11_12
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-11-Male-11_13
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-11-Male-11_14
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-11-Male-11_15
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-11-Male-11_16
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-11-Male-11_17
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-11-Male-11_18
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-11-Male-11_19
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-11-Male-11_20
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-11-Male-11_2
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-11-Male-11_21
 LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 440 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-11-Male-11_22
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-11-Male-11_23
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-11-Male-11_24
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-11-Male-11_25
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-11-Male-11_27
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-11-Male-11_28
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-11-Male-11_29
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-11-Male-11_3
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-11-Male-11_30
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-11-Male-11_31
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-11-Male-11_32
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-11-Male-11_33
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-11-Male-11_34
 LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 450 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-11-Male-11_34
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-11-Male-11_35
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-11-Male-11_36
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-11-Male-11_37
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-11-Male-11_38
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-11-Male-11_39
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-11-Male-11_4
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-11-Male-11_40
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-11-Male-11_41
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-11-Male-11_42
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-11-Male-11_43
-LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 460 utterances
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-11-Male-11_44
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-11-Male-11_45
+LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 460 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-11-Male-11_46
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-11-Male-11_47
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-11-Male-11_48
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-11-Male-11_49
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-11-Male-11_5
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-11-Male-11_50
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-11-Male-11_6
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-11-Male-11_8
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-11-Male-11_9
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-12-Male-12_10
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-12-Male-12_1
 LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 470 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-12-Male-12_10
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-12-Male-12_11
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-12-Male-12_12
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-12-Male-12_13
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-12-Male-12_14
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-12-Male-12_15
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-12-Male-12_16
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-12-Male-12_17
@@ -533,160 +533,160 @@ LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Proc
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-12-Male-12_20
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-12-Male-12_22
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-12-Male-12_23
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-12-Male-12_25
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-12-Male-12_24
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-12-Male-12_26
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-12-Male-12_27
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-12-Male-12_29
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-12-Male-12_3
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-12-Male-12_32
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-12-Male-12_31
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-12-Male-12_33
-LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 490 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-12-Male-12_34
+LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 490 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-12-Male-12_35
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-12-Male-12_36
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-12-Male-12_37
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-12-Male-12_38
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-12-Male-12_39
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-12-Male-12_4
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-12-Male-12_40
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-12-Male-12_41
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-12-Male-12_42
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-12-Male-12_43
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-12-Male-12_44
 LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 500 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-12-Male-12_45
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-12-Male-12_46
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-12-Male-12_48
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-12-Male-12_47
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-12-Male-12_49
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-12-Male-12_5
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-12-Male-12_50
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-12-Male-12_6
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-12-Male-12_7
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-12-Male-12_8
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-12-Male-12_9
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-13-Male-13_1
 LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 510 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-13-Male-13_10
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-13-Male-13_11
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-13-Male-13_12
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-13-Male-13_13
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-13-Male-13_14
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-13-Male-13_15
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-13-Male-13_16
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-13-Male-13_17
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-13-Male-13_18
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-13-Male-13_19
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-13-Male-13_2
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-13-Male-13_20
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-13-Male-13_21
 LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 520 utterances
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-13-Male-13_22
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-13-Male-13_21
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-13-Male-13_23
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-13-Male-13_24
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-13-Male-13_25
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-13-Male-13_26
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-13-Male-13_27
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-13-Male-13_28
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-13-Male-13_29
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-13-Male-13_3
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-13-Male-13_30
-LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 530 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-13-Male-13_31
+LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 530 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-13-Male-13_32
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-13-Male-13_33
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-13-Male-13_34
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-13-Male-13_35
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-13-Male-13_36
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-13-Male-13_37
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-13-Male-13_38
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-13-Male-13_39
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-13-Male-13_4
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-13-Male-13_41
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-13-Male-13_40
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-13-Male-13_42
-LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 540 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-13-Male-13_43
+LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 540 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-13-Male-13_44
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-13-Male-13_45
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-13-Male-13_46
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-13-Male-13_47
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-13-Male-13_48
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-13-Male-13_49
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-13-Male-13_5
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-13-Male-13_50
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-13-Male-13_7
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-13-Male-13_8
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-13-Male-13_9
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-2-Male-2_1
 LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 550 utterances
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-2-Male-2_10
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-2-Male-2_11
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-2-Male-2_12
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-2-Male-2_13
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-2-Male-2_14
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-2-Male-2_15
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-2-Male-2_16
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-2-Male-2_17
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-2-Male-2_18
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-2-Male-2_19
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-2-Male-2_2
-LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 560 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-2-Male-2_20
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-2-Male-2_22
+LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 560 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-2-Male-2_23
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-2-Male-2_24
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-2-Male-2_25
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-2-Male-2_26
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-2-Male-2_27
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-2-Male-2_29
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-2-Male-2_3
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-2-Male-2_30
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-2-Male-2_31
-LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 570 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-2-Male-2_32
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-2-Male-2_33
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-2-Male-2_34
+LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 570 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-2-Male-2_35
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-2-Male-2_36
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-2-Male-2_37
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-2-Male-2_38
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-2-Male-2_39
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-2-Male-2_4
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-2-Male-2_40
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-2-Male-2_41
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-2-Male-2_42
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-2-Male-2_43
 LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 580 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-2-Male-2_44
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-2-Male-2_46
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-2-Male-2_47
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-2-Male-2_48
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-2-Male-2_49
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-2-Male-2_5
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-2-Male-2_50
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-2-Male-2_6
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-2-Male-2_7
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-2-Male-2_9
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-3-Male-3_1
-LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 590 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-3-Male-3_10
+LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 590 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-3-Male-3_11
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-3-Male-3_12
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-3-Male-3_13
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-3-Male-3_14
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-3-Male-3_15
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-3-Male-3_16
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-3-Male-3_17
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-3-Male-3_18
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-3-Male-3_19
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-3-Male-3_2
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-3-Male-3_21
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-3-Male-3_20
 LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 600 utterances
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-3-Male-3_22
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-3-Male-3_21
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-3-Male-3_23
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-3-Male-3_26
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-3-Male-3_24
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-3-Male-3_25
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-3-Male-3_27
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-3-Male-3_28
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-3-Male-3_29
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-3-Male-3_30
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-3-Male-3_3
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-3-Male-3_31
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-3-Male-3_32
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-3-Male-3_33
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-3-Male-3_34
 LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 610 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-3-Male-3_34
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-3-Male-3_35
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-3-Male-3_36
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-3-Male-3_37
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-3-Male-3_38
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-3-Male-3_4
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-3-Male-3_40
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-3-Male-3_41
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-3-Male-3_42
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-3-Male-3_43
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-3-Male-3_45
-LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 620 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-3-Male-3_46
+LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 620 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-3-Male-3_47
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-3-Male-3_48
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-3-Male-3_49
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-3-Male-3_5
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-3-Male-3_50
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-3-Male-3_6
@@ -696,63 +696,71 @@ VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) 
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-4-Male-4_1
 LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 630 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-4-Male-4_10
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-4-Male-4_12
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-4-Male-4_11
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-4-Male-4_13
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-4-Male-4_14
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-4-Male-4_15
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-4-Male-4_16
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-4-Male-4_17
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-4-Male-4_18
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-4-Male-4_19
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-4-Male-4_2
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-4-Male-4_20
 LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 640 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-4-Male-4_20
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-4-Male-4_21
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-4-Male-4_22
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-4-Male-4_23
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-4-Male-4_24
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-4-Male-4_25
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-4-Male-4_27
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-4-Male-4_26
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-4-Male-4_28
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-4-Male-4_29
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-4-Male-4_3
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-4-Male-4_30
 LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 650 utterances
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-4-Male-4_32
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-4-Male-4_33
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-4-Male-4_34
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-4-Male-4_30
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-4-Male-4_31
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-4-Male-4_35
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-4-Male-4_36
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-4-Male-4_37
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-4-Male-4_38
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-4-Male-4_39
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-4-Male-4_4
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-4-Male-4_40
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-4-Male-4_41
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-4-Male-4_42
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-4-Male-4_45
 LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 660 utterances
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-4-Male-4_46
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-4-Male-4_47
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-4-Male-4_42
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-4-Male-4_43
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-4-Male-4_45
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-4-Male-4_48
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-4-Male-4_49
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-4-Male-4_5
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-4-Male-4_50
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-4-Male-4_6
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-4-Male-4_7
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-4-Male-4_8
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-5-Male-5_11
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-4-Male-4_9
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-5-Male-5_1
 LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 670 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-5-Male-5_10
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-5-Male-5_11
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-5-Male-5_12
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-5-Male-5_13
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-5-Male-5_14
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-5-Male-5_15
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-5-Male-5_16
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-5-Male-5_17
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-5-Male-5_18
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-5-Male-5_19
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-5-Male-5_2
+LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 680 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-5-Male-5_20
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-5-Male-5_21
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-5-Male-5_22
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-5-Male-5_23
-LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 680 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-5-Male-5_24
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-5-Male-5_25
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-5-Male-5_26
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-5-Male-5_27
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-5-Male-5_28
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-5-Male-5_3
+LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 690 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-5-Male-5_30
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-5-Male-5_31
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-5-Male-5_32
@@ -760,66 +768,58 @@ VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) 
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-5-Male-5_34
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-5-Male-5_35
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-5-Male-5_36
-LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 690 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-5-Male-5_37
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-5-Male-5_38
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-5-Male-5_39
+LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 700 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-5-Male-5_4
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-5-Male-5_40
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-5-Male-5_41
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-5-Male-5_42
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-5-Male-5_43
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-5-Male-5_44
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-5-Male-5_45
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-5-Male-5_46
-LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 700 utterances
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-5-Male-5_47
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-5-Male-5_48
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-5-Male-5_49
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-5-Male-5_5
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-5-Male-5_50
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-5-Male-5_6
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-5-Male-5_7
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-5-Male-5_8
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-5-Male-5_9
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-6-Male-6_1
 LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 710 utterances
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-6-Male-6_10
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-6-Male-6_11
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-6-Male-6_12
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-6-Male-6_13
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-6-Male-6_14
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-6-Male-6_16
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-6-Male-6_17
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-6-Male-6_18
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-6-Male-6_19
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-6-Male-6_2
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-6-Male-6_20
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-6-Male-6_21
-LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 720 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-6-Male-6_22
+LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 720 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-6-Male-6_23
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-6-Male-6_24
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-6-Male-6_25
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-6-Male-6_26
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-6-Male-6_27
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-6-Male-6_28
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-6-Male-6_29
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-6-Male-6_3
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-6-Male-6_30
-LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 730 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-6-Male-6_31
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-6-Male-6_32
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-6-Male-6_35
+LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 730 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-6-Male-6_33
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-6-Male-6_34
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-6-Male-6_36
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-6-Male-6_37
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-6-Male-6_39
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-6-Male-6_4
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-6-Male-6_40
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-6-Male-6_41
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-6-Male-6_42
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-6-Male-6_45
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-6-Male-6_43
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-6-Male-6_44
 LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 740 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-6-Male-6_46
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-6-Male-6_47
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-6-Male-6_48
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-6-Male-6_49
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-6-Male-6_5
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-6-Male-6_50
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-6-Male-6_6
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-6-Male-6_7
@@ -828,14 +828,14 @@ VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) 
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-7-Male-7_1
 LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 750 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-7-Male-7_10
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-7-Male-7_12
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-7-Male-7_11
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-7-Male-7_13
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-7-Male-7_14
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-7-Male-7_15
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-7-Male-7_16
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-7-Male-7_17
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-7-Male-7_18
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-7-Male-7_19
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-7-Male-7_2
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-7-Male-7_20
 LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 760 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-7-Male-7_21
@@ -843,44 +843,44 @@ VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) 
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-7-Male-7_23
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-7-Male-7_24
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-7-Male-7_25
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-7-Male-7_26
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-7-Male-7_27
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-7-Male-7_28
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-7-Male-7_29
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-7-Male-7_3
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-7-Male-7_30
 LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 770 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-7-Male-7_31
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-7-Male-7_32
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-7-Male-7_33
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-7-Male-7_35
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-7-Male-7_34
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-7-Male-7_36
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-7-Male-7_37
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-7-Male-7_38
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-7-Male-7_40
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-7-Male-7_39
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-7-Male-7_4
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-7-Male-7_41
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-7-Male-7_42
 LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 780 utterances
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-7-Male-7_43
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-7-Male-7_44
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-7-Male-7_45
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-7-Male-7_46
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-7-Male-7_47
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-7-Male-7_48
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-7-Male-7_5
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-7-Male-7_49
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-7-Male-7_6
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-7-Male-7_7
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-7-Male-7_8
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-7-Male-7_9
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-8-Male-8_1
 LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 790 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-8-Male-8_10
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-8-Male-8_12
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-8-Male-8_13
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-8-Male-8_14
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-8-Male-8_15
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-8-Male-8_16
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-8-Male-8_17
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-8-Male-8_18
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-8-Male-8_2
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-8-Male-8_19
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-8-Male-8_20
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-8-Male-8_21
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-8-Male-8_23
 LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 800 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-8-Male-8_24
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-8-Male-8_25
@@ -891,73 +891,73 @@ VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) 
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-8-Male-8_3
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-8-Male-8_30
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-8-Male-8_31
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-8-Male-8_32
-LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 810 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-8-Male-8_33
+LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 810 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-8-Male-8_34
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-8-Male-8_35
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-8-Male-8_36
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-8-Male-8_37
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-8-Male-8_38
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-8-Male-8_39
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-8-Male-8_4
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-8-Male-8_40
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-8-Male-8_42
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-8-Male-8_43
-LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 820 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-8-Male-8_44
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-8-Male-8_45
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-8-Male-8_46
+LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 820 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-8-Male-8_47
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-8-Male-8_48
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-8-Male-8_49
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-8-Male-8_5
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-8-Male-8_50
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-8-Male-8_6
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-8-Male-8_7
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-8-Male-8_8
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-9-Male-9_10
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-8-Male-8_9
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-9-Male-9_1
 LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 830 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-9-Male-9_10
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-9-Male-9_11
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-9-Male-9_12
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-9-Male-9_13
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-9-Male-9_14
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-9-Male-9_15
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-9-Male-9_16
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-9-Male-9_17
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-9-Male-9_18
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-9-Male-9_19
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-9-Male-9_2
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-9-Male-9_20
 LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 840 utterances
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-9-Male-9_21
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-9-Male-9_20
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-9-Male-9_23
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-9-Male-9_24
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-9-Male-9_25
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-9-Male-9_26
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-9-Male-9_27
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-9-Male-9_28
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-9-Male-9_29
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-9-Male-9_3
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-9-Male-9_30
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-9-Male-9_31
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-9-Male-9_32
-LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 850 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-9-Male-9_33
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-9-Male-9_34
+LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 850 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-9-Male-9_35
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-9-Male-9_36
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-9-Male-9_37
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-9-Male-9_38
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-9-Male-9_39
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-9-Male-9_4
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-9-Male-9_40
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-9-Male-9_41
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-9-Male-9_42
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-9-Male-9_43
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-9-Male-9_44
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-9-Male-9_45
 LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:181) Processed 860 utterances
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-9-Male-9_46
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-9-Male-9_47
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-9-Male-9_48
-VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-9-Male-9_49
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-9-Male-9_5
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-9-Male-9_50
+VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-9-Male-9_6
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-9-Male-9_7
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-9-Male-9_8
 VLOG[2] (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:182) Processed features for key Male-9-Male-9_9
 LOG (compute-mfcc-feats[5.5.1124~1-21ae4]:main():compute-mfcc-feats.cc:185)  Done 868 out of 868 utterances.
 LOG (copy-feats[5.5.1124~1-21ae4]:main():copy-feats.cc:143) Copied 868 feature matrices.
-# Accounting: time=23 threads=1
-# Ended (code 0) at Tue Dec  5 18:18:17 WIB 2023, elapsed time 23 seconds
+# Accounting: time=22 threads=1
+# Ended (code 0) at Thu Dec  7 00:01:05 WIB 2023, elapsed time 22 seconds

@@ -8,6 +8,11 @@ TMP_DIR = os.path.join(CURR_DIR, "tmp")
 if not os.path.exists(TMP_DIR) :
   os.mkdir(TMP_DIR)
 
+# Inputs
+specific_subdir = ''
+if specific_subdir :
+  INPUT_DIR = os.path.join(INPUT_DIR, specific_subdir)
+
 if not os.path.exists(INPUT_DIR) :
   print("input directory does not exist. Creating input directory ..")
   os.mkdir(INPUT_DIR)

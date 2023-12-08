@@ -1,7 +1,6 @@
 import os
 import pyaudio
 import threading
-import time
 from tkinter import *
 from tkinter import scrolledtext
 import wave
@@ -33,6 +32,8 @@ class GUI :
     self.stream = None
     self.frames = []
     self.filename = ''
+    # Live microphone thread
+    self.thread = None
 
     # ASR module
     self.asr = ASR("tri2")
@@ -41,16 +42,16 @@ class GUI :
     ## Window
     self.window = Tk()
     self.window.title("Tugas Besar IF6081-Speech")
-    self.window.geometry("1000x500")
-    self.window.configure(background="#006DFF")
-    self.window.columnconfigure(0, weight=4)
+    self.window.geometry("1250x700")
+    self.window.configure(background="#346beb")
+    self.window.columnconfigure(0, weight=1)
     self.window.columnconfigure(1, weight=1)
     ## Transcription (label + scrolledtext)
     self.label_transcription = Label(
       self.window,
-      text="Transcription", font=("Helvetica 12 underline"),
+      text="Transcription", font=("Helvetica 14 underline"),
       fg="White",
-      bg="#006DFF"
+      bg="#346beb"
     )
     self.label_transcription.grid(
       row=0, column=0,
@@ -58,28 +59,28 @@ class GUI :
     )
     self.scrolledtext_transcription = scrolledtext.ScrolledText(
       self.window,
-      width=90, height=30,
-      font="Helvetica 20"
+      width=75, height=25,
+      font="Helvetica 16",
     )
     self.scrolledtext_transcription.grid(
-      row=1, column=0
+      row=1, column=0,
     )
     ## Counter (label)
     self.label_counter = Label(
       self.window,
-      text="00:00", font=("Helvetica 10")
+      text="00:00", font=("Helvetica 36"),
+      bg="#346beb"
     )
     self.label_counter.grid(
-      row=1, column=2,
-      padx=60, pady=5,
-      sticky=N
+      row=1, column=1,
+      columnspan=2
     )
     ## Microphone (label + buttons)
     self.label_microphone = Label(
       self.window,
-      text="Microphone", font=("Helvetica 12 underline"),
+      text="Microphone", font=("Helvetica 14 underline"),
       fg="White",
-      bg="#006DFF"
+      bg="#346beb"
     )
     self.label_microphone.grid(
       row=0, column=1,
@@ -90,30 +91,19 @@ class GUI :
       text="Live decoding",
       command=self.live_decoding
     )
-    self.button_live_decoding.place(
-      relx=.5, rely=.95,
-      anchor='s'
+    self.button_live_decoding.grid(
+      row=2, column=0,
+      pady=20
     )
-    self.button_stop = Button(
-      self.window,
-      text="Stop",
-      command=self.stop_recording
-    )
-    self.button_stop.grid(
-      row=1, column=1,
-      pady=50,
-      sticky=N
-    )
-    ## Exit button
     self.button_exit = Button(
       self.window,
       text="Exit",
       width=10,
       command=self.exit_app
     )
-    self.button_exit.place(
-      relx=.95, rely=.95,
-      anchor="se"
+    self.button_exit.grid(
+      row=2, column=1,
+      columnspan=2
     )
 
   def start_counter(self, label) :
@@ -124,7 +114,7 @@ class GUI :
       counter += 1
       m, s = (counter%3600)//60, (counter%3600)%60
       label.config(
-        text="{:02d}:{:02d}".format(m, s), font="Helvetica 10 bold",
+        text="{:02d}:{:02d}".format(m, s), font="Helvetica 36 bold",
         fg="red"
       )
       label.after(1000, count)
@@ -143,10 +133,18 @@ class GUI :
         data = self.stream.read(CHUNK,)
         self.frames.append(data)
         buffer_frames.append(data)
+        if not record_on :
+          # print(stop_event)
+          # self.frames.clear()
+          self.stream.stop_stream()
+          self.stream.close()
+          self.stream = None
+          self.p.terminate()
+          break
         if prev_counter+SECONDS == counter :
           prev_counter = counter
           print(prev_counter)
-          self.filename = "buf_tmp"
+          self.filename = "tmp"
           tmp_wav_path = os.path.join(TMP_DIR, f"{self.filename}.wav")
           if os.path.exists(tmp_wav_path) :
             os.remove(tmp_wav_path)
@@ -168,8 +166,10 @@ class GUI :
           buffer_frames.clear()
           self.scrolledtext_transcription.insert(END, decode_str)
     if not record_on :
+      record_on = True
+      stop_event.clear()
       self.scrolledtext_transcription.delete("1.0", END)
-      self.button_live_decoding.config(text="Stop decoding")
+      self.button_live_decoding.configure(text="Stop decoding")
       self.frames.clear()
       self.p = pyaudio.PyAudio()
       self.stream = self.p.open(
@@ -179,12 +179,14 @@ class GUI :
         frames_per_buffer=CHUNK,
         input=TRUE
       )
-      record_on = True
-      t = threading.Thread(target=start_recording)
-      t.start()
+      self.thread = threading.Thread(target=start_recording, daemon=True)
+      self.thread.start()
     else :
-      self.button_live_decoding.config(text="Live decoding")
-      self.filename = "buf_tmp"
+      record_on = False
+      stop_event.set()
+      self.thread.join(3.0)
+      self.button_live_decoding.configure(text="Live decoding")
+      self.filename = "tmp"
       tmp_wav_path = os.path.join(TMP_DIR, f"{self.filename}.wav")
       if os.path.exists(tmp_wav_path) :
         os.remove(tmp_wav_path)
@@ -195,35 +197,13 @@ class GUI :
       wv.writeframes(b''.join(self.frames))
       wv.close()
 
-      self.frames.clear()
-      record_on = False
-      stop_event.set()
-      self.stream.stop_stream()
-      self.stream.close()
-      self.stream = None
-      self.p.terminate()
+      
       self.label_counter.config(
-        font="Helvetica 10",
+        font="Helvetica 36",
         fg="black"
       )
 
-  def stop_recording(self) :
-    global record_on, counter
-    if not record_on :
-      return
-    record_on = False
-    self.stream.stop_stream()
-    self.stream.close()
-    self.stream = None
-    self.p.terminate()
-    self.label_counter.config(
-      font="Helvetica 10",
-      fg="black"
-    )
-    print("Recording stopped ..")
-
   def exit_app(self) :
-    # self.p.terminate()
     self.window.quit()
 
 if __name__=="__main__" :

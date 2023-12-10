@@ -1,0 +1,26 @@
+digraph FST {
+rankdir = LR;
+size = "8.5,11";
+label = "";
+center = 1;
+orientation = Portrait;
+ranksep = "0.4";
+nodesep = "0.25";
+0 [label = "0/2.7911", shape = doublecircle, style = solid, fontsize = 12]
+2 [label = "2:\nABIS", shape = circle, style = solid, fontsize = 12]
+	2 -> 583 [label = "LIBURAN:LIBURAN/1.3863", fontsize = 12];
+	2 -> 768 [label = "NGELARIN:NGELARIN/1.3863", fontsize = 12];
+	2 -> 0 [label = "#0:<eps>/0.67974", fontsize = 12];
+5 [label = "5:\nADA", shape = circle, style = solid, fontsize = 12]
+	5 -> 229 [label = "DI:DI/1.5041", fontsize = 12];
+	5 -> 280 [label = "DISCOUNT:DISCOUNT/2.1972", fontsize = 12];
+	5 -> 946 [label = "RESTORAN:RESTORAN/2.1972", fontsize = 12];
+	5 -> 1062 [label = "SPOT:SPOT/2.1972", fontsize = 12];
+	5 -> 0 [label = "#0:<eps>/0.79237", fontsize = 12];
+583 [label = "583:\nLIBURAN", shape = circle, style = solid, fontsize = 12]
+768 [label = "768:\nNGELARIN", shape = circle, style = solid, fontsize = 12]
+229 [label = "229:\nDI", shape = circle, style = solid, fontsize = 12]
+280 [label = "280:\nDISCOUNT", shape = circle, style = solid, fontsize = 12]
+946 [label = "946:\nRESTORAN", shape = circle, style = solid, fontsize = 12]
+1062 [label = "1062:\nSPOT", shape = circle, style = solid, fontsize = 12]
+}
